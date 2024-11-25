@@ -17,7 +17,7 @@
   <img src="https://github.com/kkylern/CottageWitchRecastRU/blob/main/Download.gif" width="300" height="234">
   <br>
 </div>
-3. Распакуйте папки в папку со сборкой
+3. Распакуйте папки в папку со сборкой (в папку minecraft)
 <br>
 <br>
 
