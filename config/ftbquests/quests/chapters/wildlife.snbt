@@ -1,0 +1,2113 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "wildlife"
+	group: "5FB460EFA0A2567E"
+	icon: "minecraft:rabbit_hide"
+	id: "4DB925317B421272"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgtameable.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgneutral.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgwyldhunts.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgpetslivestock.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmonsters.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmythicmounts.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: 4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eШмыгалки&r — это мирные животные с постоянным *блеее*. Извините. "
+				""
+				"Их можно найти в снежных биомах и &6приручить&a с помощью картофеля&r."
+			]
+			id: "33F3FB13A3EAEF94"
+			rewards: [
+				{
+					id: "4B95E1660ED6D5E6"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "17B298443F339A99"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Лучший моб двадцатого десятилетия по версии одного человека"
+			tasks: [{
+				icon: "snuffles:snuffle_fluff"
+				id: "1B7ACAD09345E758"
+				observe_type: 5
+				timer: 0L
+				to_observe: "snuffles:snuffle"
+				type: "observation"
+			}]
+			title: "Встретьте шмыгалку!!!"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Хотя некоторые &eслоны&r большие и иногда агрессивные, существуют &aмаленькие и дружелюбные&r виды. Эти &eслоники&r могут быть &6приручены с помощью &bарахиса&r и будут &aпомогать вам поливать ваши сады&r!"
+				""
+				"{image:cottagewitch:textures/elephant.png width:125 height:125 align:1}"
+			]
+			id: "2E69432952BEB130"
+			rewards: [{
+				count: 10
+				id: "5637F9ABF0306708"
+				item: "sprout:peanut"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "А ты купи слона"
+			tasks: [{
+				icon: "sprout:peanut"
+				id: "5F44B153C821B44E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sprout:elephant"
+				type: "observation"
+			}]
+			title: "Встретьте слоника"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Этот восхитительный предмет не только &aиграет приятную мелодию&r, когда вы &6удерживаете ПКМ с ним&r, но также &aперемещает всех неподвижных питомцев поблизости&r к вам. "
+				""
+				"Но вы можете привязать свою флейту к конкретному питомцу, &6щёлкнув ПКМ крадучись с флейтой&r по животному."
+			]
+			id: "20BAF307F1556BC5"
+			rewards: [
+				{
+					count: 10
+					id: "2C6E2768C2989D2B"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "66B484F644D229FD"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Щас-с-с спою"
+			tasks: [{
+				id: "784E27A136920288"
+				item: {
+					Count: 1b
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Флейта"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Получите это достижение, приручив и подружившись с животным! "
+				"Одна из наград за этот квест — &bклетка&r для перемещения животных на большие расстояния. "
+				"Просто &6щёлкните ПКМ клеткой по животному, а затем снова щёлкните ПКМ по блоку&r, чтобы выпустить животное обратно. "
+				"Вы также можете &6щёлкнуть ПКМ крадучись&r, чтобы поставить клетку вместе животным&r."
+				""
+				"Совершенно нормально сажать своих лучших друзей по клеткам!"
+			]
+			id: "52BC8196E858B238"
+			rewards: [
+				{
+					id: "15995D321F1A2FA3"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1737828357
+									-1690416618
+									-1970765744
+									1600769351
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNjMWRmOTEwZmUwYTU4YTgzODNmMTBiMjc0ZWNkMzk5NTg3NDE0MDYyNDNmY2U2MTMyYjdmMjI3N2E0YThlNCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Companion Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4932557C828D26FE"
+					item: "plushies:cow"
+					type: "item"
+				}
+				{
+					id: "65E313A1D617E96C"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32818194460DA541"
+					table_id: 2534339319169675056L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Коль судьба не легка, полюбишь и быка"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "650E23F990D62E75"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: ["Найдите и разведите животных, чтобы получить это достижение. Теперь вы знаете, что есть такая категория квестов, продолжайте!"]
+			id: "3C87581273ACB6A0"
+			rewards: [
+				{
+					id: "6D4990F08A4D5483"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					id: "0AEB98268C0B3561"
+					item: "plushies:parrot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA33382BFD28B72"
+					table_id: 2534339319169675056L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Сваха для животных"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "24EAA163CD45072E"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: ["&bКомандный барабан&r — это предмет, при помощи которого вы можете управлять несколькими прирученными существами одновременно."]
+			id: "1661059D340835FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "592BB1DBA9CED058"
+					table_id: 223398162038636868L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24209FAB82F2AEA3"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Стадо, стройся!"
+			tasks: [{
+				id: "09F430BB3D8CD3C1"
+				item: "domesticationinnovation:drum"
+				type: "item"
+			}]
+			title: "Боевые животные"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Утром, &bлежанка&r &aвозрождает&r ваших питомцев, если с ними случится что-то неприятное. Просто попросите питомца &6установить точку спавна&r. "
+				""
+				"Под \"попросить\" имеется ввиду дотолкать его на лежанку."
+			]
+			id: "6B0E280BDBD4ACF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B08F0B25F6A4FBF"
+				table_id: 7049021818423122779L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Им тоже надо своё место"
+			tasks: [{
+				id: "226678EE9D1503C6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:petbeds"
+					}
+				}
+				title: "Any Pet Bed"
+				type: "item"
+			}]
+			title: "Лежанка для питомца"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			description: ["&bЖетоны&r — это не только необычный способ дать имя питомцу (не только же бирки давать), но ещё жетоны могут быть &aзачарованы&r, чтобы даровать специальные способности вашему питомцу."]
+			id: "09827E9E92823643"
+			rewards: [
+				{
+					id: "6802714240042850"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "domesticationinnovation:herding"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07688BDC175DB3BC"
+					item: "plushies:panda"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Сколько волка не корми, а мои ноги толще"
+			tasks: [{
+				id: "50B6AC73D9257351"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			description: ["&bПрава владельца&r — это предмет, полезный для &aмногопользовательской игры&r. Вы можете &6щёлкнуть ПКМ по животному &bдокументом&r, а затем передать его другу. Когда он использует его, питомец будет связан с ним, &aкак если бы он приручил его сам&r."]
+			id: "1C37EDEA99A890EF"
+			rewards: [
+				{
+					id: "7D8FC845A86B5AF0"
+					item: "moblassos:golden_lasso"
+					type: "item"
+				}
+				{
+					id: "04FB59490C16134C"
+					item: "plushies:red_fox"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Я твой папа"
+			tasks: [{
+				id: "47B6BA7F65A9904A"
+				item: "domesticationinnovation:deed_of_ownership"
+				type: "item"
+			}]
+			title: "Права владельца"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&bСпасательный фонарь&r позволит любым потерянным питомцам &aнайти дорогу домой&r. Разместите его рядом с вашей базой, и если вы потеряете питомца во время исследования, ждите его у фонаря. "
+				""
+				"Если вы &aпотеряете питомца в другом измерении&r, вам нужно будет &6поставить фонарь в том же измерении&r, чтобы вернуть его. "
+				""
+				"В &dмногопользовательской игре&r ваши питомцы будут возрождаться у &aближайшего фонаря&r, помните об этом."
+			]
+			id: "5DB08A394A7B8122"
+			rewards: [{
+				id: "378CD636A77C1440"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Ведь так не бывает на свете, чтоб были потеряны дети"
+			tasks: [{
+				id: "4FEF850143E6C25D"
+				item: "domesticationinnovation:wayward_lantern"
+				type: "item"
+			}]
+			title: "Путь домой"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "61F03A15727266F2"
+			invisible: true
+			tasks: [{
+				id: "17716842171DA01E"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Найдите &eледолога&r во время рейда или в его доме. А затем порубите его на тысячу кусочков. Он, честно говоря, заслуживает это."]
+			id: "23D702F268464D8E"
+			rewards: [{
+				count: 5
+				id: "4FD84074975C4353"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Не морозь меня, моего коня"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+				id: "016BADEBDA25900E"
+				type: "advancement"
+			}]
+			title: "Ой, мороз-мороз"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			icon: "minecraft:skeleton_skull"
+			id: "13DCE1539EEE07B8"
+			rewards: [
+				{
+					count: 20
+					id: "6CB1348126BAA2EA"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29E7968B7BD4F920"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "2B8B87F20448CF1A"
+					item: "minecraft:skeleton_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "2B089937DE3D191B"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Ну может не все из них агрессивные, но было бы круто, если бы вы одолели по одному &eкриперу&r каждого вида. Это как мировое турне, но с дымком!"]
+			icon: "handcrafted:creeper_trophy"
+			id: "5F03012DC9E38D8D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "402204927BD6B243"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D9F58F6BCEF3611"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					id: "23C411FB6E5B7932"
+					item: "handcrafted:creeper_trophy"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Та, что стоит за левым плечом. Это я — Смерть"
+			tasks: [
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					icon: "creeperoverhaul:badlands_creeper_spawn_egg"
+					id: "5475EAB66D01AA3E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:bamboo_creeper"
+					icon: "creeperoverhaul:bamboo_creeper_spawn_egg"
+					id: "2F57370380F6849F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:beach_creeper"
+					icon: "creeperoverhaul:beach_creeper_spawn_egg"
+					id: "498342403CB4E17A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:cave_creeper"
+					icon: "creeperoverhaul:cave_creeper_spawn_egg"
+					id: "247406896BFA2CBF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dark_oak_creeper"
+					icon: "creeperoverhaul:dark_oak_creeper_spawn_egg"
+					id: "4FCFFF2423D597EA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					icon: "creeperoverhaul:desert_creeper_spawn_egg"
+					id: "27CFF5A89E252A25"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dripstone_creeper"
+					icon: "creeperoverhaul:dripstone_creeper_spawn_egg"
+					id: "6BE030760A82D760"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:hills_creeper"
+					icon: "creeperoverhaul:hills_creeper_spawn_egg"
+					id: "3E4A28D5B5A84819"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:jungle_creeper"
+					icon: "creeperoverhaul:jungle_creeper_spawn_egg"
+					id: "31AD3B6DD0B0D2E1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:mushroom_creeper"
+					icon: "creeperoverhaul:mushroom_creeper_spawn_egg"
+					id: "6688C85A7EA1707D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:savannah_creeper"
+					icon: "creeperoverhaul:savannah_creeper_spawn_egg"
+					id: "77736E3FD3B0C165"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					icon: "creeperoverhaul:snowy_creeper_spawn_egg"
+					id: "158183796F59B405"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:spruce_creeper"
+					icon: "creeperoverhaul:spruce_creeper_spawn_egg"
+					id: "3E78F3F494221E8B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:swamp_creeper"
+					icon: "creeperoverhaul:swamp_creeper_spawn_egg"
+					id: "2673798B82CD0866"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "50BCCA198B6D6B98"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Гибель криперов"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			icon: "minecraft:creeper_head"
+			id: "7E36FAC9107093C2"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "064F74E6565B4859"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "24D4F5F119DC1A39"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "4765ECB455E0F3A3"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E36FAC9107093C2"]
+			dependency_requirement: "all_started"
+			description: ["Вы остановили 500... &aсамоликвидирований&r. Конечно, ваши способы не очень, но вот вам &bяйцо призыва крипера&r за труды."]
+			icon: {
+				Count: 1b
+				id: "twilightforest:creeper_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "2A61057B25357F37"
+			rewards: [
+				{
+					id: "1330C0871BA69A9A"
+					item: "minecraft:creeper_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F85A96668CE761D"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "7472B97EC9584AF7"
+				type: "kill"
+				value: 500L
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			icon: "minecraft:zombie_head"
+			id: "05C2A9D00C440EAC"
+			rewards: [
+				{
+					count: 5
+					id: "6E063F9F8ACEC220"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DF4D16D3FBA0AAD"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					id: "46F7C59C3BD0BCBA"
+					item: "minecraft:zombie_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "23C2CC9FC18828AB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Одолейте &eиллюзора&r, если сможете найти и раскрыть его трюки."]
+			id: "61E2531671CC8118"
+			rewards: [{
+				id: "4C326A6B45BB6BF4"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Главное правило реальности — не запутаться в своих иллюзиях"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_illusioner"
+				criterion: ""
+				id: "1BBF8996270374EB"
+				type: "advancement"
+			}]
+			title: "Мир иллюзии"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: [
+				"&cПОРУБИТЕ&r орду &eэндерменов&r, &cСОДРИТЕ С НИХ ШКУРУ&r и &cНАЦЕПИТЕ НА СЕБЯ&r, &cА-ХА-ХА-ХА-ХА&r... "
+				"Ой-ё, меня, должно быть, немножечко понесло? Извините, что-то голова закружилась ♪(´▽｀)"
+			]
+			icon: "supplementaries:enderman_head"
+			id: "3EBAD94D079ACDD8"
+			rewards: [
+				{
+					id: "5CF1D8687CF1180D"
+					item: "minecraft:enderman_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2340B768458086C7"
+					item: "plushies:enderman"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1C574797484F95E7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			dependency_requirement: "one_started"
+			description: [
+				"Вы перемыли косточки 500 &eвизер-скелетам&r? Ух, у меня аж ломят кости от того, сколько времени вы потратили. Ну что же, тогда вы заслуживаете эту пробирающую до костей награду — &bяйцо призыва визер-скелета&r, и &bрассадник&r для яйца."
+				"Эти каламбуры просто ужас, извините."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "twilightforest:wither_skeleton_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "26E8A9DFDC4C1635"
+			rewards: [
+				{
+					id: "059E3E20350E1BC0"
+					item: "minecraft:spawner"
+					type: "item"
+				}
+				{
+					id: "6588523AD85BBFF1"
+					item: "minecraft:wither_skeleton_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "04B537DE779D8CE4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "12CC2182B839D954"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "58BF5A5E17BB8A83"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "3506C0BD5CA7D0C5"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0A6E74616F39F811"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			icon: "handcrafted:pillager_trophy"
+			id: "53D63982971E2F60"
+			rewards: [
+				{
+					count: 20
+					id: "6AD16E5C15BCE1BC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7DFBD293FDD356EA"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "5DA4D69DEC4C8437"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			icon: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "714C8AC1434688EF"
+			rewards: [
+				{
+					count: 3
+					id: "71D83A4349AE8785"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "36D89FBD81444CE5"
+					item: "minecraft:drowned_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7A6F0CBC359755FC"
+					item: "upgrade_aquatic:thrasher_tooth"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "34FD1291BA7CEDB0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Одолейте трёх &eнепохожих магов-зловредов&r. Пожалуйста."]
+			id: "077E56B6A68AB3AC"
+			rewards: [
+				{
+					id: "743B5E809927506A"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+				{
+					id: "660DA5C0B4FF6006"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Пришлось их всех троих убить"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				id: "39A1B59A1F5CD337"
+				type: "advancement"
+			}]
+			title: "Ублюдков трудно вразумить"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Докажите свою доблесть и стойкость, убив… подождите, всего одного &eзомби&r и одного &eскелета&r? Это довольно легко…"
+				" "
+				"Мда-м, может следующие задания будут сложнее."
+			]
+			id: "43B3A6804B59565E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1330C08C04945E39"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "или палочки, или... да какая разница"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "407518B5BB4A56A4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "0A45057771B77CE0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Первые взмахи меча"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			id: "3057155A3A2B5F47"
+			rewards: [
+				{
+					id: "57AEF83E18326ED4"
+					item: {
+						Count: 1b
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "26C21B65560BD25A"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:prismarine_shard"
+				id: "35A42B6209CA1D8C"
+				type: "kill"
+				value: 30L
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			description: ["Он просто хороший безобидный паренёк. Не оставляйте его под солнцем."]
+			id: "6CD4F0A4650CBA2F"
+			rewards: [
+				{
+					id: "3A5546869704A4FE"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "41813A712049D48B"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+				{
+					id: "025034A031F1EE27"
+					item: "plushies:snow_golem"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "из страны вечнозелёных помидоров"
+			tasks: [{
+				icon: "minecraft:snowball"
+				id: "7DDD21C495EF730D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:snow_golem"
+				type: "observation"
+			}]
+			title: "Встретьте снежного голема"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			id: "22628C8DC1BB807F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAF095C74889CDE"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "582FB1CD7EEA24F4"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "00D1095246F51447"
+					item: "minecraft:spider_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "593E0D6FD65220E2"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Пора играть в &aкозу в лодке&r! Правила просты:"
+				""
+				"1. Найдите &eкозу&r."
+				"2. Найдите &bлодку&r."
+				"3. Толкните &eкозу&r в широченную &bлодку&r."
+				"4. Заточите свою &aтопку&r в эту же &bлодку&r. "
+				""
+				"Вы победили!"
+			]
+			id: "114EFE7EF75B22F3"
+			rewards: [{
+				id: "24BE315499AA4A97"
+				item: "plushies:goat"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Волк и капуста необязательны"
+			tasks: [{
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+				id: "5A01D74D65A58962"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&eАксолотли&r — милые маленькие создания, но, с другой стороны, они &aсильные&r и &aноровистые&r. Если приручить одного, он будет &aсражаться вместе с вами&r, если вы решите принять бой под водой. "
+				""
+				"В бою, они &aмогут наделить вас регенерацией&r, и как только это произойдёт, вы поймёте, что вы &dлучшие друзья навсегда-навсегда&r."
+			]
+			id: "232A8F9F6388C377"
+			rewards: [{
+				id: "3D06E592368CB47A"
+				item: "plushies:axolotl"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Теперь у вас есть друг!"
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "66A0BD4051C658F5"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&eГоловастики&r, иначе известные как «запретная боба» (боба — шарики тапиоки), — милые маленькие дрыгающиеся чувачки, которые особенно \"восприимчивы\" к &eаксолотлям&r. "
+				""
+				"Они также \"восприимчивы\" к &bвёдрам&r, и если вам удастся поймать одного ведром, то считайте, что вы завершили этот квест. Считаете? Тогда вы точно выполнили квест."
+			]
+			id: "2FC0EAD96E3C41D4"
+			rewards: [{
+				id: "44BE0CD5ECFD83B2"
+				item: "plushies:frog"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Лягушка-путешественница"
+			tasks: [{
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+				id: "7A90C9C915A28458"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&eПлиторыба&r — это прямоугольная штуковина... Ладно, рыба, которую можно &aприручить&r с помощью другой рыбы — &bтропической рыбы&r. "
+				""
+				"После приручения вы можете &6щёлкнуть ПКМ с &bшерстью&r &6в руке&r, чтобы &aмоментально связать на них свитер&r. Чудеса!"
+				""
+				"&eПлиторыбы&r также могут помочь вам переносить предметы, если вы &aдадите им &bсундук&r. "
+				""
+				"Рюкзак-сундук можно &aокрасить&r, использовав краситель. "
+				""
+				"&eПлиторыба&r можно посадить, &6щёлкнув ПКМ крадучись&r по нему. "
+				""
+				"Однако они будут &dследовать за вами только тогда, когда вы держите &bтропическую рыбу&r."
+			]
+			id: "7A028A2ABDD3D304"
+			rewards: [{
+				id: "4DF7256C6FF7781B"
+				item: "environmental:slabfish_effigy"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Это плита. Это рыба. Это плиторыба."
+			tasks: [{
+				icon: "environmental:slabfish_effigy"
+				id: "7EADDF251FAAE962"
+				observe_type: 5
+				timer: 0L
+				to_observe: "environmental:slabfish"
+				type: "observation"
+			}]
+			title: "Встретьте плиторыбу"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Ищете вызов? Почему бы не создать себе &bжемчужину врат&r? &dВы можете создать любую для этого квеста&r. &bЖемчужина врат&r позволит вам &eпрорвать дыру&r в другое измерение, недостаточную, чтобы пройти вам, но достаточную для монстров и наград оттуда. "
+				""
+				"Чтобы открыть врата надо: "
+				"— &aдостаточно места&r;"
+				"— чтобы &aдругие врата не были&r уже открыты."
+				""
+				"Открытые врата &dзакроются в ударе молнии&r, если:"
+				"— &aне смогут призвать моба&r;"
+				"— любой призванный &aмоб уйдёт от врат слишком далеко&r;"
+				"— истечёт &aтаймер волны&r. "
+				""
+				"Награды будут появляться из врат по мере прохождения испытаний. Эти &eврата&r являются вызовом для хорошо экипированных игроков и могут быть отличным источником &bресурсов из мобов&r."
+			]
+			id: "538D45E5FE8591D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C76B55071F1CB88"
+				table_id: 4747620395501175375L
+				type: "choice"
+			}]
+			shape: "diamond"
+			subtitle: "В вечности меня ждёт награда"
+			tasks: [{
+				id: "6870A2403C99B582"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:zombie_gate_small"
+					}
+				}
+				type: "item"
+			}]
+			title: "Бесконечные испытания"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&eКозы&r — своенравные существа. Если вам встретится одна, &aостерегайтесь их ударов головой&r! "
+				""
+				"Однако, если вы сможете заставить её &aврезаться в твёрдый блок&r, например, &bкамень&r, то она уронит свой &bрог&r."
+			]
+			id: "3556685D896ADA7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1711429F0EE0C533"
+				table_id: 1510389528595555205L
+				type: "random"
+			}]
+			shape: "heart"
+			subtitle: "Говорила Алёнушка"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:goat_horn"
+					tag: {
+						instrument: "minecraft:ponder_goat_horn"
+					}
+				}
+				id: "5BB9CB6527E6EF77"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			title: "Встретьте козу"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["Хотя &eвидения&r не агрессивны, но они пугают меня до чёртиков. &aОтправьте спать&r как минимум 50 видений, чтобы гарантировано получить материал для создания &bока нежити&r."]
+			id: "2A930C9591A317A3"
+			rewards: [{
+				id: "5DC83818918FD852"
+				item: "endrem:undead_soul"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "quark:wraith"
+				icon: "quark:soul_bead"
+				id: "67167BE721C1C831"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			description: ["&dЭтот квест повторяется.&r"]
+			id: "376F0C3219E696C9"
+			rewards: [{
+				count: 4
+				id: "06F77BA8B0FA6B73"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:sponge"
+				id: "65777A88B18EE777"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&eУлитки&r — одни из самых чудесных существ на свете."
+				"Они очень любят терракоту, так что вы легко &aсможете собрать&r их в &bцветочный горшок&r &7(да-да, горшки из кирпичей, но выглядят то не кирпичными)&r!"
+				""
+				"&dАкция&r: поймайте несколько разных, получите ещё одного в подарок!"
+			]
+			id: "55CAFBB909F98ED8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BEB488E750283FD"
+					table_id: 7605316060591977074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361AB2E20ED1793D"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
+			subtitle: "Случайный факт: улитки рождаются с раковиной"
+			tasks: [
+				{
+					id: "56D54ABE011FE588"
+					item: "finsandtails:flatback_leaf_snail_pot"
+					type: "item"
+				}
+				{
+					id: "5E956C8B3E380B66"
+					item: "finsandtails:river_pebble_snail_pot"
+					type: "item"
+				}
+				{
+					id: "59A385070126BB28"
+					item: "finsandtails:siderol_whiskered_snail_pot"
+					type: "item"
+				}
+			]
+			title: "Кто тише едет — тот дальше будет"
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"О, смотри, &aсундук с сочной добычей&r! Интересно, что внутри? "
+				""
+				"&l&dХА-ХА, ПОПАЛСЯ!?&r&r Это &eмимик&r! Мимики — это существа, которые выглядят как сундуки, но становятся враждебными, если попытаться их открыть. "
+				""
+				"После победы над ними, &aони оставляют &bартефакты&r."
+			]
+			id: "7FB79E375B154A0E"
+			rewards: [{
+				count: 10
+				id: "1B9AF3CC1116662F"
+				item: "nethersdelight:mimicarnation"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Только не понятно, это я проклятье или кто?"
+			tasks: [{
+				icon: "artifacts:mimic_spawn_egg"
+				id: "3E845198C4BE9909"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artifacts:mimic"
+				type: "observation"
+			}]
+			title: "Проклятье мимика"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&eЯки&r — это коровоподобные звери с длинным волосянным покровом. Их можно &aстричь ради их &bволос&r, которые используется в ряде рецептов. Их также можно &aдоить&r! "
+				""
+				"Разводить их можно с помощью &aпшеницы&r. "
+				""
+				"После &aстрижки&r они будут преследовать игрока, но толькое если на игроке не надеты &bштаны из волос яка (Yak Pants)&r."
+			]
+			id: "382FEE92206B1F49"
+			rewards: [{
+				count: 5
+				id: "5BCE90C27F72D1F9"
+				item: "environmental:yak_hair"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Хочешь анекдот? Прости, забыла"
+			tasks: [{
+				icon: "environmental:yak_hair"
+				id: "0AD39E253DAC2DDE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "environmental:yak"
+				type: "observation"
+			}]
+			title: "Встретьте яка"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eСтоунлинги&r — очень робкие создания! Их можно найти в &cпещерах под землёй&r, и часто они будут держать &aвсякие блестяшки&r. "
+				""
+				"Чаще всего они &aнемедленно убегают&r от игрока и исчезают в своём измерении. Однако, если их убить, они могут оставить после себя очень ценное &bалмазное сердце&r, используемое для создания &bподбиранга&r. "
+				""
+				"Чтобы получить сердце, вам нужно &6подкрасться к &eстоунлингу&r или &aзаманить его &bсветящимся грибом&r."
+			]
+			id: "1D8DD63F836302C8"
+			rewards: [{
+				id: "4A85FD0801EB0478"
+				item: "quark:glow_shroom"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Родственники кристальных ящерок"
+			tasks: [{
+				icon: "quark:diamond_heart"
+				id: "0C8FFD1E7B985EA1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:stoneling"
+				type: "observation"
+			}]
+			title: "Встретьте стоунлинга"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&eКорешок&r — это обитающее в лесу разумное растение, они бывают разных цветов. Также, оно тесно связано с мандрагорой."
+				""
+				"Их можно &aподстричь ради их лепестков&r, но им это не понравится, и они &aпопробуют убежать от вас&r! Если вам удастся подстричь их, &bлепестки&r можно использовать для создания &bкрасителей&r. "
+				""
+				"Корешки любят &aсвежесть дождя и цветы&r, потому их можно найти во время непогоды или около цветочков. Они также общительны и &aприветствуют друг друга&r небольшим ударом животиков! "
+				""
+				"Когда они умирают, они сбрасывают &bcемена корешка&r, которые можно использовать для выращивания других &eкорешков&r. Они также оставляют &bкорень&r, который можно приготовить и съесть."
+				""
+				"Корешки будут следовать за вами, если вы &aдержите костную муку в руке&r."
+			]
+			id: "017910D0153E593E"
+			rewards: [{
+				id: "46BEBDF07CACC1D9"
+				item: "biomemakeover:rootling_seeds"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Я есть Грут"
+			tasks: [{
+				icon: "biomemakeover:magenta_petals"
+				id: "253832B30BFEED93"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:rootling"
+				type: "observation"
+			}]
+			title: "Встретьте корешка"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&bПлавёты&r иногда выпадают из &eболотных летунов&r. Эти рыбы не только плавают, но и &aвыпрыгивают на большую высоту&r из воды с помощью своих необычных плавников. "
+				""
+				"Вы можете использовать &bплавёты&r для &aсоздания &bплавётовых ласт&r, увеличивающих скорость перемещения в воде. На ласты есть &aзачарование, которое позволит выпрыгивать из воды, подражая болотным летунам.&r"
+			]
+			id: "0856883C8F0C0214"
+			rewards: [{
+				id: "72F315A632F4BE0F"
+				item: "finsandtails:fwin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "(и убейте)"
+			tasks: [{
+				id: "45EC62F075FD23A5"
+				item: "finsandtails:fwin"
+				type: "item"
+			}]
+			title: "Встретьте болотных летунов"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Каждая ведьма обязана улучшать мир вокруг себя. Один из таких методов — &aуничтожение злых существ&r. "
+				""
+				"&eДикие&r — это древняя раса оборотней, которые &aнарушили договор с природой&r и навсегда остались в своих животных формах. Теперь они существуют &aтолько, чтобы существовать и убивать&r. Победите их и впитайте их знания и силу."
+			]
+			id: "7EF23B68E32568DE"
+			rewards: [{
+				id: "4A10122B4878EE34"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Не буди во мне зверя"
+			tasks: [
+				{
+					count: 10L
+					id: "3A9BB346C47CCBDD"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2B6EEF46BC2C7530"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "03133B1C35B17F08"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+			]
+			title: "Накрошить диких"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&eХорьки&r — очаровательные облигатные хищники, которых можно &aприручить сырой крольчатиной&r! "
+				""
+				"Имейте в виду, что они будут &aохотиться на &eкур и кроликов&r даже после приручения, поэтому держите свой скот отдельно от них! "
+				""
+				"Прирученные &eхорьки&r также &aмогут рыть землю в поисках добычи&r раз в 5 минут, если были &aпокормлены сырой курицей&r."
+			]
+			id: "17D05EDC67E36F43"
+			rewards: [{
+				count: 5
+				id: "5A0F7BCCA4EFD7D8"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Хроники хорька"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cottagewitch:textures/customicons/ferret.png"
+					}
+				}
+				id: "07EDB27B6B4B4337"
+				observe_type: 5
+				timer: 0L
+				to_observe: "crittersandcompanions:ferret"
+				type: "observation"
+			}]
+			title: "Встретьте хорька"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"&eСовы&r являются одними из традиционных фамильяров ведьм, так что, приятные новости — &aих можно приручить&r! "
+				""
+				"Просто покормите их &bмясом мелких жиовтных&r — &bкролчятиной&r или &bкурятиной&r. Их также можно разводить с помощью того же мяса. Они будут &aследовать за вами после приручения&r, даже если вы полетите!"
+			]
+			id: "697E566F9FF782F0"
+			rewards: [
+				{
+					count: 5
+					id: "478853E191F41ABC"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DAF274364D46AF7"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "Что совой об пень, что пнём об сову"
+			tasks: [{
+				icon: "biomemakeover:owl_spawn_egg"
+				id: "03EBA7A36A380D74"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:owl"
+				type: "observation"
+			}]
+			title: "Встретьте сову"
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"На верхнем ярусе &cтёмного леса&r можно найти гигантских враждебных &eмотыльков&r, которые собираются вокруг &bмотыльковых цветков&r и &aисточников света&r. Кажется, что сам лес вырастил цветы, чтобы привлечь мотыльков и защититься от людей, ходящих по верху леса. "
+				""
+				"Из мотыльков выпадают &bчешуйки&r. Вы можете использовать их для создания &bночного зелья&r, у которого исключительно долгосрочный эффект, предотвращающий появление &eфантомов&r."
+			]
+			id: "5E86B948F3FA0264"
+			rewards: [{
+				count: 3
+				id: "6E248284527A632A"
+				item: "biomemakeover:moth_scales"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Скажи мотылькам привет, а фантомам — прощай"
+			tasks: [{
+				entity: "biomemakeover:moth"
+				icon: "biomemakeover:moth_scales"
+				id: "60D39B0FAEEC2C7C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Как на огонь"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&eКарпы кои&r — это восхитительные рыбы, живущие в мелководных пресных водах. Существуют обычные &eкарпы кои&r и &eсчастливые карпы кои&r. Оба вида наделяют полезными эффектами."
+				""
+				"Обычные карпы кои &aдают эффект спокойствия&r, который &aпредотвращает появление враждебных существ&r в ближайшей области. Эти рыбы встречаются в &cцветущих лесах&r и &cцветущих долинах&r."
+				""
+				"Счастливые карпы кои, даруют &aэффект удачи&r, если они находятся рядом с вами во время рыбалки, а это невероятно полезный эффект, ведь так у вас больше шансов поймать хорошую рыбу! Эти счастливые кои встречаются в &cреках&r."
+			]
+			id: "4F4775AF5B5B93E9"
+			rewards: [{
+				id: "38D49950C6F09766"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "goblintraders:luck"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Да на кой тебе эти кои? А вот на тои"
+			tasks: [
+				{
+					id: "514789673C21BDD6"
+					item: "crittersandcompanions:koi_fish_bucket"
+					type: "item"
+				}
+				{
+					id: "0E453F3092616CDB"
+					item: "environmental:koi_bucket"
+					type: "item"
+				}
+			]
+			title: "Найдите кои"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Почему бы не попробовать прокатиться на свинье? Хоть это и не быстрый, не эффективный и, может быть, не весёлый вариант."
+				""
+				"Да, это всё предложение, продолжения нет."
+			]
+			id: "7E2641B15D6AF49E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6660D36094752F9E"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			subtitle: "Побегал, выполнил задание, потом поел"
+			tasks: [
+				{
+					id: "16CAC410F6BBE772"
+					stat: "minecraft:pig_one_cm"
+					type: "stat"
+					value: 10000
+				}
+				{
+					id: "4F6C803E22B3FF71"
+					item: {
+						Count: 1b
+						id: "minecraft:carrot_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Передвижная свиная рулька"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eКрасный бычий краб&r, в отличие от своего более дружелюбного родственника — &eбелого бычьего краба&r — довольно свиреп, и нападет даже на других представителей своего вида."
+				""
+				"Если вы убьёте одного, вы можете получить из него &bклешню красного бычьего краба&r, которую можно &aприготовить&r или &aиспользовать для создания &bкрасной крабовой перчатки&r."
+				""
+				"Перчатку можно зачаровать на &aуникальные эффекты&r."
+			]
+			id: "068330DDB109AAD2"
+			rewards: [{
+				id: "604366D6E4B3DD6F"
+				item: "finsandtails:red_bull_crab_claw"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "ред булл оклешняееет"
+			tasks: [{
+				entity: "finsandtails:red_bull_crab"
+				icon: "finsandtails:red_bull_crab_claw"
+				id: "4B46CE4E3E2AA1E3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Красный бычий краб"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&eПенглилы&r — маленькие создания, любящие поиграть. Они являются дальними родственниками &eпингвинов&r, любят воду и могут быть приручены с помощью &bсиней длиннопёрки&r."
+				""
+				"Интересно, что произойдёт, если назвать одного \"Lord\"?"
+			]
+			id: "30B298083652D459"
+			rewards: [{
+				count: 5
+				id: "52786D29ABFE43EB"
+				item: "finsandtails:high_finned_blue"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Королевский пенглин"
+			tasks: [{
+				icon: "finsandtails:penglil_bucket"
+				id: "643E09E7E6546836"
+				observe_type: 5
+				timer: 0L
+				to_observe: "finsandtails:penglil"
+				type: "observation"
+			}]
+			title: "Встретьте пенглила"
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"&eИрбис&r, или просто неуловимый большой кошак, обитает в &cрощах&r и &cснежной тайге&r. "
+				"&6Приручить мурлыку&r можно &bбараниной&r или &bлососем&r."
+			]
+			id: "13577236741AE721"
+			rewards: [{
+				count: 4
+				id: "3991B2F12DC4D1B8"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Мой тигр очень любит мясо, особенно, которое бегает"
+			tasks: [{
+				icon: "mythicmounts:acencia_spawn_egg"
+				id: "51FF6AE74B71CAA9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:acencia"
+				type: "observation"
+			}]
+			title: "Встретьте ирбиса"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			description: ["Создайте &bпосох вызова&r, чтобы привязать его к вашему ездовому животному (&6щёлкните ПКМ посохом по нему&r). Это позволит вам указать скакуну сидеть на месте, следовать за вами или бродить вокруг… ну и призвать его к себе из любого места! Однако будьте осторожны: &aтолько одно ездовое животное может быть привязано к посоху&r."]
+			id: "599C6FA65E8BBB7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0457E7AA69326A2B"
+				table_id: 7049021818423122779L
+				type: "loot"
+			}]
+			subtitle: "Готов вкалывать..."
+			tasks: [{
+				id: "5B97A0C680666042"
+				item: "mythicmounts:summoning_staff"
+				type: "item"
+			}]
+			title: "Посох вызова"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			description: ["&eАрхелон&r — это древняя черепаха из доисторической эпохи, скользящая &cпо глубине тёплого океана&r. Приручить её можно, &6накормив &bтреской&r или &bлососем&r. То, чего этому скакуну не хватает на суше, он с лихвой компенсирует в воде!"]
+			id: "4D28224233A3C51A"
+			rewards: [{
+				count: 4
+				id: "3F5F6FE3B7C40424"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Черепах-самурай"
+			tasks: [{
+				icon: "mythicmounts:archelon_spawn_egg"
+				id: "0271C48B33B24393"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:archelon"
+				type: "observation"
+			}]
+			title: "Встретьте архелона"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			description: ["&eКолитр&r, обитающих только на &cгрибных полях&r, можно &6приручить&r с помощью &bсахара&r, &bгрибов&r и всех ванильных &bцветов&r."]
+			id: "017C5A75178F3542"
+			rewards: [{
+				count: 4
+				id: "7DDB6C0794158F83"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Угадай, в каком ухе у меня жуж-ж-жит?"
+			tasks: [{
+				icon: "mythicmounts:colelytra_spawn_egg"
+				id: "478B79078B3B4992"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:colelytra"
+				type: "observation"
+			}]
+			title: "Встретьте колитру"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			description: ["Это яркое и быстрое существо прячется в &cджунглях&r. &6Подходите к ним с осторожностью и предложите&r &bсладкие ягоды&r или &bломтики арбуза&r, чтобы завоевать их расположение."]
+			id: "377AA8A86975BA71"
+			rewards: [{
+				count: 4
+				id: "66F13F4CCF3E2C6F"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Чокобо?"
+			tasks: [{
+				icon: "mythicmounts:courierbird_spawn_egg"
+				id: "572374EDC3AB2D24"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:courierbird"
+				type: "observation"
+			}]
+			title: "Встретьте посыльную птицу"
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			description: ["&eЛютоволки&r пока далеки от статуса лучших друзей человека. &6Попробуйте предложить одному&r &bкости&r. Обитают эти недобрые в любых видах &cтайги&r."]
+			id: "056C04C3CC47A759"
+			rewards: [{
+				count: 4
+				id: "38380BA70A49C240"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Волчья зарапа ждёт"
+			tasks: [{
+				icon: "mythicmounts:direwolf_spawn_egg"
+				id: "51918B0AC00BF9D9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:direwolf"
+				type: "observation"
+			}]
+			title: "Встретьте лютоволка"
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			description: ["Хотя эти &eдраконы&r редки, их можно иногда найти в &cглубоких пещерах&r. Чтобы подружиться с ними, &6предложите свои ценности&r… подойдут &bзолото&r, &bалмазы&r или &bизумруды&r. Но будьте осторожны, они могут быть весьма &aопасными&r."]
+			id: "034B48F75EFD00FE"
+			rewards: [{
+				count: 4
+				id: "2CF29E2C5317447C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Осё-ё-ёл!!!"
+			tasks: [{
+				icon: "mythicmounts:dragon_spawn_egg"
+				id: "63B895ED4ED1217F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:dragon"
+				type: "observation"
+			}]
+			title: "Встретьте дракона"
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			description: ["Говорят... Говорю я, что есть спокойные, прожорливые ящерицы любят отдыхать в &cгорных пещерах&r и поедать &bтыквы или всё, что на них похоже&r. &6Приручите одну&r с помощью &bтыкв&r, &bарбузов&r или &bснопов сена&r, чтобы у вас появился свой собственный рептилоидный друг."]
+			id: "2FE64806CEF6A7C7"
+			rewards: [{
+				count: 4
+				id: "32FC1EBB1BA25838"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "А вот хвост попрошу не трогать"
+			tasks: [{
+				icon: "mythicmounts:geckotoalizard_spawn_egg"
+				id: "6BA12A9150EA463D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:geckotoalizard"
+				type: "observation"
+			}]
+			title: "Встретьте геккоту"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Хрупкие, красивые, но способные унести всадника в небо. Буквально, не в переносном смысле... Э-э-э, ну вы поняли. &eМотыльки&r обитают в &cтёмных лесах&r. &6Они любят&r &bсахар&r или &bцветы&r из ванильной игры."
+				""
+				"&dНе перепутайте их с другими мотыльками&r, живущими на верхнем ярусе тёмного леса."
+			]
+			id: "7F0B29308048864C"
+			rewards: [{
+				count: 4
+				id: "7DF303DDF03B250C"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Хорошо, что мы не в закулисье..."
+			tasks: [{
+				icon: "mythicmounts:moth_spawn_egg"
+				id: "68B618C5297637A2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:moth"
+				type: "observation"
+			}]
+			title: "Встретьте гигантскую моль"
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			description: ["Эти редкие птицы… млекопитающие… штукенции иногда видны, в небе у &cвершин гор&r. Они любят мясо &bкроликов&r и &bовец&r. &6Приручённые&r грифоны — верные компаньоны и &aвступятся за своего хозяина&r в бою."]
+			id: "7EB5B6A65733A02A"
+			rewards: [{
+				count: 4
+				id: "21D715069E8084F8"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Кто подложил мне эту крылатую свинью?"
+			tasks: [{
+				icon: "mythicmounts:griffon_spawn_egg"
+				id: "466A61047F38CDB7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:griffon"
+				type: "observation"
+			}]
+			title: "Встретьте грифона"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"&eНезерские летучие мыши&r можно отыскать в &cнезерских грибных лесах&r. Они &6любят&r &bгрибы&r, &bяйца&r и &bпаучьи глаза&r. "
+				"&aУбедитесь, что у вас есть угощения&r, так как незерские летучие мыши &dвраждебны к игрокам&r!"
+			]
+			id: "278C2901783A7CFC"
+			rewards: [{
+				count: 4
+				id: "676B265791616802"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Полёт нетопыря в глухой ночи"
+			tasks: [{
+				icon: "mythicmounts:netherbat_spawn_egg"
+				id: "4790537A62A534A7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:netherbat"
+				type: "observation"
+			}]
+			title: "Встретьте незерскую летучую мышь"
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			description: ["Для лёгкой прогулки по Незеру, найдите себе &eкошмара&r! Живут эти горячие кони в &cдолинах песка душ&r и &cбазальтовых дельтах&r. Приручив одного, вы больше не сможете жить без них в &cНезере&r — они &aбуквально скачут по лаве&r. Кошмары &6любят&r &bкости&r и &bуголь&r."]
+			id: "4D81435583AB5226"
+			rewards: [{
+				count: 4
+				id: "2194DC92E45A83F5"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Жеребец вашей мечты"
+			tasks: [{
+				icon: "mythicmounts:nightmare_spawn_egg"
+				id: "70A4A901659D1EFA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:nightmare"
+				type: "observation"
+			}]
+			title: "Встретьте кошмара"
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			description: ["&eМорские кролики&r — дружелюбные обитатели &cкоралловых рифов&r — отличные пловцы и встречаются самых разных цветов и узоров. Приручить их можно &bламинариями&r."]
+			id: "6CD4B9F1448F96FD"
+			rewards: [{
+				count: 4
+				id: "77BDB963B85BB6C0"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "я слыш что вам нрав Mudkip"
+			tasks: [{
+				icon: "mythicmounts:nudibranch_spawn_egg"
+				id: "6FE7C165CD7C6002"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:nudibranch"
+				type: "observation"
+			}]
+			title: "Встретьте морского кролика"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			description: ["Эта рептилия охотится на &eкроликов&r и &eкур&r в их родной среде обитания в &cпустыне&r и &cпустошах&r. Хотя они &dвраждебны к игрокам&r, &6дав им немного&r их &bлюбимого мяса&r, вы сделаете их верными друзьями."]
+			id: "2E65802308E35A24"
+			rewards: [{
+				count: 4
+				id: "56337B8718928FD0"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Умный мальчик"
+			tasks: [{
+				icon: "mythicmounts:ridinglizard_spawn_egg"
+				id: "2B2400BAD61D9185"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:ridinglizard"
+				type: "observation"
+			}]
+			title: "Встретьте ездового ящера"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			description: ["А вам повезло — &eжар-птицу&r можно редко увидеть летающей рядом с &cнаселёнными деревнями&r. Они придирчивы к еде и едят только &bзолотые яблоки&r. &6Пора доставать свои ящики золотых яблок&r."]
+			id: "181309B1780B002C"
+			rewards: [{
+				count: 4
+				id: "4883DA1AD3FD6E96"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Две монеты брось в огонь и перо три раза тронь"
+			tasks: [{
+				icon: "mythicmounts:firebird_spawn_egg"
+				id: "093B942E1C31B7EA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:firebird"
+				type: "observation"
+			}]
+			title: "Встретьте жар-птицу"
+			x: -9.0d
+			y: 3.5d
+		}
+	]
+	title: "Дикая природа"
+}

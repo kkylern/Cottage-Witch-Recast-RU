@@ -1,0 +1,2659 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "culinary_arts"
+	group: "1E0017DE6773EF00"
+	icon: "nethersdelight:stuffed_hoglin"
+	id: "305A3D4D3A205E4A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgnetherdelight.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgteaandsundry.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 13.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgspiceoflife.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcookingpot.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcheesemaking.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgenddelight.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgwinery.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.5d
+			y: 13.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["Побалуйте себя пляжным удовольствием с &bтропической похлёбкой&r. Свежее и сочное &bкрабовое мясо&r, подрумяненный пикантный &bлук&r и сладковатый &bрис&r — всё это соединилось в кокосовой скорлупе. Совершенство!"]
+			id: "5A2B514B4EB8EF23"
+			rewards: [{
+				id: "44013D6975BFD304"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Для любителей пина колады и вкусной еды"
+			tasks: [{
+				id: "166AA75156D284E6"
+				item: "ecologics:tropical_stew"
+				type: "item"
+			}]
+			title: "Тропическая амброзия"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Одна из особенностей этого &mмодпака&r мира заключается в том, что &aупотребление пищи даёт вам бонусы&r!"
+				""
+				"Все продукты имеют полезные категории, называемые &aэссенциями&r. Ваше тело и душа питаются этими эссенциями, поэтому в ваших интересах есть &aнемного всего&r!"
+				""
+				"{image:cottagewitch:textures/nutrition2.png width:100 height:60 align:1 fit:true}"
+				""
+				"&dПожалуйста, нажмите стрелку снизу, чтобы перейти на следующую страницу.&r "
+				"{@pagebreak}"
+				"Кнопка с хлебом и полосками &aпокажет вам ваш текущий уровень питания&r."
+				""
+				"{image:cottagewitch:textures/nutrition1.png width:225 height:264 align:1}"
+				"{@pagebreak}"
+				"Разные виды пищи будут давать &aразные эссенции&r, и вы можете увидеть, что содержится в вашей пище, &6наведя на неё курсор&r."
+				""
+				"{image:cottagewitch:textures/nutrition3.png width:100 height:60 align:1 fit:true}"
+			]
+			id: "6EFFB8ED37DC8A47"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1454EE401EB2C400"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5220020A4433CE51"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.5d
+			tasks: [{
+				id: "37177297B282FBC7"
+				title: "Надо радоваться, не надо напрягаться"
+				type: "checkmark"
+			}]
+			title: "Вкус жизни"
+			x: -2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["644439D23D454629"]
+			description: [
+				"&bЧай&r — это небольшие кусты, выращиваемые для получения &bчайных листьев&r, которые можно заваривать в &bчай&r. Позвольте мне сказать &bчай&r ещё раз. &bЧай&r."
+				""
+				"&bЧайные семена&r можно садить на землю и траву и нельзя на грядки."
+				""
+				"Хотя, чтобы получить жёлтые или чёрные &bчайные листья&r, быстрее всего использовать призрачное наполнение из &lCreate&r, но если у вас нет доступа к песку душ, то достаточно подождать, чтобы взрослый зелёный чайный куст состарился."
+				""
+				"Для заваривания чая, вам понадобится &bчайник&r."
+			]
+			id: "1266B799DAB9CCC7"
+			rewards: [
+				{
+					id: "61583E166F84CB9B"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "7A33DD93AECBC30C"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "The beginning of a beautiful thing"
+			tasks: [{
+				id: "47CC68B6AFC0A820"
+				item: "farmersrespite:tea_seeds"
+				type: "item"
+			}]
+			title: "Obtain Tea Seeds"
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: [
+				"&bКофейные зёрна&r можно найти в &aбазальтовых дельтах&r в Незере. "
+				"Что, вы удивлены, что кофе происходит из Незера? Ну а вы думаете, почему он столь адски хорош?"
+			]
+			id: "057B67AD7B2265D2"
+			rewards: [
+				{
+					id: "206BB757EAFA30AB"
+					item: "farmersrespite:coffee"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58B1F50F02BD534E"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Если в кофе кофеин"
+			tasks: [{
+				id: "3F4D9EABFDAF7C4D"
+				item: "farmersrespite:coffee_beans"
+				type: "item"
+			}]
+			title: "Кофейные зёрна"
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["&bЧай из шиповника&r ненадолго наделит вас &aрегенерацией&r!"]
+			id: "678A9A223F78E44A"
+			rewards: [
+				{
+					id: "33246C70F6B27415"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "58D8F569E277EE44"
+					item: "farmersrespite:rose_hip_pie"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "А вы пробовали варенье из шиповника? Вкуснятина"
+			tasks: [{
+				id: "137E5F78BD0D4BD5"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			title: "Чай из шиповника"
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&bЧайник&r должен быть &6помещён на источник тепла&r, чтобы в нём можно было заварить чай. Вы можете использовать &bкостёр&r, &bмагму&r, &bкухонную плиту&r или другой источник тепла. "
+				"Используйте &bведро с водой&r или 3 &bбутылочки с водой&r, чтобы наполнить &bчайник&r водой (есть ещё способ с краном, больше информации в &dРазное — Автоматизация&r). Затем &6щёлкните ПКМ&r по чайнику и поместите внутрь ингредиенты для заваривания!"
+			]
+			id: "644439D23D454629"
+			rewards: [{
+				count: 5
+				id: "094D9A28C779AFF3"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Съешь ещё этих мягких французских булок..."
+			tasks: [{
+				id: "0AF70C91FA3DAF6E"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "Чайная церемония"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: [
+				"Чёрный чай — это лист с наибольшим количеством танинов, что делает его наиболее устойчивым к теплу и также самым насыщенным по вкусу. "
+				"О, в нём также &aмного кофеина&r, поэтому чай немного ускорит вас."
+			]
+			id: "016F0B2B8A127F3F"
+			rewards: [{
+				count: 3
+				id: "5E9F180F46F7F36D"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Ха, классика"
+			tasks: [{
+				id: "6E1AD95B6C735FC3"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			title: "Чёрный чай"
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["Жёлтый чай, известный большинству как улун, имеет более землистый вкус, чем другие чаи, ну и ещё &aдаёт сопротивление&r на довольно продолжительное время."]
+			id: "65ADB03870DFBDAC"
+			rewards: [{
+				id: "12593935A24401B9"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Встретились как-то Тояма Токанава и Сунь Хунь"
+			tasks: [{
+				id: "3EC32AB3C0AB3AC9"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			title: "Чай улун"
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["Этот чай яркий, травянистый и вкусный! Он также даёт вам эффект &aускорения&r."]
+			id: "55D8EDF7F7770CB8"
+			rewards: [{
+				id: "76C1553E722EE9A3"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Зеленый значит свежий, нежный и восхитительный!"
+			tasks: [{
+				id: "433BC0AE1F0F4F4D"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			title: "Зелёный чай"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["Заварите восхитительный чай из одуванчиков для полуденного солнечного пикника. Чай наделит вас эффекто &dкомфорта&r, который, в свою очередь, &aпозволит вам использовать насыщение для исцеления независимо от уровня голода&r."]
+			id: "57AED567481E56A9"
+			rewards: [{
+				id: "638B885196196EB0"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Для спокойного вечера"
+			tasks: [{
+				id: "493FEF3F3EEFFBB1"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			title: "Ромашковый чай"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: [
+				"Сделайте себе гнойного чая. Он &aдаёт слабость&r, но также &aпродлевает случайный эффект на 15 секунд&r. "
+				"Не забудьте, что этим случайным эффектом может стать сама слабость."
+			]
+			id: "2FC8613FDF6B824F"
+			rewards: [{
+				id: "3BA4C868D71F518D"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "А вкус... Отвратительная мерзость!"
+			tasks: [{
+				id: "6BCF2EC47CE3F092"
+				item: "farmersrespite:purulent_tea"
+				type: "item"
+			}]
+			title: "Гнойный чай"
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["40C1DBE20E401EF9"]
+			description: ["Подобно колониям обычных грибов, &bколонии незерских грибы&r растут в &aполной темноте&r, но на &bплодородной почве душ&r. Если вы &6соберёте колонию ножницами&r, то получите её всю. &6Соберёте его рукой&r, и вы получите до 5 грибов. Я слышала, что с ними приятно проводить время. Вот вам ещё грибов."]
+			id: "57742DD8F99DBAF1"
+			rewards: [
+				{
+					count: 3
+					id: "3569C56E9635386B"
+					item: "nethersdelight:crimson_fungus_colony"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "188DDA735D8E26FD"
+					item: "nethersdelight:warped_fungus_colony"
+					type: "item"
+				}
+			]
+			subtitle: "Завязывать?"
+			tasks: [{
+				id: "219A3EABFF62B73B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:funguscolony"
+					}
+				}
+				title: "Любая колония незерских грибов"
+				type: "item"
+			}]
+			title: "Колония грибов"
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["507ACD6D650DECA2"]
+			description: ["Вы охотник за трофеями? Тогда обратите внимание на эту изысканную и смелую декорацию — &bтрофей хоглина&r."]
+			id: "41CEA7DC3EEF0F49"
+			rewards: [{
+				id: "1525CD29DD84C811"
+				item: "handcrafted:wither_skeleton_trophy"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "И никто так не носит улов, как Гастон!"
+			tasks: [{
+				id: "01F081161A9DD7EC"
+				item: "nethersdelight:hoglin_mount"
+				type: "item"
+			}]
+			title: "Трофейная голова"
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["507ACD6D650DECA2"]
+			description: ["Вы также можете использовать &bшкуры хоглина&r для создания &bкомпоста душ&r. Компост можно преобразовать в &bплодородную почву душ&r. Просто &6поместите компост рядом с лавой&r."]
+			id: "40C1DBE20E401EF9"
+			rewards: [{
+				id: "02B50B11ACF8B13D"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			subtitle: "Душевный компост? Жизненно"
+			tasks: [{
+				id: "6C186627FBFF9BF6"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			title: "Компост душ"
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: ["&bШкура хоглина&r может быть использована в кулинарных рецептах или очищена на &bразделочной доске&r для создания &bкожи&r."]
+			id: "507ACD6D650DECA2"
+			rewards: [{
+				count: 5
+				id: "01A7EF2C0A686D43"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "Мужики, не стреляйте!"
+			tasks: [{
+				id: "3469C9CCEC7F9270"
+				item: "nethersdelight:hoglin_hide"
+				type: "item"
+			}]
+			title: "Шкура хоглина"
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: ["Это заплесневелое мясо, честно говоря, довольно отвратительно. Но если вы хотите выполнить все свои квесты, вам &6нужно его сделать&r. Ха-ха-ха."]
+			id: "21DDAC7010761BB0"
+			rewards: [{
+				id: "5569F980E496EAF8"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Если забыть про хлеб, то получится примерно такое же"
+			tasks: [{
+				id: "30C86F641D8F4E4E"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			title: "Ужасная гадость"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Убивая &eхоглинов&r вашим верным &bножом&r, вы можете получить &bвырезку хоглина&r, &bшкуру хоглина&r и иногда &bсвиные окороки&r! Эти ингредиенты можно использовать в кулинарных рецептах."
+				""
+				"Хотя забить такую тушу ножом — то ещё испытание."
+			]
+			id: "773834D44C436587"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "5A69AEA5171C7940"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "695DBF55095C94CE"
+				item: "nethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			title: "Смешная нарезка свиней"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: ["Чтобы получить &bкусочки лавомерки&r, вам, естественно, нужно убить &eлавомерку&r с помощью &bножа&r. Довольно трагично, но если вы это сделаете, то сможете &6приготовить их как есть&r или разрезать кусочки в &bфарш&r на &bразделочной доске&r."]
+			id: "21A12DEE3432EF7F"
+			rewards: [{
+				count: 5
+				id: "76FF3A3CF66E25AD"
+				item: "nethersdelight:ground_strider"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Бессердечно!"
+			tasks: [{
+				id: "402DC0AD3D35C05F"
+				item: "nethersdelight:strider_slice"
+				type: "item"
+			}]
+			title: "Семь раз отмерь, один раз отрежь"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: [
+				"Заготовьте &bсырого фаршированного хоглина&r и &6поместите его в &bкухонный котёл&r с двумя &bнезерскими салатами&r, чтобы приготовить &bфаршированного хоглина&r. "
+				""
+				"Центральное блюдо самого роскошного пира!"
+			]
+			id: "236484A484723F55"
+			rewards: [
+				{
+					id: "238817E1F80D8DF2"
+					item: "fantasyfurniture:decorations/nordic_mead_bottles"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E5B53D0680A4A6A"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			subtitle: "\"Большие скоты, я не могу их иначе назвать.\""
+			tasks: [{
+				id: "25DFEAB995A93CFF"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			title: "Месть хоглину"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			description: ["&bГремучие ягоды&r можно найти в Незере. Они похожи на тростник, но чёрного цвета, с светящимися шариками на вершине. Ягоды можно собрать, &6щёлкнув по ним ПКМ&r.  "]
+			id: "76BB908C21246B36"
+			rewards: [{
+				count: 5
+				id: "31CE1B6A8A1B36C7"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			subtitle: "Сапёр ошибается только один раз"
+			tasks: [{
+				id: "6750441E49D21045"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			title: "Вознесение из Незера"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76BB908C21246B36"]
+			description: ["Это блюдо глубоко питательно, но оно не остынет, сколько бы вы на него ни дули."]
+			id: "0B8ABF32A9C31887"
+			rewards: [{
+				id: "6D0B8699A4DE9B38"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "netherdepthsupgrade:lava_vision"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Кто же вы, что спокойно пьёте лаву!?"
+			tasks: [{
+				id: "14E3F3C39D06D3BC"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			title: "Горяченная штучка"
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["76BB908C21246B36"]
+			description: [
+				"&bГремучий тростник&r нельзя собрать ничем, кроме &6ножа&r. Тростник можно нарезать в &bпорох&r на разделочной доске или использовать для &aсоздания &bгремучих факелов&r (несмотря на грозное название, это просто факелы). "
+				"&bТростник&a хорошо растёт на &bплодородной почве душ&r."
+			]
+			id: "3975B8BC61249AF4"
+			rewards: [{
+				id: "04563981AA1F1159"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "Жаль, что он не взрывает, как крипер"
+			tasks: [{
+				id: "19F2200461C2C9E8"
+				item: "nethersdelight:propelplant_cane"
+				type: "item"
+			}]
+			title: "Чё минируем?"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["236484A484723F55"]
+			description: [
+				"Прежде чем насладиться вашим &bфаршированным хоглином&r, вы должны сначала &6отрезать самую вкусную часть ножом&r — &bуши&r. Пальчики оближешь! "
+				"Затем вы сможете набрать &aостальные части&r, &6щёлкнув ПКМ по хоглину миской&r. Не тратьте ничего впустую!"
+			]
+			id: "4FEE0688A44D8421"
+			rewards: [{
+				id: "5D1ADE3B08FA95A9"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "Разве можно накормить этим всех-всех-всех?"
+			tasks: [
+				{
+					id: "5A8775E9AF7F69FD"
+					item: "nethersdelight:hoglin_ear"
+					type: "item"
+				}
+				{
+					id: "76E7EB8BEFBE6DFE"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					id: "4329B164D057D28C"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
+				}
+				{
+					id: "675DE303318A5C19"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
+				}
+			]
+			title: "Колбасы Карла Гагенбака"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&bНожи&r гарантируют вам &aдополнительную добычу с животных&r, к примеру, &bперья&r, &bкожу&r, а также &aдополнительную добычу при ломании травы&r. "
+				"Это значительно облегчает начало вашего сельскохозяйственного пути. Да и его продолжение, чего уж тут."
+			]
+			id: "4F8BE51C9D3C16A2"
+			rewards: [
+				{
+					count: 5
+					id: "297E4B1871DB3C75"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "25ECA617F549B5AF"
+					item: "farmersrespite:tea_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Им можно много хорошего сделать, а делают больше зла… да"
+			tasks: [{
+				id: "1013400BF2BCA148"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				title: "Любой нож"
+				type: "item"
+			}]
+			title: "Богатство — это нож"
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&bКухонный котёл&r позволит вам приготовить уникальные сытные и вкусные блюда! Чем больше разных блюд вы попробуете, тем &aбольше сердец вы получите&r, что делает котёл важным инструментом для ведьмы-приключенца-кулинара."
+				""
+				"Поместите &bкотёл&r на источник тепла — &bогонь&r, &bкостёр&r, &bмагма&r или &bкухонная плита&r — чтобы нагреть её. Затем &6поместите ингредиенты в котёл&r."
+				""
+				"Вам также понадобится что-то, чтобы подать ваше блюдо, например, &bмиска&r, &bбутылочка&r или &bтыква&r!"
+				""
+				"Если вы сломаете &bкотёл&r, то он сохранит своё содержимое."
+			]
+			id: "2615CD06E32EC741"
+			rewards: [
+				{
+					count: 5
+					id: "3ABD251C45CEB3DB"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4E00071CF998F118"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "5DC14F4D16E09573"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Давай топор; я из топора сварю!"
+			tasks: [{
+				id: "3745E18A47EF78E3"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Приготовлю всё!"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: [
+				"&bКухонная плита&r — это невероятно полезный инструмент. Благодаря вашей врождённой магии, она всегда снабжена топливом! Вы можете &6поместить до 6 продуктов&r на гриль, чтобы приготовить их. Они всплывут в виде предметов, когда будут приготовлены! Вы можете &6поместить перевёрнутую &bкорзину&r над ней, чтобы автоматически собрать их."
+				""
+				"&bПлита&r также может использоваться как источник тепла для &bкухонного котла&r, но если вы поставите его, то не сможете жарить предметы на решётке плиты."
+			]
+			id: "492DDC880E65C534"
+			rewards: [{
+				count: 6
+				id: "5598696BF6CA42B2"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			subtitle: "Не бросайте воду в огонь!"
+			tasks: [{
+				id: "4449EF43300452B9"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Поддай жарку"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7557E8749BF869DF"]
+			description: ["&bКора&r получается остаётся после очистки бревна на &bразделочной доске&r. Она может использоваться для изготовления &bкомпоста&r, &bбумаги&r или даже &aэля&r."]
+			id: "1984CA53390BA48B"
+			rewards: [{
+				id: "0D0A7987CBA65F84"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Безотходное производство"
+			tasks: [{
+				id: "6D57AF047F1836C3"
+				item: "farmersdelight:tree_bark"
+				type: "item"
+			}]
+			title: "Древесная кора"
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F8BE51C9D3C16A2"]
+			description: ["&bРазделочная доска&r позволит вам подготовить продвинутые ингредиенты для ваших блюд, скажем, &bбекон&r или &bрыбное филе&r. Просто &6поместите предмет на разделочную доску&r и &6щёлкните ПКМ ножом по нему&r. Это не единственное применение для &bразделочной доски&r! Попробуйте поэкспериментировать с &bбрёвнами&r (используя &bтопор&r) или ненужной &bкожаной бронёй&r (&bножницами&r)!"]
+			id: "7557E8749BF869DF"
+			rewards: [{
+				count: 3
+				id: "0EA1D35A9F04C243"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			subtitle: "Идеальная нарезка"
+			tasks: [{
+				id: "4F456D411C163AA8"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Разделать под орех"
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["&bСобачий корм&r и его альтернатива — &bкорм для лошадей&r, &aусилят соответствующих животных на 5 минут&r."]
+			id: "3A6AAE50897DE597"
+			rewards: [{
+				id: "126BF295D5636A39"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "А не так уж и плохо... Надеюсь, Рекс поделится"
+			tasks: [{
+				id: "394855991D625C6F"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			title: "Допинг для животных"
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["Вы можете приготовить &bпасту с фрикадельками&r в &bкухонном котле&r. Употребление полноценных блюд, таких как это, наделяет вас эффектом &aсытости&r, &aпредотвращающим потерю голода и насыщения&r на некоторое время. Полезно, если вы собираетесь в опасное место, так вы не попадёте в трудную ситуацию из-за истощения!"]
+			id: "0E2749D8FEEF0D49"
+			rewards: [
+				{
+					id: "640367BC0F0D8742"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "43D7D0DF5EF78A79"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Итак он быв вознесен макаронею десницею."
+			tasks: [{
+				id: "172CAB10518E2360"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			title: "Комплексный обед"
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["&bГорячее какао&r делается из &bбутылочки молока&r. В то время как &bбутылочка молока&r удаляет один эффект, положительный ИЛИ отрицательный, &bгорячее какао&r &aудаляет только отрицательные эффекты&r! Алексей Иванович Абрикосов знал, что делал."]
+			id: "6A71E1C275F02732"
+			rewards: [{
+				count: 2
+				id: "221F119891D4666B"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Секрет здоровья"
+			tasks: [{
+				id: "65057C003DB715B6"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			title: "Амброзия"
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["Некоторые блюда, например, &bветчину в медовой глазури&r или &bпастуший пирог&r нужно &6разместить в мире&r, чтобы съесть. Они отлично подходят для украшения вашего (визуального) пиршества! Вам также понадобится &bмиска&r, чтобы набрать себе порцию, так что вот, возьмите одну."]
+			id: "5F2C26D1C6302016"
+			rewards: [
+				{
+					id: "06A907B51E284D8A"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					id: "3E29B984F05E6A0B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6EC2D8A548A17C8B"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1127684054
+									-722645539
+									-1341546007
+									1251447259
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q3Njk2N2QyYWI3NGI3ZWJjZTVhODEzZWYwMDViMzZlNzY5NWM2Nzg3NzQ3ZDRlODBkYTJiMjRlM2RmMjlhNyJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Jelly Pumpkins\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Добавляем картошки, солим... и ставим аквариум на огонь!"
+			tasks: [{
+				id: "3A9D9E271D952C74"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "Гора еды"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["С &bорехами&r вы можете сделать &bореховое масло&r. Намажьте &bмасло&r и свежеприготовленное &bжеле&r на &bхлеб&r, и у вас будет питательный, вкусный обед."]
+			id: "1F80DCFD23DD5592"
+			rewards: [
+				{
+					id: "4C46D6CF204B11E6"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F3F46B77333DD28"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Арахисовое масло и джем, не другой АМД"
+			tasks: [
+				{
+					id: "51F7EE88D16F9C6F"
+					item: "delightful:nut_butter_bottle"
+					type: "item"
+				}
+				{
+					id: "1C26293084C4E414"
+					item: "delightful:jelly_bottle"
+					type: "item"
+				}
+				{
+					id: "54114F5631B5F895"
+					item: "delightful:nut_butter_and_jelly_sandwich"
+					type: "item"
+				}
+			]
+			title: "Амд"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1556BE457F25FA9F"]
+			description: ["Ага, вот оно! &aИдеальная еда&r. Все необходимые эссенции собрались в одном блюде... сбалансированное и вкусное кушанье, так и манящее вкусовые сосочки и урчащий животик."]
+			id: "0C69D56AA7884F5B"
+			rewards: [
+				{
+					id: "3195D1AE38C213AB"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					id: "4AE2DC7A33F8D33D"
+					item: "delightful:deluxe_cheeseburger"
+					type: "item"
+				}
+				{
+					id: "428C119B85669349"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1938192516
+									1201750113
+									-1682175958
+									-1065810520
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiYWQyYzJkNDgzNzQxYWUwYTdiNGE0YmY0MzQyMTI3MGIwZTVkZWI0NjRkNGY4NWZkNzY4OGIxYTYwYjRlOSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Burger\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "У меня в холодильнике столько всего нет..."
+			tasks: [{
+				id: "7D79193E3DB22B8E"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			title: "Шикуем"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["Этот квест существует исключительно для того, чтобы вы сделали &bсмор&r... и вот вам ещё, чтобы вы не СМОРИЛИ (ха-ха, поняли?) себя голодом."]
+			id: "63A2968E78D4A9A7"
+			rewards: [{
+				id: "3E1EA7E6D9D6C3F7"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Сморе сахара"
+			tasks: [{
+				id: "18B430FC14DF3E99"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			title: "Смор"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["Я не уверена, кто первым придумал идею есть &bэндер-жемчуг&r, но эй... почему бы и нет?"]
+			id: "1A9E6F1B730A4F17"
+			rewards: [{
+				id: "2B2675CDE782F15B"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Нектар... высших существ?"
+			tasks: [{
+				id: "1255A03F5F6FFD32"
+				item: "delightful:ender_nectar"
+				type: "item"
+			}]
+			title: "Эндер-нектар"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["Правильно ли взять тщательно приготовленный, церемониальный &bматча&r, а затем засыпать туда сахар и сделать из него латте? Ну, если правильно, то я не хочу быть правой."]
+			id: "118197B7B107DB7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10DC42C107D9FA11"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Матча-латте? Мне лутче чачу"
+			tasks: [{
+				id: "6850101F53C46A4F"
+				item: "delightful:berry_matcha_latte"
+				type: "item"
+			}]
+			title: "Ягодный матча-латте"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["Шаг первый на пути к идеальному бургеру: скромный &bгамбургер&r. Скромбургер, если хотите. Гамбумбл? Не знаю."]
+			id: "717B733896BBB2AA"
+			rewards: [{
+				id: "2B1743C30515E8AF"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Не слишком задумывайтесь о награде"
+			tasks: [{
+				id: "462DF8DCBA008581"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			title: "Хэмбургр"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["717B733896BBB2AA"]
+			description: ["Уже вдвое лучше благодаря &bcыру&r, но этот бургер всё ещё можно улучшить..."]
+			id: "1556BE457F25FA9F"
+			rewards: [{
+				id: "195EAE0E53DF5B7A"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "С чиз бургер"
+			tasks: [{
+				id: "093DC4B94272690F"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			title: "С чембургер?"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: ["Съешьте гору тортов! Это вкусное угощение, и вы его заслужили."]
+			icon: "minecraft:cake"
+			id: "78A59A17FEDDE305"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DEE4BA4AB4802DC"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "4349E09114B69DB5"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									843234447
+									-1704705483
+									-1304221926
+									751006699
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFhZjQ4ZGNhNDQ5NGMzNDEzYjk5MTc1OThlOWFmNWRjZjc4ODAwYTIxOGI1ZTg4NTY5Njk1ZDAyMjQyMjNkOSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Cake\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Не думайте, съешьте тортик"
+			tasks: [{
+				id: "23C5964D9AF61295"
+				stat: "minecraft:eat_cake_slice"
+				title: "Let Them Eat Cake"
+				type: "stat"
+				value: 70
+			}]
+			title: "Тортик — не ложь >:("
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E2749D8FEEF0D49"]
+			description: ["Достигните этого достижения, &6попробовав каждое доступное блюдо&r! Вы можете найти всю еду, &6написав \"еда\" в &r&lJEI&r или вашем хранилище, но засчитывается &dеда только из мода &lFarmer’s Delight&r."]
+			id: "706D91D3C11487E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4550277EDDDDD722"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					id: "2026E8C86E3C0525"
+					item: "fantasyfurniture:dunmer/oven"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Дичь не улетит, она жареная"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "0D13DAED0731D633"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["&bСковорода&r — это способ готовить на ходу. Ей не нужно топливо и нужен только источник тепла, &6надо лишь поставить её щёлкнув ПКМ крадучись&r! Также, в отличии от печей, сковородой &aможно проломить пару голов супостатов&r: она наносит внушительный урон и принимает зачарования мечей, например, &aзаговор огня&r ускоряет скорость готовки сковороды."]
+			id: "7E532A89B21B20D1"
+			rewards: [{
+				id: "62A1E505361F41BF"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-228580091
+								-1028111819
+								-1318891776
+								1652123010
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMyNTQ1YTk4OTdjNGYwODA5ZDdlOWQ3ZGU0YjQ5OWNhZmQ4ZDZhNDJhMGVhY2Y0Y2FhYmYzNDg4YWRjYTIxMSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Bread\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Побил врага -> пожарил врага"
+			tasks: [{
+				id: "3572E071C5CF9B13"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Гастрономический тур"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["Вегетарианец? Не волнуйтесь, мы вас прикроем! Почему бы не приготовить вкусные &aвегетарианские блюда?&r"]
+			id: "181F5C00C8DE417B"
+			rewards: [
+				{
+					id: "00BB229E93D094FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5001AB54E4EC8D8C"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Не только же мясо есть"
+			tasks: [
+				{
+					id: "5D3DF311714321D3"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "716132555178F121"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			title: "Вкусненькие овощи"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F2C26D1C6302016"]
+			description: ["Есть много блюд, которые нужно &6поставить на стол, чтобы съесть&r. Создайте каждое из них и покажите свою искусность как кухонной ведьмы."]
+			id: "6C75BE906A574DAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A2D43393E9BD663"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "6F880DBA7486C95D"
+					item: {
+						Count: 1b
+						id: "vinery:solaris_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Давай мясо! Давай мясо!"
+			tasks: [
+				{
+					id: "6076E0AA73CD466C"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "0BE2678DD596C4AF"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					id: "11A0BCBAB6A55DFD"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "1F42924543742DA2"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "53F113D4CC1C56AB"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "01D7BC66C57C941E"
+					item: "nethersdelight:raw_stuffed_hoglin"
+					type: "item"
+				}
+			]
+			title: "Океан еды"
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Трудно переоценить моё удовлетворение от работы, которую вы проделали &aделая эти тОрты&r. Они такие вкусные и хорошо пропитанные! "
+				""
+				"Но посмотрите на меня, всё ещё говорящую, когда нужно продолжать выполнять квесты. Возьмите эту награду и постарайтесь не сгореть на работе."
+			]
+			id: "42DD1CCF09065C51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C4BD4C11506A6C9"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FEFD88FFD11D93E"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Хлеба, зрелищ... И ещё хлеба"
+			tasks: [
+				{
+					id: "3222F024982DC1F9"
+					item: "farmersrespite:coffee_cake"
+					type: "item"
+				}
+				{
+					id: "7AF9D90E01315010"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "5C689E561D10DA72"
+					item: "neapolitan:vanilla_cake"
+					type: "item"
+				}
+				{
+					id: "4B793E353FFA3591"
+					item: "neapolitan:banana_cake"
+					type: "item"
+				}
+				{
+					id: "3435EBED9042F7FA"
+					item: "neapolitan:adzuki_cake"
+					type: "item"
+				}
+				{
+					id: "794070A332620DDE"
+					item: "neapolitan:mint_cake"
+					type: "item"
+				}
+				{
+					id: "6240DE8D06E2AEFA"
+					item: "twilightdelight:aurora_cake"
+					type: "item"
+				}
+				{
+					id: "0D23ED8936A0E9A4"
+					item: "neapolitan:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "1E2254A2E7458F5A"
+					item: "collectorsreap:lime_cake"
+					type: "item"
+				}
+				{
+					id: "5FE7CEECEAD14A5F"
+					item: "collectorsreap:pomegranate_cake"
+					type: "item"
+				}
+				{
+					id: "3F2529E14FD63BC7"
+					item: "twilightdelight:torchberry_cake"
+					type: "item"
+				}
+				{
+					id: "0FEC3475EF849160"
+					item: "twilightdelight:phytochemical_cake"
+					type: "item"
+				}
+				{
+					id: "163764125AFFC653"
+					item: "twilightdelight:glacier_cake"
+					type: "item"
+				}
+				{
+					id: "38EC1EA96A7AF744"
+					item: "neapolitan:strawberry_cake"
+					type: "item"
+				}
+			]
+			title: "Тортоголик"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["&bЧай из азалии&r — это вкусный способ насладиться красотой азалии!"]
+			id: "43936FB55988472C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20A61BB1FF1A65A1"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Насыщение и умиротворение"
+			tasks: [{
+				id: "2C0EC7F97028F2F7"
+				item: "delightful:azalea_tea"
+				type: "item"
+			}]
+			title: "Чай из азалии"
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			id: "1649B81C8A139731"
+			invisible: true
+			tasks: [{
+				id: "1FA8CAD5BF7C06D1"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Знали ли вы, что можете &aавтоматизировать свою готовку с помощью &lCreate&r? Можете! &6Щёлкните ПКМ&r &bруководством готовки&r по &bгорелке всполоха&r, чтобы &6создать &bплиту всполоха&r. "
+				""
+				"&6Удерживайте W, чтобы размышлять&r над &bруководством готовки&r для получения дополнительной информации. "
+				"Убедитесь, что &bруководство готовки&r находится вне &bтома Акаши&r или &dкнига будет поглощена&r в процессе. Проверьте &aобучающие квесты&r для получения информации о том, как удалить книгу из &bтома Акаши&r."
+			]
+			id: "1C7D5C2C8C201E83"
+			rewards: [{
+				id: "6A0AE4E69D14B683"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Я требую продолжения банкета!"
+			tasks: [{
+				id: "3A0EBB76C04A0C8A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			title: "Завод еды"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			description: [
+				"Как только вы получите &bяйцо дракона&r, вы можете использовать его для создания &bнедозревшего яйца дракона&r. "
+				"Этот предмет можно разрезать только с помощью &aэкстремальной остроты&r &bзвезды Незера&r на &bразделочной доске&r. Разрезав яйцо, вы получите &aнесколько ингредиентов&r, необходимых для высокоуровневых блюд."
+			]
+			id: "4264920573ADC879"
+			rewards: [{
+				count: 3
+				id: "077F1BFE976B91C4"
+				item: "ends_delight:half_dragon_egg_shell"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "533CE3A0F90D92E6"
+				item: "ends_delight:non_hatchable_dragon_egg"
+				type: "item"
+			}]
+			title: "Истребитель драконов"
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4264920573ADC879"]
+			description: [
+				"Чтобы удержать неукротимые вкусовые качества &aдраконьего белка&r, вам понадобится подходящая посуда. "
+				"Создайте &bполовинку скорлупы яйца дракона&r."
+			]
+			icon: "ends_delight:half_dragon_egg_shell"
+			id: "16ECF08D421359AC"
+			rewards: [
+				{
+					count: 3
+					id: "73BDB58110F0E9A8"
+					item: "ends_delight:chorus_succulent"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50A025BAEC58D43F"
+					table_id: 5161092699925703455L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Для тех, у кого есть яйца"
+			tasks: [{
+				id: "1EDE66F2AA094083"
+				item: "ends_delight:half_dragon_egg_shell"
+				type: "item"
+			}]
+			title: "Яймечательная тарелка"
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["16ECF08D421359AC"]
+			description: [
+				"&bТушёное мясо дракона&r… что может быть большим проявлением силы, чем &cпотребление ваших павших врагов&r? &4А на глазах другого дракона&r?"
+				""
+				"Это было слишком? Это было слишком, не так ли?"
+			]
+			id: "10BD344DE9BF9D75"
+			rewards: [{
+				id: "7C9B1229AA7B77AB"
+				item: "ends_delight:dragon_meat_stew"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Буквально."
+			tasks: [{
+				id: "344338EB1EF089CD"
+				item: "ends_delight:dragon_meat_stew_block"
+				type: "item"
+			}]
+			title: "Пустить на мясо"
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["16ECF08D421359AC"]
+			description: ["Это невероятное блюдо на пару &aисполнит ваши самые смелые мечты&r... или, по крайней мере, &aдаст вам отличные баффы&r!"]
+			id: "43110B76D590F312"
+			rewards: [{
+				id: "10AA0AA0B0C4005F"
+				item: "ends_delight:steamed_dragon_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Буквально."
+			tasks: [{
+				id: "5A19395E94557321"
+				item: "ends_delight:steamed_dragon_egg_block"
+				type: "item"
+			}]
+			title: "Нарезать в салат"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16ECF08D421359AC"]
+			description: ["Завершите это достижение, создав &bсалат «Измерения»&r."]
+			id: "25C3A6BEFE246C3A"
+			rewards: [
+				{
+					id: "39B5615A2FD2DC12"
+					item: "ends_delight:assorted_salad"
+					type: "item"
+				}
+				{
+					id: "6A8F38155FA4D447"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2032202894
+									-1286453322
+									-1382874841
+									1386387422
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU2MmEzMTdmMmU4ZjM0OWEyN2UyOTZjZTIyNWI5ZThiMTI3ZDg4YmU2MWFhZWJmMTY2MDRiZmEyYWQ4MTMwOCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Eye of Ender\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Межпланарное блюдо"
+			tasks: [{
+				advancement: "ends_delight:get_assorted_salad"
+				criterion: ""
+				id: "5A3136C711223B37"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"43110B76D590F312"
+				"10BD344DE9BF9D75"
+			]
+			description: ["Поздравляю, вы приготовили одно из &aсамых магически насыщенных&r блюд во вселенной! Теперь вы можете называться кухонной ведьмой мирового уровня!"]
+			id: "224C1B2D30B8E7DF"
+			rewards: [{
+				id: "093972A8B8FC8B91"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Победителей не судят"
+			tasks: [{
+				advancement: "ends_delight:dragon_egg_shell_feast"
+				criterion: ""
+				id: "05A7CA3D3CBCBE10"
+				type: "advancement"
+			}]
+			title: "Полный фарш"
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			description: ["Возможно, &aсамый полезный предмет&r в &cшалкеровом лесу&r, этот чай &aочищает эффект левитации&r! Вам захочется сделать… пару кружек... несколько… много..."]
+			id: "7CDFDA310DE2A4E4"
+			rewards: [{
+				id: "0165EAD200F02FA0"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Чай-чай, выручай"
+			tasks: [{
+				id: "6A0AFA1484FD16DD"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			title: "Постоянно летать не так уж и романтично"
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			description: ["Не любите пасту из красной фасоли? Почему бы вместо этого не попробовать &bхорус&r в ваших &bмоти&r?"]
+			id: "456D45D35A596109"
+			rewards: [{
+				id: "291FE13121613BC8"
+				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Удивительно, но он никуда не отправляет"
+			tasks: [{
+				id: "407BDB60875F34F5"
+				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
+			}]
+			title: "Рисовый торт с хорусом"
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			description: ["Малоизвестный факт: &eшалкеры&r по сути как &bяйца&r! И, неудивительно, на &aвкус примерно такие же&r. Таким образом, они могут быть вкусным дополнением к вашему &aсбалансированному рациону&r."]
+			id: "6CA036FC470C17EA"
+			rewards: [{
+				id: "4754115A15498F8C"
+				item: "ends_delight:grilled_shulker_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "В процессе создания квеста пострадало ОЧЕНЬ МНОГО ШАЛКЕРОВ"
+			tasks: [{
+				id: "63995D2F0B5FC3F1"
+				item: "ends_delight:grilled_shulker_block"
+				type: "item"
+			}]
+			title: "Шалкеровое рагу"
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			description: ["Хотя его непросто сделать, &bдраконий суп&r даёт множество эффектов, которые делают его стоящим всех усилий!"]
+			id: "482A2BB52514C35B"
+			rewards: [{
+				id: "7CD023621DC3250A"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Свежее дыхание облегчает понимание"
+			tasks: [{
+				id: "6F26534C78596D5F"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
+			}]
+			title: "Взрыв свежести"
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			description: ["&bЖидкое яйцо дракона&r. Звучит интересно, не так ли? Вы &oможете&r съесть это и так… но почему бы не &aприготовить его сначала&r?"]
+			id: "28D201EE3AA699C2"
+			rewards: [{
+				id: "1B8581D84149BDFB"
+				item: "ends_delight:fried_dragon_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Протеиновое море"
+			tasks: [{
+				id: "30E139E7631FCE09"
+				item: "ends_delight:liquid_dragon_egg"
+				type: "item"
+			}]
+			title: "Жидкий дракон"
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			description: [
+				"Чтобы получить &bдраконий зуб&r, нужно &6убить &eдракона Края&6 с помощью &bножа&r."
+				""
+				"27-ми ударов явно не хватит."
+			]
+			id: "7E256574E63296C9"
+			rewards: [{
+				id: "73BA3E043B4ADCF4"
+				item: "ends_delight:dragon_tooth"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "И мёртвик :("
+			tasks: [{
+				id: "11717C3E575F3C33"
+				item: "ends_delight:dragon_tooth"
+				type: "item"
+			}]
+			title: "Беззубик"
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			description: ["&bКосточки винограда&r продаются у &eкрестьян-виноделов&r, рабочая станция у которых — &bяблочный пресс&r. Винограду не нужны грядки, его &aможно сажать прямо в землю&r."]
+			id: "7D770ADEB3905EE0"
+			rewards: [{
+				count: 6
+				id: "279B079D39770F55"
+				item: "vinery:red_grape"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Здесь есть хоть одна винная лавка?"
+			tasks: [{
+				id: "6E421AB16B8FAE63"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:grape_seeds"
+					}
+				}
+				title: "Любые косточки винограда"
+				type: "item"
+			}]
+			title: "Красное, белое"
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: [
+				"Хотя &bвиноград&r можно сажать прямо в землю, вы можете получить &aбольший урожай&r, &6посадив виноград на &bшпалеры&r или &bрешётки для виноградной лозы&r (для тропического винограда)."
+				"{image:cottagewitch:textures/grapevine.png width:100 height:56 align:1 fit:true}"
+			]
+			id: "516F4B3499491907"
+			rewards: [
+				{
+					count: 6
+					id: "7A51BC49882402BE"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "686263155CBFE623"
+					item: "vinery:grapevine_lattice"
+					type: "item"
+				}
+			]
+			subtitle: "Максимальная эффективность"
+			tasks: [
+				{
+					id: "1BA6CED99303B74C"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					id: "20AB931E2C84649B"
+					item: "vinery:grapevine_lattice"
+					type: "item"
+				}
+			]
+			title: "Наращивание сада"
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: ["Чтобы получить вишни, &6щёлкните ПКМ ножницами&r по плодоносящим вишнёвым листьям. Единственные &bвишнёвые деревья&r, дающие плоды, находятся в модификации &lLet’s Do Wine/Vinery&r."]
+			id: "28C888A9549BFA4E"
+			rewards: [
+				{
+					id: "2482C0C68C722C08"
+					item: "vinery:cherry_sapling"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2195D033C18CC25D"
+					item: "vinery:cherry"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "115D8DF67BCA000F"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			title: "Мы — сладкие вишни"
+			x: -6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: [
+				"Вы можете &aпоместить до 6 гроздей винограда&r одновременно в &bкадку&r. Как только кадка будет наполнена, &6встаньте в неё и начните топтать виноград ногами&r (прыгать)!"
+				""
+				"Теперь, вам останется только собрать виноградный сок, &6щёлкнув ПКМ по &bкадке&r с &bвинной бутылкой&r."
+			]
+			id: "68B2EF977B115725"
+			rewards: [{
+				count: 3
+				id: "3B51854674968C14"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			subtitle: "Ха-ха, придётся"
+			tasks: [{
+				id: "0CC50B6E8FCF4F3E"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			title: "Не дави на меня :("
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["547C558385301BA9"]
+			description: [
+				"Вам понадобится &bвинная бутылка&r, чтобы хранить ваши кружащие голову напитки. "
+				"&dИ сейчас мир немного несбалансирован&r. Хотя ваш &bвиноградный сок&r находится в &bвинной бутылке&r, вы &aне получите эти бутылки обратно&r, когда &aизготовите и потребите&r вино. Хорошие вещи стоят дорого, я полагаю!"
+			]
+			id: "15CAD3A9477E400B"
+			progression_mode: "linear"
+			rewards: [{
+				count: 10
+				id: "3DEF6364740AC91D"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			subtitle: "Лаву уже пили, пора заесть стеклом"
+			tasks: [{
+				id: "5C20C2788C00EBDB"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			title: "Без бутылки не разобраться"
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["68B2EF977B115725"]
+			description: [
+				"&bВинная бочка&r — это место, где происходят все опыты! &aЭтот мод побуждает вас играть с ингредиентами&r и эксперементировать с тем, что вы можете сделать! Вы можете &6просмотреть книгу рецептов&r в интерфейсе бочки и увидеть возможные ингредиенты там. "
+				""
+				"У вас есть немного &bсока красного винограда&r, верно? Почему бы не попробовать &6поместить одну из этих бутылок в бочку&r?"
+			]
+			id: "547C558385301BA9"
+			rewards: [
+				{
+					id: "227A77DBBC09788B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64483814C60BA629"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
+			subtitle: "Повышаем градус"
+			tasks: [{
+				id: "3E3C0BE3047DF87D"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			title: "Ферментация"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["15CAD3A9477E400B"]
+			description: [
+				"Поздравляю, вы сделали вкусную (для некоторых людей) бутылку &bтёмно-красного вина&r. Оно должно &aхорошо сочетаться со стейком на ужин&r."
+				""
+				"Теперь обязательно попробуйте смешать другие ингредиенты, например, &bяблочное пюре&r, &bмёд&r, или даже &bзолотые яблоки&r!"
+			]
+			id: "4051209155C0D4C0"
+			rewards: [
+				{
+					id: "78E13056C9BFEDA6"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					id: "674FF3475E34AB98"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Не надо так :( Пейте умеренно"
+			tasks: [{
+				id: "26FAD9AEB5512CC2"
+				item: {
+					Count: 1b
+					id: "vinery:noir_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Бить по затылку бутылку за бутылкой"
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: ["Как только вы сделаете себе &bполный комплект винодельческой одежды&r, вы будете не только выглядеть очаровательно, но и &aиспользуемая вами костная мука больше не будет расходоваться&r!"]
+			id: "635254DFB3E0B92D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5932DAAECB7D5607"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "465252E99016B9B1"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "ух-х, старовата я, чтобы говорить \"лук\""
+			tasks: [
+				{
+					id: "6D94E84FC752293A"
+					item: {
+						Count: 1b
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42AF7650C98BEC8B"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3064436CE9D922C3"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0893D25F3E801D1A"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Винодельный лук"
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6C75BE906A574DAE"]
+			id: "105FE523699A9F42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65BF89B1141BC952"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E1C1CD4DB78713E"
+					table_id: 4747620395501175375L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BC9F725B2CF6BB8"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1E69A4176C223AF7"
+					item: "netherdepthsupgrade:nether_rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					id: "589F4F634D75F684"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+			]
+			title: "Моря еды: Незер"
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C75BE906A574DAE"]
+			id: "0B2C0421BC81612C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4082C92756D7C138"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20C19B1562DBE7C2"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FCCAD4B194651A9"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "148625FE76AF1DAB"
+					item: "culturaldelights:exotic_roll_medley"
+					type: "item"
+				}
+				{
+					id: "45655A79ECC29A16"
+					item: "twilightdelight:meef_wellington_block"
+					type: "item"
+				}
+				{
+					id: "6D833CCC63A1758B"
+					item: "twilightdelight:fiery_snakes_block"
+					type: "item"
+				}
+				{
+					id: "6988484D464DAD72"
+					item: "twilightdelight:lily_chicken_block"
+					type: "item"
+				}
+				{
+					id: "5D1D6D136D06EF69"
+					item: "collectorsreap:portobello_quiche"
+					type: "item"
+				}
+			]
+			title: "Моря еды: Экзотика"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C75BE906A574DAE"]
+			id: "7851468E4A5F999E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D94C4E3E576D953"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1414C12C87D30752"
+					table_id: 7707783220386620668L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6D15C6F20CC69749"
+					item: "ends_delight:steamed_dragon_egg_block"
+					type: "item"
+				}
+				{
+					id: "30FD74AE1C635EFF"
+					item: "ends_delight:dragon_leg_with_sauce_block"
+					type: "item"
+				}
+				{
+					id: "07AF510F3F8727B9"
+					item: "ends_delight:grilled_shulker_block"
+					type: "item"
+				}
+				{
+					id: "6405282E31F11078"
+					item: "ends_delight:dragon_meat_stew_block"
+					type: "item"
+				}
+			]
+			title: "Моря еды: Край"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Существует много видов пирогов, и, создав их все, вы доказали, что вы пирогузнец. "
+				""
+				"Теперь я рекомендую &aположить эти пироги&r в вашу пирогальню и тщательно всё пережевать!"
+			]
+			id: "5D439CB08EE5A923"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "316705E13E8E587E"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "3.14159265359"
+			tasks: [
+				{
+					id: "294A37AD17757AC2"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "63C7CE30E57DF36F"
+					item: "ends_delight:chorus_fruit_pie"
+					type: "item"
+				}
+				{
+					id: "7F2AC9ED00EA99E3"
+					item: "environmental:cherry_pie"
+					type: "item"
+				}
+				{
+					id: "7E0EAEC029B9CDDC"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "5CE3E0EC2197F53F"
+					item: "delightful:salmonberry_pie"
+					type: "item"
+				}
+				{
+					id: "15B38708C3243E9D"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+				{
+					id: "69A0D3D8AA0D7222"
+					item: "collectorsreap:lime_pie"
+					type: "item"
+				}
+				{
+					id: "3D06C88B70CA8D69"
+					item: "upgrade_aquatic:mulberry_pie"
+					type: "item"
+				}
+				{
+					id: "3C74E3ABCF6216AF"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "29E796F40148F7DE"
+					item: "ends_delight:chorus_flower_pie"
+					type: "item"
+				}
+				{
+					id: "44BC34D1F42FF8B3"
+					item: "farmersrespite:rose_hip_pie"
+					type: "item"
+				}
+				{
+					id: "0D945CEECE000499"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "3DC09010A41BCF6D"
+					item: "meadow:cheesecake"
+					type: "item"
+				}
+			]
+			title: "Анонимные любители Пирогов"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43CC7A6F8C1284B5"]
+			description: [
+				"Вы сделали это! Вы наконец-то получили святой грааль еды: &bсыр&r. Чтобы &aполучить &bКусочек сыра&r, &6поставьте&r вашe головку сыра и &6щёлкните ПКМ&r по ней пустой рукой."
+				""
+				"Существует множество невероятных блюд, которые можно приготовить из &ole fromage&r (простите мой французский). Но что уж тянуть кота за хвост, давайте пойдём и сделаем &bфондю&r (в следующем квесте)."
+			]
+			id: "486FE1761F7E41E3"
+			rewards: [
+				{
+					id: "7D76B9B0F996A207"
+					item: {
+						Count: 1b
+						id: "vinery:clark_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2BA923B38B1D2EB3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "126BFC7E59EA3AA3"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
+			]
+			subtitle: "Скажите \"сыр\"!"
+			tasks: [{
+				id: "075CFC19D7C57F9C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "meadow:cheese_blocks"
+					}
+				}
+				title: "Любая головка сыра"
+				type: "item"
+			}]
+			title: "СЫЫыыЫыыр!"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4449135F7D10724F"]
+			description: [
+				"&bПресс для сыра&r — это примитивная машина, которая поможет &aсжать ваше молоко в сыр&r. Хотя вы также можете достичь этого с помощью &bмеханического пресса&r из &lCreate&r, всегда полезно знать оригинальные методы!"
+				""
+				"Просто поместите ваше &bмолоко&r и ваш &bсычужный фермент&r в пресс, а затем &6терпеливо ждите&r (или используйте &bвремя в бутылочке&r), пока они там не сделают своё волшебство."
+				""
+				"Различные &aвиды молока&r создадут уникальные сыры… но об этом подробнее как нибудь потом!"
+			]
+			id: "43CC7A6F8C1284B5"
+			rewards: [{
+				id: "52F2E9AB20189810"
+				item: "meadow:wooden_milk_bucket"
+				type: "item"
+			}]
+			subtitle: "А из молока — сыр"
+			tasks: [{
+				id: "10F24C6F606E244C"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			title: "Давление делает из угля алмаз"
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["684AF61973DB643F"]
+			description: [
+				"&bСычужный фермент&r — это вещество, полученное из… а на самом деле, знаете что? Давайте не будем вдаваться в подробности."
+				""
+				"Важная часть в том, что из него получается &bсыр&r, который вы теперь и можете сделать! Ну, как только вы &aсоздадите пресс для сыра&r. Приступим!"
+			]
+			id: "4449135F7D10724F"
+			rewards: [{
+				count: 4
+				id: "543F2E1FFCFC80B3"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			subtitle: "А запах то какой... КХА-КХА"
+			tasks: [{
+				id: "199614A27116767E"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			title: "Сычужок"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Ведьмы хорошо знакомы с &bкотлами&r и прекрасно знают, что никогда не следует варить и готовить в одном месте! Поэтому вам следует &aдостать себе &bкотелок&r, чтобы попробовать приготовить новые блюда."
+				""
+				"Этот кухонный прибор, в основном, нужен для &aизготовления &bсычужного фермента&r, но он также может &aприготовить простое мясо&r и даже вкусную…&aеду из медведя&r? Хм-м."
+				""
+				"В любом случае, все рецепты, добавленные этим модом, видны &aв интерфейсе котелка и пресса для сыра&r. Их нельзя найти в &lJEI&r! Поэтому убедитесь, что вы &6проверили интерфейс котелка&r."
+				""
+				"{image:cottagewitch:textures/rennet.png width:100 height:50 align:1 fit:true}"
+			]
+			id: "4E4341D997F9AE98"
+			rewards: [{
+				count: 6
+				id: "002A656D91256D87"
+				item: "meadow:raw_bear_meat"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Горшочек, стой... Стой, кому говорю, перестань варить"
+			tasks: [
+				{
+					id: "07A4D60B8F66A320"
+					item: "meadow:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "0A960C517FE10BEE"
+					item: "meadow:frame"
+					type: "item"
+				}
+			]
+			title: "Горшочек, вари!"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["486FE1761F7E41E3"]
+			description: [
+				"Чтобы насладиться прекрасным &bфондю&r, просто &6положите хлеб и кусочек сыра в фондюшницу&r и насладитесь этим вкусным, расплавленным угощением."
+				""
+				"Только немного подуйте. Эта штука как лава!"
+			]
+			id: "561E0AC36A0C1DB4"
+			rewards: [
+				{
+					id: "7F531AFE46E2E309"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "60FE11617AB55BDC"
+					item: "meadow:piece_of_buffalo_cheese"
+					type: "item"
+				}
+			]
+			subtitle: "Главное не растайте от удовольствия"
+			tasks: [{
+				id: "524AA3711696170D"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			title: "Лю делисьё фондю"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E4341D997F9AE98"]
+			description: [
+				"&bСоль&r является важным ингредиентом в &bсыроварении&r. Её можно найти на &cлугах&r, вкраплённой в &bизвестняк&r."
+				""
+				"Поместите соль, вместе с &bсырой говядиной&r и &bбутылочкой&r, в &bкотелок&r, чтобы сделать &bсычужный фермент&r, следующий шаг в получении самой вкусной группы продуктов."
+			]
+			id: "684AF61973DB643F"
+			rewards: [{
+				count: 5
+				id: "1C58B4117732A2B4"
+				item: "meadow:alpine_salt"
+				type: "item"
+			}]
+			subtitle: "Аттическая соль"
+			tasks: [{
+				block: "meadow:alpine_salt_ore"
+				block_type: 0
+				checkItem: false
+				id: "60EB0849563B7F8B"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "Альпийский снег"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E4341D997F9AE98"]
+			description: [
+				"Существует множество различных видов &bмолока&r, из которых можно сделать &aуникальные и вкусные сыры&r."
+				""
+				"Хотя большинство из них получаются от &aразличных видов &eживотных&r, вы также можете создать &bрастительное молоко&r (подходит для веганов!) и &bАметистовое молоко&r. Эти два последних вида молока создаются с помощью &bкотелка&r. Растительное молоко делается из горстей семян и одного &dдеревянного&r ведра с водой. Аметистовое молоко делается из аметиста и, ну, молока… Интересно, какое оно на вкус?"
+				""
+				"&eВодяных буйволов&r можно найти у &cрек&r."
+				""
+				"&eИскажённые коровы&r живут в &cискажённых лесах&r."
+			]
+			id: "31CE923007EF1D03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D234C88D3E2B5A"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43F87593A57FD77D"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BDBA6DF75D59385"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Будете здоровы!"
+			tasks: [
+				{
+					id: "598A0D833CA0EBE5"
+					item: "meadow:wooden_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "70B7321FCA03B4F8"
+					item: "meadow:wooden_sheep_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "355D317CD1BF5C32"
+					item: "meadow:wooden_buffalo_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "07914BB6355F731F"
+					item: "meadow:wooden_goat_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "10F0DCAE8F924F07"
+					item: "meadow:wooden_warped_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "22D5D533D052AF44"
+					item: "meadow:wooden_grain_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "032E0831C523F75E"
+					item: "meadow:wooden_amethyst_milk_bucket"
+					type: "item"
+				}
+			]
+			title: "Пейте дети молоко"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: ["Существует много различных видов винограда! Сможете ли вы собрать по грозди каждого?"]
+			id: "40C54E2C3375C44D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "276EA674AD33BCB2"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					id: "459E314EA3A709DA"
+					item: {
+						Count: 1b
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Виноградотека"
+			tasks: [
+				{
+					id: "0CC41F3E4AC51490"
+					item: "vinery:red_grape"
+					type: "item"
+				}
+				{
+					id: "3BBF1696526D0EA0"
+					item: "vinery:white_grape"
+					type: "item"
+				}
+				{
+					id: "0DD5031BDC656C53"
+					item: "vinery:savanna_grapes_red"
+					type: "item"
+				}
+				{
+					id: "0802190701FC4514"
+					item: "vinery:savanna_grapes_white"
+					type: "item"
+				}
+				{
+					id: "3FEBB71D4314F6F6"
+					item: "vinery:taiga_grapes_red"
+					type: "item"
+				}
+				{
+					id: "2B75BECC8911FDE8"
+					item: "vinery:taiga_grapes_white"
+					type: "item"
+				}
+				{
+					id: "0CE7499AD423248E"
+					item: "vinery:jungle_grapes_red"
+					type: "item"
+				}
+				{
+					id: "181FD6A75A39B761"
+					item: "vinery:jungle_grapes_white"
+					type: "item"
+				}
+			]
+			title: "Град из винограда"
+			x: -4.0d
+			y: 13.5d
+		}
+	]
+	title: "Искусство кулинарии"
+}

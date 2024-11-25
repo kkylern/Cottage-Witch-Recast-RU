@@ -1,0 +1,24 @@
+{
+	"block.shorkmod.blue_shark": "Блохэй",
+	"block.shorkmod.black_shark": "Свартахэй",
+	"block.shorkmod.blue2_shark": "Мёркблохэй",
+	"block.shorkmod.brown_shark": "Брунхэй",
+	"block.shorkmod.green_shark": "Грёнхэй",
+	"block.shorkmod.gray_shark": "Грохэй",
+	"block.shorkmod.light_gray_shark": "Юсгрохэй",
+	"block.shorkmod.cyan_shark": "Сьянхэй",
+	"block.shorkmod.lime_shark": "Кларгрёнхэй",
+	"block.shorkmod.pink_shark": "Росахэй",
+	"block.shorkmod.purple_shark": "Лилахэй",
+	"block.shorkmod.red_shark": "Рёдхэй",
+	"block.shorkmod.trans_shark": "Траншэй",
+	"block.shorkmod.white_shark": "Витхэй",
+	"block.shorkmod.yellow_shark": "Гулхэй",
+	"block.shorkmod.orange_shark": "Оранжхэй",
+	"block.shorkmod.magenta_shark": "Магентахэй",
+
+	"block.shorkmod.blahaj.tooltip": "Поистине самое драгоценное существо.",
+
+	"tooltip.shorkmod.owner.craft": "Создано %s",
+	"tooltip.shorkmod.owner.rename": "%s от %s"
+}

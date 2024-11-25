@@ -1,0 +1,15 @@
+{
+  "gravelminer.toggleOn": "GravelMiner: Вкл.",
+  "gravelminer.toggleOff": "GravelMiner: Выкл.",
+  "key.categories.gravelminer": "GravelMiner",
+  "key.gravelminer.toggle": "Включить GravelMiner",
+  "text.autoconfig.gravelminer.title": "GravelMiner",
+  "text.autoconfig.gravelminer.option.common": "Общие",
+  "text.autoconfig.gravelminer.option.common.gravelBlocks": "Блоки гравия",
+  "text.autoconfig.gravelminer.option.common.triggerOnGravel": "Автоматический запуска на гравии",
+  "text.autoconfig.gravelminer.option.common.isOptIn": "Согласован?",
+  "text.autoconfig.gravelminer.option.common.rollFlintChance": "Выпадение кремния",
+  "text.autoconfig.gravelminer.option.client": "Клиент",
+  "text.autoconfig.gravelminer.option.client.isEnabled": "Включён?",
+  "text.autoconfig.gravelminer.option.client.activation": "Активация"
+}

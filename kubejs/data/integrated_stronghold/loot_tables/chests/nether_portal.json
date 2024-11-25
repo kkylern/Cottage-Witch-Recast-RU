@@ -1,0 +1,542 @@
+{
+  "type": "minecraft:chest",
+  "pools": [    
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lГид §kЗАШИФРОВАНО\\\"},
+                {\\\"text\\\":\\\"§lпо огненным существам Незера\n\n\\\"},
+                {\\\"text\\\":\\\"Незер — это измерение под нашим, полное огня, лавы и всего горячего и опасного. \\\"},
+                {\\\"text\\\":\\\"Его обитатели адаптированы к этой опасной среде. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Мы получили доступ к этому измерению только недавно после изобретения Незер портала.\n\n\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lНезер портал\n\n\\\"},
+                {\\\"text\\\":\\\"Незер портал — это полый прямоугольник из обсидиана с пурпурным светящимся ореолом. \\\"},
+                {\\\"text\\\":\\\"Он активируется, как только он зажигается огнивом или заряд огня. \\\"},
+                {\\\"text\\\":\\\"При активации, когда существо проходит через него, оно переносится в измерение Незера. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lПиглины\n\n\\\"},
+                {\\\"text\\\":\\\"Пиглины — это раса ходячих свиней, живущих в Незере. Они предпочитают жить в пустошах Незера и багровых лесах. \\\"},
+                {\\\"text\\\":\\\"Они очень ценят золото и становятся враждебными, если ваша броня не из золота. \\\"},
+                {\\\"text\\\":\\\"Кроме того, они будут защищать свои вещи и нападут, если кто-то откроет \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"их сундуки. Они довольно умный вид и массивные бастионы из чернита, разбросанные по всему Незеру, это их постройки. \\\"},
+                {\\\"text\\\":\\\"Мы должны продолжать относиться к их виду с уважением ради блага всех.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lХоглины\n\n\\\"},
+                {\\\"text\\\":\\\"Хоглины — это крупные свиноподобные существа, враждебные почти всему, с чем сталкиваются. \\\"},
+                {\\\"text\\\":\\\"Однако они не нападают на пиглинов. \\\"},
+                {\\\"text\\\":\\\"Они являются отличным источником мяса и кожи в измерении Незера.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lМагмовый куб\n\n\\\"},
+                {\\\"text\\\":\\\"Магмовые кубы — это комковидные существа, обитающие в базальтовых дельтах. \\\"},
+                {\\\"text\\\":\\\"После убийства они распадаются на меньшие кубы. \\\"},
+                {\\\"text\\\":\\\"Они враждебны, но самые маленькие не причинят вреда. Их эссенция является ценным ингредиентом для зелий.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lЛавомерка\n\n\\\"},
+                {\\\"text\\\":\\\"Лавомерки — это пассивные существа, живущие возле лавовых озёр в Незере. \\\"},
+                {\\\"text\\\":\\\"У них есть невероятная способность ходить по лаве. Возможно, эта сила может быть использована для навигации по огненному измерению. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lГаст\n\n\\\"},
+                {\\\"text\\\":\\\"Гасты — это ревущие, летающие кубы несущие смерть и разрушение. Они встречаются в Пустошах Незера и Долинах душ. \\\"},
+                {\\\"text\\\":\\\"Если вы увидите одного и у вас нет дальнобойного оружия, убегайте так быстро, как можете. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Если вы сможете выполнить сложную задачу по сбору его слёз, говорят, что они обладают множеством магических способностей.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lПризрак\n\n\\\"},
+                {\\\"text\\\":\\\"Призрак — это плавающее, прозрачное существо, найденное в Долинах душ. \\\"},
+                {\\\"text\\\":\\\"Говорят, что это \\\"},
+                {\\\"text\\\":\\\"§kреинкарнация\\\"},
+                {\\\"text\\\":\\\" предыдущего существа из-за их знакомых криков.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§lЛисья гончая\n\n\\\"},
+                {\\\"text\\\":\\\"Лисья гончая — это волкоподобное существо, которого можно найти по всему Незеру. \\\"},
+                {\\\"text\\\":\\\"Изначально они враждебны, но с огнестойкостью и углём их можно одомашить.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§kСтервятник душ\n\n\\\"},
+                {\\\"text\\\":\\\"§kСтервятники душ — это опалённые останки давно мёртвых птиц, и населяют они долины душ Незера. \\\"},
+                {\\\"text\\\":\\\"§kЭтих неживых птиц можно увидеть, кружащими над бесчисленными гигантскими скелетами, разбросанными тут и там. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§kКостяной змей\n\n\\\"},
+                {\\\"text\\\":\\\"§kЭтот длинный змеевидный монстр, кажется, состоит только из костей, но всё же имеет красные глаза. \\\"},
+                {\\\"text\\\":\\\"§kЕго можно редко увидеть, выпрыгивающим из лавы, но он вскоре снова исчезает в ней. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§kВизер-скелет\n\n\\\"},
+                {\\\"text\\\":\\\"§kВизер-скелеты — это высокие сожжённые скелеты, вооружённые каменными мечами \\\"},
+                {\\\"text\\\":\\\"§kОни встречаются исключительно в крепостях Незера \\\"}
+              ]\"
+            ],
+            title:Незер,
+            author:Неизвестный,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Существа Незера",
+              "add": false
+            }
+          ]
+        },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:honeyed_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_pickaxe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Pickaxe",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Sword",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_leggings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Leggings",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Boots",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Helmet",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Chestplate",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            }
+          ]
+        },  
+        {
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 5,
+          "functions": [
+             {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Axe",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:netherrack",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:magma_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:soul_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:lava_bucket"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:gold_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

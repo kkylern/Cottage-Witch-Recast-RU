@@ -1,0 +1,25 @@
+{
+    "_comment": "Привязка клавиш",
+    "key.itemzoom.toggle": "Переключить Item Zoom",
+    "key.itemzoom.hold": "Удерживать для отображения",
+    "key.itemzoom.zoom.in": "Увеличить",
+    "key.itemzoom.zoom.out": "Уменьшить",
+
+    "_comment": "Настройки",
+    "config.itemzoom.title": "Настройки Item Zoom",
+
+    "config.itemzoom.toggle.enabled": "Включить Item Zoom",
+    "config.itemzoom.toggle.enabled.comment": "Если установлено в false, Item Zoom будет отключён.",
+    "config.itemzoom.zoom.amount": "Степень увеличения",
+    "config.itemzoom.zoom.amount.comment": "Установите меньшую величину, чтобы уменьшить степень увеличения предмета.",
+    "config.itemzoom.jei.only": "Только наложения JEI",
+    "config.itemzoom.jei.only.comment": "Увеличивать предметы только из наложений списка ингредиентов и закладок JEI.",
+    "config.itemzoom.show.help.text": "Отображать текст помощи",
+    "config.itemzoom.show.help.text.comment": "Отображать название «Item Zoom» и горячую клавишу для переключения этой модификации под увеличенным предметом.",
+    "config.itemzoom.show.damage.bar": "Отображать полосу прочности",
+    "config.itemzoom.show.damage.bar.comment": "Отображать полосу прочности предмета при увеличении.",
+    "config.itemzoom.show.stack.size": "Отображать размер стака",
+    "config.itemzoom.show.stack.size.comment": "Отображать размер стака предмета при увеличении.",
+    "config.itemzoom.show.cooldown": "Отображать время перезарядки",
+    "config.itemzoom.show.cooldown.comment": "Отображать анимацию перезарядки предмета при увеличении."
+}

@@ -1,0 +1,495 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"Журнал §kЗАШИФРОВАНО\\\"}, 
+				{\\\"text\\\":\\\"§l\\nДень 164\\n\\n\\\"}, 
+				{\\\"text\\\":\\\"Я только что прибыл в крепость из \\\"}, 
+				{\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"}, 
+				{\\\"text\\\":\\\". Меня сразу тепло встретили. \\\"}, 
+				{\\\"text\\\":\\\"Эта могущественная крепость обеспечивает необходимую защиту от опасностей \\\"}, {\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"}, 
+				{\\\"text\\\":\\\".\\\"}]\", 
+				\"[
+				{\\\"text\\\":\\\"Однако они не перестают говорить о Той, Кто Над Всем. \\\"}, 
+				{\\\"text\\\":\\\"Они очень настойчиво требуют, чтобы я поверил в их дело.\\\"}
+              ]\"
+            ],
+            title:Журнал,
+            author:Неизвестный,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Таинственный журнал #1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lПриключенец\\\"}, 
+				{\\\"text\\\":\\\"§lЖурнал\\nДень 162\\n\\n\\\"}, 
+				{\\\"text\\\":\\\"Я посещаю эту могучую подземную крепость. \\\"},
+				{\\\"text\\\":\\\"Это технологическое и архитектурное чудо.\\\"}]\",
+				\"[
+				{\\\"text\\\":\\\"Я прошёл через множество допросов, чтобы попасть внутрь. У них много мер безопасности. \\\"},
+				{\\\"text\\\":\\\"Интересно, чего они так опасаются на поверхности.\\\"}
+              ]\"
+            ],
+            title:Журнал,
+            author:Неизвестный,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Таинственный журнал #2",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lПисание\\n\\n\\\"},
+				{\\\"text\\\":\\\"У нас одна цель: \\n\\\"},
+				{\\\"text\\\":\\\"вдохнуть красоту и жизнь \\n\\\"},
+				{\\\"text\\\":\\\"в этот мир \\n\\\"},
+				{\\\"text\\\":\\\"через строительство. Наша \\n\\\"},
+				{\\\"text\\\":\\\"текущая форма сдерживает \\n\\\"},
+				{\\\"text\\\":\\\"нашу способность исполнить \\n\\\"},
+				{\\\"text\\\":\\\"наши мечиы. Чтобы \\n\\\"},
+				{\\\"text\\\":\\\"осуществить наш полный \\n\\\"},
+				{\\\"text\\\":\\\"потенциал, мы должны \\n\\\"},
+				{\\\"text\\\":\\\"достигнуть \\\"},
+				{\\\"text\\\":\\\"§oформы \\\"},
+				{\\\"text\\\":\\\"Энда.\\\"}]\",
+				\"[
+				{\\\"text\\\":\\\"§oФорма \\\"},
+				{\\\"text\\\":\\\"Энда – это следующий шаг в нашей эволюции.\\n\\n\\\"},
+				{\\\"text\\\":\\\"Это наш полный потенциал, реализованный. \\\"},
+				{\\\"text\\\":\\\"Границы наших смертных тел будут сняты, мы будем свободны строить. \\\"},
+				{\\\"text\\\":\\\"§oКонец \\\"},
+				{\\\"text\\\":\\\"будет дарован нам \\\"},
+				{\\\"text\\\":\\\"§oТой, Кто Над Всем. \\\"},
+				{\\\"text\\\":\\\"Ей нужны мы, её ученики, чтобы выполнить её цели.\\\"}]\", 
+				\"[
+				{\\\"text\\\":\\\"С нашей помощью,\\n\\n\\\"},
+				{\\\"text\\\":\\\"§oТа, Кто Над Всем, \\\"},
+				{\\\"text\\\":\\\"погасит огни леса...\\n\\n\\\"},
+				{\\\"text\\\":\\\"Она прекратит весь голод...\\n\\n\\\"},
+				{\\\"text\\\":\\\"Она спасёт больных и нуждающихся...\\\"}]\", 
+				\"[
+				{\\\"text\\\":\\\"Она остановит \\n\\\"},
+				{\\\"text\\\":\\\"§kнеживых\\\"},
+				{\\\"text\\\":\\\"от восстания...\\n\\n\\\"},
+				{\\\"text\\\":\\\"Она вознесёт нас на новые уровни\\n\\n\\\"},
+				{\\\"text\\\":\\\"Вместе мы преобразуем этот мир в святилище для всех, \\\"},
+				{\\\"text\\\":\\\"свободное от насилия, страданий, и \\\"},
+				{\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"}]\", 
+				\"[
+				{\\\"text\\\":\\\"§nМы знаем это.\\n\\n\\\"},
+				{\\\"text\\\":\\\"§oМы уже видели это в камне с неба.\\\"}]\", 
+				\"[
+				{\\\"text\\\":\\\"§oОна ждёт нас.\\n\\n\\\"},
+				{\\\"text\\\":\\\"§oС её громовым ревом она ждёт нас.\\n\\n\\\"},
+				{\\\"text\\\":\\\"§oС её магическим дыханием она ждёт нас.\\n\\n\\\"},
+				{\\\"text\\\":\\\"§oЛетая высоко в небе, она ждёт нас.\\\"}
+				]\",
+				\"[ 
+				{\\\"text\\\":\\\"И мы найдём её.\\\"}
+              ]\"
+            ],
+            title:Писание,
+            author:Жрец,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Писание Дракона",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "supplementaries:goblet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "supplementaries:rope",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "supplementaries:soap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:blank_rune",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:crafting_blueprint",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:tripwire_hook",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "integrated_stronghold:disc_fragment_sight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

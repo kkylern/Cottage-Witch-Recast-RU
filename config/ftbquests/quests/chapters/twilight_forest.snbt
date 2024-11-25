@@ -1,0 +1,1106 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "5FB460EFA0A2567E"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "23CEC5718927D582"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgtwilightforest.png"
+		rotation: 0.0d
+		width: 27.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["399D55B3452588FF"]
+			description: [
+				"Добро пожаловать в Сумеречный лес! Это измерение может быть опасным для навигации, хотя все &aзаметные объекты стоят сеткой на одинаковом расстоянии от друг друга&r. "
+				""
+				"Первое, что вам понадобится для удобного прохождения — это &bмагическая карта&r, и для этого вам нужно найти &eворона&r. "
+				""
+				"И помните! &6Если вы заблудились или попали в недоступную зону, ищите кобольдов&r. Они носят журналы предыдущих путешественников, которые подскажут вам вашу следующую цель."
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "730964D8E1FD059F"
+			rewards: [
+				{
+					id: "19306FFE5AF17538"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "33E22D562AA8E674"
+					item: "twilightforest:twilight_portal_miniature_structure"
+					type: "item"
+				}
+			]
+			subtitle: "Вход в зону полумрака"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2522694F96FD15CA"
+				type: "dimension"
+			}]
+			title: "Войдите в Сумеречный лес"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			description: ["&cСумеречный лес&r — это измерение, покрытое вечной ночью, полное тайн и странных существ, как дружелюбных, так и враждебных. Путешествие по измерению затруднено — вам нужно преодолевать каждое испытание леса по очереди, чтобы продвинуться в другие земли. Чтобы &aсоздать портал в лес&r, нужно &6выкопать яму 2x2x1 (максимум 64x64x1) и заполнить её водой&r. Затем &6окружите пруд цветами или грибами&r. И наконец, &6бросьте алмаз в воду&r. &dБудьте осторожны&r, открытие портала сопровождается ударом молнии!"]
+			id: "399D55B3452588FF"
+			rewards: [
+				{
+					count: 3
+					id: "3CE5D25AECE3322A"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "34FDED8B106683EC"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "730C5B0A95B13AFC"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32C8941CFBDD95C3"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Бросьте его в воду, а затем отойдите"
+			tasks: [{
+				id: "546DCCE3B330C33A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Ключ портала"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["&eЛесной ворон&r — это единственная птица леса, которую часто можно найти возле &aобсидиановых обелисков&r. Ворона стоит &6убить ради его пера&r, которое, в свою очередь, важно для создания &bфокуса магической карты&r."]
+			icon: "twilightforest:raven_feather"
+			id: "3B33F8C27B3361AC"
+			optional: true
+			rewards: [{
+				count: 9
+				id: "769527119DB85277"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28457D6369D12841"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:raven"
+				type: "observation"
+			}]
+			title: "Найдите лесного ворона"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B33F8C27B3361AC"]
+			description: [
+				"Создайте &bфокус магический карты&r с помощью &bвороньего пера&r, немного &bсветокаменной пыли&r и &bфакелонтов&r (которых можно найти в пещерах Сумеречного леса)."
+				""
+				"Затем окружите фокус &bбумагой&r, чтобы создать магическую карту, которая станет незаменимой в вашем путешествии по &cСумеречному лесу&r."
+			]
+			id: "0F55C73877E7FD90"
+			rewards: [{
+				count: 5
+				id: "03F8A5DF08431675"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Птичку жалко!"
+			tasks: [{
+				id: "57C05D993313671F"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"Одной из структур &cСумеречного леса&r является &aлабиринт из живой изгороди&r. Это лабиринт, наполненный рассадниками монстров и сундуками с добычей! "
+				""
+				"Его прохождение не засчитывается и не требуется для завершения прохождения &lСумеречного леса&r."
+			]
+			id: "03102B4CD0BE7031"
+			rewards: [
+				{
+					id: "4C02CF218E659553"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A2A5C6AA28D867A"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Что это? Лабиринт для муравьёв?"
+			tasks: [{
+				id: "2AED38B113D31F29"
+				structure: "twilightforest:hedge_maze"
+				type: "structure"
+			}]
+			title: "Милый лабиринт"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"&bРудный магнит&r иногда можно найти внутри &cполых холмов&r, и при использовании он будет &aвытягивать целые жилы руды из земли&r! Просто &6удерживайте ПКМ, нацелившись на землю&r, и руды будут перемещены к вам! "
+				""
+				"Его можно зачаровать на прочность или починку."
+			]
+			id: "5B5DB6950BD9BC15"
+			rewards: [
+				{
+					id: "0DF298E510FEE5B8"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14EA3BEAB0D5EB03"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Я твоя руда :3"
+			tasks: [{
+				id: "37BFCF9F22551ED3"
+				item: {
+					Count: 1b
+					id: "twilightforest:ore_magnet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Рудный магнит"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"&bСлиток стальной листвы&r — это материал, который можно использовать для создания предварительно зачарованной брони, причём немного лучше железной. "
+				""
+				"Кроме того, &bблоки стальной листвы&r уменьшают урон от падения на 25% при приземлении на них. Почему не на 100%? Они же стальные."
+			]
+			id: "6A5281FA52C785C6"
+			rewards: [{
+				id: "6497B38870E2FDB2"
+				item: "twilightforest:steeleaf_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Когда \"броня из листьев\" звучит угрожающе"
+			tasks: [{
+				id: "15FF51EB8323D171"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["Разбейте &bживые корни&r под деревом, чтобы собрать их. Этот материал можно соединить с &bжелезом&r и &bзолотом&r, чтобы создать &bжелезное дерево&r."]
+			id: "2ACCE2B7760206C9"
+			rewards: [
+				{
+					id: "2AA5905FFDE223BA"
+					item: "twilightforest:ironwood_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "238AA074016ACCDB"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Животворящий"
+			tasks: [
+				{
+					block: "twilightforest:liveroot_block"
+					block_type: 0
+					checkItem: false
+					id: "40D0C312F07F9ED6"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					id: "12DAAE92708641CC"
+					item: "twilightforest:liveroot"
+					type: "item"
+				}
+			]
+			title: "Живой корень"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["&bВеер из павлиньих перьев&r — это предмет, который выпускает мощный порыв ветра при &6щелчке ПКМ&r. Вы можете использовать его, чтобы получить преимущество в бою, дать себе толчок в полёте, или ускорить себя для &bэлитры&r!"]
+			id: "62A0D663EF2B58C1"
+			rewards: [
+				{
+					id: "7613E44F834D267C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19A5F0C7617CD80D"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Не видишь? Мы кушаем!"
+			tasks: [{
+				id: "6640CC33AA28C74F"
+				item: {
+					Count: 1b
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["&bКоролева луночервей&r — это... предмет?.. наполненный луночервями. Когда вы &6щёлкните с ней ПКМ&r, то они будут выпущены — либо прямо на поверхность блока, либо выстрелены, будто из лука. Луночерви служат только &aв качестве источника света&r. Вы можете накормить королеву &bфакелонтами&r на верстаке и получить... ещё больше червей. Ура, да-а..."]
+			id: "79B6B78157E7D32C"
+			rewards: [
+				{
+					count: 3
+					id: "112733AC98209D26"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BA3232E56833C88"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Пути природы неисповедимы"
+			tasks: [{
+				id: "36DCC9327A7A9CEB"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["Один из самых ценных предметов в игре, &bразборочный стол&r позволяет вам &aвозвращать материалы из созданных предметов&r в обмен на уровни опыта. &6Поместите ненужный предмет в левый слот&r, а затем &6щёлкните по одному из ингредиентов&r в центре, чтобы разобрать его."]
+			id: "7D15924C5AEAC669"
+			rewards: [{
+				id: "7CC75457000A1AD8"
+				item: "minecraft:diamond_horse_armor"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Разбери мир по кусочкам"
+			tasks: [{
+				id: "4C765C9C13A943A9"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B33F8C27B3361AC"]
+			description: [
+				"&eНага&r — это первый босс, с которым вам предстоит сразиться. Это длинный змей, который постепенно уменьшается в длине по мере нанесения ему урона. "
+				""
+				"Если игрок покинет &cдвор&r, то &eнага&r вернётся в центр. "
+				""
+				"После её поражения, &6обязательно обыщите сундук, который она оставит&r, так как вам понадобится &bтрофей&r внутри."
+			]
+			icon: "twilightforest:naga_trophy"
+			id: "00B1A6C679547AF2"
+			rewards: [{
+				id: "6F184B1C2B99949E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Нагоните местную нагу"
+			tasks: [{
+				id: "5736708CDA636001"
+				structure: "twilightforest:naga_courtyard"
+				title: "Найдите двор наги"
+				type: "structure"
+			}]
+			title: "Найдите сад наги"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["00B1A6C679547AF2"]
+			description: [
+				"Победите &eнагу&r в &cСумеречном лесу&r, чтобы получить её чешую. Вы можете обменять эту чешую на добычу!"
+				""
+				"&dЭтот квест повторяется.&r"
+			]
+			id: "14B45702F0F82689"
+			rewards: [
+				{
+					id: "58DC59194FD2B38E"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "71EF3889F128E564"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "292E38425879D005"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			title: "Отправка: Чешуя наги"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00B1A6C679547AF2"]
+			description: [
+				"Внутри &cбашни Сумеречного леса&r живёт маг-нежить. Его &aкрепость&r полна мобов, но и хранит несметные сокровища. "
+				""
+				"&aРекомендую приготовить хорошую экипировку&r, перед тем как пытаться штурмовать это строение. "
+				""
+				"На вершине башни вы найдёте &eлича&r, окружённого щитами, защищающим его от любых повреждений. &6Сначала его нужно победить его же магией&r, а затем добить своим оружием. &dОстерегайтесь копий&r, которых он вызывает во время боя! "
+				""
+				"Победа над &eличём&r даст вам доступ к &cлогову йети&r, &cтёмному лесу&r и &cболоту&r."
+			]
+			id: "1B8E61A0872EEA1C"
+			rewards: [{
+				id: "2545DFB3D90982C3"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			subtitle: "Не такого и бессмертного"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "7D62DCC45EBECA2C"
+				structure: "twilightforest:lich_tower"
+				title: "Найдите башню лича"
+				type: "structure"
+			}]
+			title: "Башня Кощея"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B8E61A0872EEA1C"]
+			description: [
+				"&cЛабиринт&r, скрытый в глубине &cсумеречного болота&r, населён множеством неприятных существ, кульминацией которых являются свирепые &eминотавры&r и главарь &eгриботавр&r. "
+				""
+				"Гриботавр оставляет после себя &bминотаврятину по-строгановски&r (видимо минотаврам не чуждо есть друг друга), который при употреблении защитит вас от проклятия &cогненной болотины&r, чтобы вы смогли продвинуться дальше."
+			]
+			id: "6016A3D8B7FD7A14"
+			rewards: [{
+				id: "00A454F3DD11BB05"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "К сожалению, короля гоблина нет..."
+			tasks: [{
+				icon: "twilightforest:minoshroom_trophy"
+				id: "70BEC1A7AAC7CDF0"
+				structure: "twilightforest:labyrinth"
+				title: "Найдите лабиринт гриботавра"
+				type: "structure"
+			}]
+			title: "Подземелье обоюдоострого топора"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			description: [
+				"&bТалисман сохранения&r жертвует собой, чтобы сохранить ваш инвентарь!"
+				""
+				"Первый уровень, &bБронза&r, сохраняет &aпредмет в вашей руке&r. "
+				"&bЖелезо&r сохраняет &aпредмет в вашей руке и броню&r. "
+				"&bЗолото&r сохраняет &aвесь ваш инвентарь&r!"
+				""
+				"Полезно, если вы не хотите потерять все предметы в пустоте, или свернуть голову в поисках обратного пути к могиле."
+			]
+			id: "7B609119699B446D"
+			rewards: [{
+				id: "0976BDF991E155D6"
+				item: "twilightforest:charm_of_keeping_2"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Инвентарь на замок"
+			tasks: [{
+				id: "103B0AD74DB72227"
+				item: "twilightforest:charm_of_keeping_1"
+				type: "item"
+			}]
+			title: "Талисман сохранения"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			description: [
+				"&eГидра&r — это грозный враг, который слаб только в одном месте: в его огнедышащей пасти! "
+				"Лучше всего вступать в этот бой под эффектом &aогнестойкости&r. И убедитесь, что вы &aнаправляете атаки на открытые пасти Гидры&r! Вы можете использовать &bдальнобойное оружие&r или меч, чтобы &aотразить снаряды гидры&r обратно в неё."
+				" "
+				"После того как вы победите монстра, вы, фактически, только что выполнили одну из задач для доступа к &cсумеречным высокогорьям&r."
+			]
+			icon: "twilightforest:hydra_trophy"
+			id: "3657239C35390F17"
+			rewards: [{
+				count: 5
+				id: "0563B2194472DE74"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			subtitle: "Акция -1+2: Сними одну голову и две появится!"
+			tasks: [{
+				icon: "twilightforest:hydra_trophy"
+				id: "2FFCBE1976CCD735"
+				structure: "twilightforest:hydra_lair"
+				title: "Найдите логово гидры"
+				type: "structure"
+			}]
+			title: "Подвиг Геракла"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			description: [
+				"Нет смысла пытаться ломать невероятно прочные блоки &cлабиринта&r. Только, если вы не добудете этот предмет: &bРазрушитель лабиринтов&r. "
+				"Этот инструмент добывает блоки лабиринта намного быстрее и с меньшими потерями прочности, чем что-либо ещё. &aЕго можно найти в сундуках &cЛабиринта&r."
+			]
+			id: "187BD92930BA8670"
+			rewards: [
+				{
+					count: 10
+					id: "7869AF04C5C8C870"
+					item: "twilightforest:decorative_mazestone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B14E9612F4F61E6"
+					table_id: 2688518876927697228L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Разбиринт минотавра"
+			tasks: [{
+				id: "43F651AEFE00109D"
+				item: {
+					Count: 1b
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Разрушитель лабиринтов"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3657239C35390F17"]
+			description: [
+				"Заработайте себе немного ресурсов, убив несколько &eгидр&r и обменяв их кровь!"
+				""
+				"&dЭтот квест повторяется.&r"
+			]
+			id: "23E5790A6CC6524C"
+			rewards: [
+				{
+					id: "04DA991BC07CEDE9"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "7992840F40B17A89"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "5172110E1EBECE10"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			title: "Отправка: Огненная кровь"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			description: [
+				"Расположенная в мрачных глубинах &cтёмного леса&r, &cкрепость рыцарей&r кишит &eгоблинами&r, и вы &aне сможете войти без одного из&r &bтрофеев&r от предыдущих боссов. "
+				""
+				"Вы можете использовать &bкарты лабиринта&r для навигации, но структура настолько огромна, что вам может понадобиться несколько таких карт. "
+				""
+				"Рекомендую &6отмечать свой путь факелами&r, чтобы не плутать кругами."
+				""
+				"В конце этого подземелья вас ждёт бой с &eрыцарями-фантомами&r. Они не будут следовать за вами за пределы комнаты, но могут запросто окружить вас, если вы ворвётесь внутрь без подготовки. "
+				""
+				"Лучше &6периодически отступать в коридор, если нужно восстановить здоровье&r. "
+				""
+				"После победы над ними вы сможете бросить вызов &cтёмной башне&r."
+			]
+			id: "10C91592DCBC6FBD"
+			rewards: [{
+				count: 5
+				id: "76B6287EE4098FC2"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			subtitle: "Захватите побольше факелов"
+			tasks: [{
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "3A8E49C2219C6265"
+				structure: "twilightforest:knight_stronghold"
+				title: "Найдите рыцарскую крепость"
+				type: "structure"
+			}]
+			title: "Найдите рыцарскую крепость"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10C91592DCBC6FBD"]
+			description: [
+				"&bТалисман жизни&r по сути является альтернативой &bтотема бессмертия&r. "
+				""
+				"&bНеулучшенная&r версия &aисцеляет вам 4 сердца&r и &aдаёт несколько секунд регенерации&r, когда вы находитесь при смерти."
+				""
+				"&bУлучшенная&r версия &aполностью восстанавливает ваше здоровье&r, &aдаёт регенерацию&r, &aогнестойкость&r и &aсопротивление урону&r."
+			]
+			id: "495574D50B0E4B4E"
+			rewards: [{
+				id: "5C2E647942ABCBC3"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Когда подделка лучше оригинала"
+			tasks: [{
+				id: "7DD0FF8C91053DDE"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			title: "Талисман жизни"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10C91592DCBC6FBD"]
+			description: [
+				"В &cцентре тёмного леса&r можно найти &cтёмную башню&r. Это массивная структура, кишащая монстрами и управляемая смертоносным &eдревним гастом&r. "
+				""
+				"Есть четыре меньших башни, каждая из которых содержит &bключи от башни&r. Эти ключи используются для разблокировки центральной башни. Вам предстоит пройти множество испытаний, так что будьте готовы к долгой экспедиции. "
+				""
+				"Чтобы победить &eдревнего гаста&r, &6вы должны победить его приспешников&r — &eкарминитовых гастохранителей&r в соседних комнатах, рядом с ловушками для гастов. Затем, когда главный в комнате приблизится, &6активируйте ловушку&r."
+				""
+				"&eДревний гаст&r — один из трёх боссов, которых нужно победить, чтобы получить доступ к &cсумеречным высокогорьям&r."
+			]
+			id: "5C463B10FDE8CEF2"
+			rewards: [{
+				count: 32
+				id: "3E662212CD97B0B4"
+				item: "twilightforest:reappearing_block"
+				type: "item"
+			}]
+			subtitle: "Я целюсь глазом, стреляю разумом, убиваю сердцем"
+			tasks: [{
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "130652635D0C4E6D"
+				structure: "twilightforest:dark_tower"
+				title: "Найдите тёмную башню"
+				type: "structure"
+			}]
+			title: "Тёмная башня"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			description: [
+				"&cПещера йети&r находится в &cснежном лесу&r и населена как &eйети&r (которые нейтральны), так и &eальфа-йети&r, который является боссом местности, с которым вам предстоит сразиться. "
+				""
+				"Сражение с этим врагом в ближнем бою может быть опасным и даже на расстоянии нужно &aостерегаться сосулек&r! "
+				""
+				"Его смерть даст вам доступ к &cсумеречному леднику&r."
+			]
+			id: "41CBB146259DAF34"
+			rewards: [{
+				id: "27D5E4B9499E2336"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			subtitle: "По следам снежного бигфута"
+			tasks: [{
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "7805711EAE52723C"
+				structure: "twilightforest:yeti_cave"
+				type: "structure"
+			}]
+			title: "Пещера йети"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41CBB146259DAF34"]
+			description: [
+				"&eСнежная королева&r живёт в вершине &cдворца авроры&r, обманчивого особняка, наполненного ледяными монстрами и &a&oскользкими испытаниями&r. "
+				""
+				"Сама королева имеет три фазы и не может быть повреждена через её &aледяной трон&r, поэтому можно целиться только в её верхнюю часть тела. "
+				""
+				"Когда она будет повержена, вы выполните одну из трёх задач, для доступа к &cсумеречным высокогорьям&r."
+			]
+			id: "2C905E4DE5051CC5"
+			rewards: [
+				{
+					count: 32
+					id: "4BD102C7AA30E305"
+					item: "twilightforest:aurora_block"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "25BC2402BDA201C1"
+					item: "twilightforest:aurora_pillar"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "02205F119C04D7A7"
+					item: "twilightforest:auroralized_glass"
+					type: "item"
+				}
+			]
+			subtitle: "Коснуться неба"
+			tasks: [{
+				icon: "twilightforest:snow_queen_trophy"
+				id: "75D978C04D89D204"
+				structure: "twilightforest:aurora_palace"
+				title: "Найдите дворец авроры"
+				type: "structure"
+			}]
+			title: "Осязаемое полярное сияние"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3657239C35390F17"
+				"2C905E4DE5051CC5"
+				"5C463B10FDE8CEF2"
+			]
+			description: [
+				"Вы наконец-то дошли до &cсумеречных высокогорий&r! Это может показаться подозрительным, но послушайте: &6вам нужно найти &bволшебные бобы&r. "
+				""
+				"Вы можете получить их или из &eтроллей&r в больших комнатах под землёй, или из их обсидиановых тайников в том же месте."
+				""
+				"Затем найдите большой участок &bанбеоновой почвы&r, над которым живут &eгиганты&r. &6Посадите на почву &bволшебные бобы&r "
+				""
+				"Вам нужно будет победить &eгиганта-шахтёра&r, чтобы получить его &bгигантскую кирку&r. Затем вы можете &6вернуться под землю и использовать гигантскую кирку&r, чтобы вскрыть гигантское обсидиановое хранилище. Это займёт некоторое время."
+			]
+			id: "2A52CFAE2D88AC1D"
+			rewards: [
+				{
+					id: "01398B9B50D833E9"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28FEF8A4B3D9CF03"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+			]
+			subtitle: "Лилипут в стране гулливеров"
+			tasks: [{
+				biome: "twilightforest:highlands"
+				icon: "twilightforest:magic_beans"
+				id: "22834B81EEEA5750"
+				type: "biome"
+			}]
+			title: "До небес"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A52CFAE2D88AC1D"]
+			description: [
+				"В сердце &cтерновых земель&r находится замок, который… пуст. Правитель, который когда-то жил там, давно исчез — пропал неизвестно куда, может ему наконец-то дали отпуск."
+				""
+				"Разочаровывает? Несомненно. &aНо такова жизнь — иногда вещи не находят логичного конца&r. Примите эту награду в знак благодарности за восстановление мира в лесу."
+			]
+			id: "2B8E1553C1487EBA"
+			rewards: [
+				{
+					id: "7A839112E01549EF"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40E93A2B2452F75B"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+			]
+			subtitle: "Кто на очереди?"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0348C0E87AC1994A"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			title: "Финал"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00B1A6C679547AF2"]
+			id: "3A0205CA0568641F"
+			rewards: [
+				{
+					id: "1F8FACBC9C53DC41"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "67CB71361CAB1CFF"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+			]
+			subtitle: "Нагните местную нагу"
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "1D993E6DD7CC725A"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B8E61A0872EEA1C"]
+			id: "62F755926795DBB6"
+			rewards: [
+				{
+					id: "1297B897EC9603F7"
+					item: "twilightforest:lich_tower_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "1333763D4F0147B9"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			]
+			subtitle: "Все мы немного покойники"
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "7898CAECDDC6D1FA"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10C91592DCBC6FBD"]
+			id: "470A6825C49EEFAF"
+			rewards: [
+				{
+					id: "6E61129F3516D660"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2FC0B48BB4323B8D"
+					item: "twilightforest:underbrick"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2C65E8D61198D3B1"
+					item: "twilightforest:mossy_underbrick"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "77BA39878CE1E0DF"
+					item: "twilightforest:cracked_underbrick"
+					type: "item"
+				}
+			]
+			subtitle: "Призракам не нужны штаны. Другой вопрос, почему в склепах нет штанов?"
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "0BF937F4624FDA56"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C463B10FDE8CEF2"]
+			id: "761DD39F82235893"
+			rewards: [
+				{
+					id: "7A19C939ED75E268"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4D5B2FF906CA5259"
+					item: "twilightforest:towerwood"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6433A4F1AC4C8B6F"
+					item: "twilightforest:cracked_towerwood"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7FBF8B70DBDC4BB0"
+					item: "twilightforest:mossy_towerwood"
+					type: "item"
+				}
+			]
+			subtitle: "Не время плакать"
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "68E22924E52442E1"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			id: "169272849A588544"
+			rewards: [{
+				id: "570E54B773C478EA"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			subtitle: "Вы никогда не задумывались откуда у гриботавра строганов?"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "1D855A5D41C7624A"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41CBB146259DAF34"]
+			id: "2F267ADA86FA5503"
+			rewards: [{
+				id: "33CCF59E9F804766"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			subtitle: "α-распад"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5F68902062C5E874"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C905E4DE5051CC5"]
+			id: "27AFCBF70AA24760"
+			rewards: [{
+				id: "59D69494D0E58D6B"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			subtitle: "Отпусти и забудь"
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "77AEB177007F4630"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"Если вы найдёте &eквестового Рама&r, вы заметите, что ему чего-то не хватает. "
+				""
+				"Может быть, с ним надо поделиться &aшерстью&r? В частности, &6по одному каждого цвета&r?"
+			]
+			id: "4EAE4C40B444930A"
+			rewards: [
+				{
+					id: "315D065F86EA659A"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+				{
+					id: "7BAD2380264D5D6C"
+					item: "plushies:sheep"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Холодно, наверное"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "51CE926FD2497567"
+				type: "advancement"
+			}]
+			x: -6.75d
+			y: 2.25d
+		}
+		{
+			id: "723D12B934CAB46C"
+			invisible: true
+			tasks: [{
+				id: "7C5273B671DFEBFB"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3657239C35390F17"]
+			dependency_requirement: "one_completed"
+			id: "63ED3A15928F3545"
+			rewards: [{
+				id: "401691AAA770CE0A"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			subtitle: "Одна голова хорошо, а две — уже некрасиво"
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "20AA38BD94D17D6E"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+	]
+	title: "Twilight Forest"
+}

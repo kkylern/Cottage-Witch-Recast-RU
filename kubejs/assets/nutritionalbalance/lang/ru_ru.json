@@ -1,0 +1,37 @@
+{
+  "key.nutritionalbalance.opennutrientgui" : "Меню эссенций",
+
+  "nutritionalbalance.nutrients" : "Эссенции",
+
+  "nutritionalbalance.nutrient.proteins" : "Смелость",
+  "nutritionalbalance.nutrient.carbs" : "Мудрость",
+  "nutritionalbalance.nutrient.dairy" : "Познание",
+  "nutritionalbalance.nutrient.fruits" : "Магия",
+  "nutritionalbalance.nutrient.sugars" : "Гордыня",
+  "nutritionalbalance.nutrient.vegetables" : "Хитрость",
+
+  "nutritionalbalance.nutrientstatus.MALNOURISHED" : "Истощение",
+  "nutritionalbalance.nutrientstatus.SAFE" : "Безопасно",
+  "nutritionalbalance.nutrientstatus.ON_TARGET" : "Цель",
+  "nutritionalbalance.nutrientstatus.ENGORGED" : "Переедание",
+
+  "nutritionalbalance.nutrientstatus.msg.MALNOURISHED" : "Ваша душа требует насыщения.",
+  "nutritionalbalance.nutrientstatus.msg.SAFE" :         "Ваша душа в посредственном состоянии.",
+  "nutritionalbalance.nutrientstatus.msg.ON_TARGET" :    "Ваша душа хорошо сбалансирована.",
+  "nutritionalbalance.nutrientstatus.msg.ENGORGED" :     "Ваша душа жутко переполнена.",
+
+  "nutritionalbalance.nutrientstatus.details.MALNOURISHED" : "Вы чувствуете сильное истощение.",
+  "nutritionalbalance.nutrientstatus.details.SAFE" :         "Вы чувствуете себя не плохо, но и не хорошо.",
+  "nutritionalbalance.nutrientstatus.details.ON_TARGET" :    "Вы чувствуете силу, ваши движения быстры.",
+  "nutritionalbalance.nutrientstatus.details.ENGORGED" :     "Вы чувствуете себя тяжело и тягуче",
+  
+  "effect.nutritionalbalance.engorged_effect": "Переполнение души",
+  "effect.nutritionalbalance.malnourished_effect": "Голодание души",
+  "effect.nutritionalbalance.nourished_effect": "Насыщение души",
+
+  "nutritionalbalance.close" : "Закрыть",
+  
+  "item.nutritionalbalance.lunchbox" : "Ланч-бокс",
+  "nutritionalbalance.tooltip.press_shift" : "§8Нажмите [§7Shift§8] для доп. информации",
+  "message.item.lunchbox" : "Хранит в себе еду и показывает эссенции.\nПКМ крадучись чтобы открыть.\nПКМ, чтобы съесть выбранную еду.\nКолёсико мыши крадучись, чтобы быстро поменять поменять еду."
+}

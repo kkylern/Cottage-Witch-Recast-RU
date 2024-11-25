@@ -1,0 +1,14 @@
+{
+  "ars_instrumentum.tooltip.mana_cost": "Стоимость заклинания : ",
+  "block.ars_instrumentum.arcane_applicator": "Магический передатчик",
+  "instrumentum.armarium.hotbar_no_switch": "Пояс не будет менять предметы в панели быстрого доступа",
+  "instrumentum.armarium.hotbar_switch": "Пояс поменяет предметы в панели быстрого доступа",
+  "item.ars_instrumentum.copy_paste_spell_scroll": "Свиток хранения формулы",
+  "item.ars_instrumentum.fake_wilden_tribute": "Эссенция поверженных врагов",
+  "item.ars_instrumentum.numeric_mana_charm": "Талисман исчисляемой маны",
+  "item.ars_instrumentum.runic_storage_stone": "Гравированный самоцвет хранения",
+  "item.ars_instrumentum.scroll_of_save_starbuncle": "Свиток описания звездоуха",
+  "item.ars_instrumentum.wizards_armarium": "Пояс магического арсенала",
+  "key.ars_nouveau.choose_armarium_slot": "(Пояс магического арсенала) Открыть меню выбора",
+  "key.ars_nouveau.switch_armarium_slot": "(Пояс магического арсенала) Переключить комплект брони"
+}

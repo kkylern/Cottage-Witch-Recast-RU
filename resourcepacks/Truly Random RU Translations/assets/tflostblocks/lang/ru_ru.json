@@ -1,0 +1,149 @@
+{
+"block.tflostblocks.stone_tiles": "Каменный плитняк",
+"block.tflostblocks.stone_tile_stairs": "Ступеньки из каменного плитняка",
+"block.tflostblocks.stone_tile_slab": "Плита из каменного плитняка",
+"block.tflostblocks.stone_tile_wall": "Ограда из каменного плитняка",
+
+"block.tflostblocks.mossy_stone_tiles": "Замшелый каменный плитняк",
+"block.tflostblocks.mossy_stone_tile_stairs": "Ступеньки из замшелого каменного плитняка",
+"block.tflostblocks.mossy_stone_tile_slab": "Плита из замшелого каменного плитняка",
+"block.tflostblocks.mossy_stone_tile_wall": "Ограда из замшелого каменного плитняка",
+
+"block.tflostblocks.aurora_stairs": "Ступеньки авроры",
+"block.tflostblocks.aurora_wall": "Ограда авроры",
+"block.tflostblocks.auroralized_glass_pane": "Аврорализованная стеклянная панель",
+
+"block.tflostblocks.castle_brick_slab": "Плита из замкового кирпича",
+"block.tflostblocks.castle_brick_wall": "Ограда из замкового кирпича",
+
+"block.tflostblocks.castle_brick_tiles": "Плитняк из замкового кирпича",
+"block.tflostblocks.castle_brick_tile_stairs": "Ступеньки из замкового кирпичного плитняка",
+"block.tflostblocks.castle_brick_tile_slab": "Плита из замкового кирпичного плитняка",
+"block.tflostblocks.castle_brick_tile_wall": "Ограда из замкового кирпичного плитняка",
+
+"block.tflostblocks.bold_castle_brick_slab": "Плита из толстого замкового кирпича",
+"block.tflostblocks.bold_castle_brick_wall": "Ограда из толстого замкового кирпича",
+
+"block.tflostblocks.encased_castle_brick_slab": "Плита из заключённого замкового кирпича",
+"block.tflostblocks.encased_castle_brick_wall": "Ограда из заключённого замкового кирпича",
+
+"block.tflostblocks.cracked_castle_brick_slab": "Плита из треснувшего замкового кирпича",
+"block.tflostblocks.cracked_castle_brick_wall": "Ограда из треснувшего замкового кирпича",
+
+"block.tflostblocks.worn_castle_brick_slab": "Плита из обветренного замкового кирпича",
+"block.tflostblocks.worn_castle_brick_wall": "Ограда из обветренного замкового кирпича",
+
+"block.tflostblocks.mossy_castle_brick_slab": "Плита из замшелого замкового кирпича",
+"block.tflostblocks.mossy_castle_brick_wall": "Ограда из замшелого замкового кирпича",
+
+"block.tflostblocks.deadrock_slab": "Плита из мёртвого камня",
+"block.tflostblocks.deadrock_stairs": "Ступеньки из мёртвого камня",
+
+"block.tflostblocks.cracked_deadrock_slab": "Плита из треснувшего мёртвого камня",
+"block.tflostblocks.cracked_deadrock_stairs": "Ступеньки из треснувшего мёртвого камня",
+
+"block.tflostblocks.weathered_deadrock_slab": "Плита из обветренного мёртвого камня",
+"block.tflostblocks.weathered_deadrock_stairs": "Ступеньки из обветренного мёртвого камня",
+
+"block.tflostblocks.deadrock_bricks": "Мёртвые кирпичи",
+"block.tflostblocks.deadrock_brick_slab": "Плита из мёртвого кирпича",
+"block.tflostblocks.deadrock_brick_stairs": "Ступеньки из мёртвого кирпича",
+"block.tflostblocks.deadrock_brick_wall": "Ограда из мёртвого кирпича",
+
+"block.tflostblocks.nagastone_slab_left": "Плита из нагакамня (влево)",
+"block.tflostblocks.nagastone_slab_right": "Плита из нагакамня (вправо)",
+
+"block.tflostblocks.cracked_nagastone_slab_left": "Плита из обветренного нагакамня (влево)",
+"block.tflostblocks.cracked_nagastone_slab_right": "Плита из обветренного нагакамня (вправо)",
+
+"block.tflostblocks.mossy_nagastone_slab_left": "Плита из замшелого нагакамня (влево)",
+"block.tflostblocks.mossy_nagastone_slab_right": "Плита из замшелого нагакамня (вправо)",
+
+"block.tflostblocks.mazestone_slab": "Плита из лабиринтового камня",
+"block.tflostblocks.mazestone_stairs": "Ступеньки из лабиринтового камня",
+"block.tflostblocks.mazestone_wall": "Ограда из лабиринтового камня",
+
+"block.tflostblocks.cut_mazestone_slab": "Плита из пилёного лабиринтового камня",
+"block.tflostblocks.cut_mazestone_stairs": "Ступеньки из пилёного лабиринтового камня",
+"block.tflostblocks.cut_mazestone_wall": "Ограда из пилёного лабиринтового камня",
+
+"block.tflostblocks.large_mazestone_bricks": "Крупные лабиринтовые кирпичи",
+"block.tflostblocks.large_mazestone_brick_slab": "Крупная лабиринтовая кирпичная плита",
+"block.tflostblocks.large_mazestone_brick_stairs": "Крупная лабиринтовые кирпичные ступеньки",
+"block.tflostblocks.large_mazestone_brick_wall": "Крупная лабиринтовая кирпичная ограда",
+
+"block.tflostblocks.mazestone_brick_slab": "Лабиринтовая кирпичная плита",
+"block.tflostblocks.mazestone_brick_stairs": "Лабиринтовые кирпичные ступеньки",
+"block.tflostblocks.mazestone_brick_wall": "Лабиринтовая кирпичная ограда",
+
+"block.tflostblocks.mossy_mazestone_brick_slab": "Замшелая лабиринтовая кирпичная плита",
+"block.tflostblocks.mossy_mazestone_brick_stairs": "Замшелые лабиринтовые кирпичные ступеньки",
+"block.tflostblocks.mossy_mazestone_brick_wall": "Замшелая лабиринтовая кирпичная ограда",
+
+"block.tflostblocks.stripped_thorns": "Обтёсанные тернии",
+"block.tflostblocks.stripped_thorn_block": "Обтёсанный терновый блок",
+"block.tflostblocks.thorn_planks": "Терновые доски",
+"block.tflostblocks.thorn_slab": "Терновая плита",
+"block.tflostblocks.thorn_stairs": "Терновые ступеньки",
+"block.tflostblocks.thorn_fence": "Терновый забор",
+"block.tflostblocks.thorn_fence_gate": "Терновая калитка",
+"block.tflostblocks.thorn_door": "Терновая дверь",
+"block.tflostblocks.thorn_trapdoor": "Терновый люк",
+"block.tflostblocks.thorn_button": "Терновая кнопка",
+"block.tflostblocks.thorn_pressure_plate": "Терновая нажимная плита",
+"block.tflostblocks.thorn_sign": "Терновая табличка",
+"block.tflostblocks.thorn_hanging_sign": "Терновая подвесная табличка",
+"block.tflostblocks.thorn_banister": "Терновые перила",
+
+"block.tflostblocks.towerwood_slab": "Плита из башенной древесины",
+"block.tflostblocks.towerwood_stairs": "Ступеньки из башенной древесины",
+"block.tflostblocks.towerwood_fence": "Забор из башенной древесины",
+"block.tflostblocks.towerwood_fence_gate": "Калитка из башенной древесины",
+"block.tflostblocks.towerwood_door": "Дверь из башенной древесины",
+"block.tflostblocks.towerwood_trapdoor": "Люк из башенной древесины",
+"block.tflostblocks.towerwood_button": "Кнопка из башенной древесины",
+"block.tflostblocks.towerwood_pressure_plate": "Нажимная плита из башенной древесины",
+"block.tflostblocks.towerwood_sign": "Табличка из башенной древесины",
+"block.tflostblocks.towerwood_hanging_sign": "Подвесная табличка из башенной древесины",
+"block.tflostblocks.towerwood_banister": "Перила из башенной древесины",
+
+"block.tflostblocks.mossy_towerwood_slab": "Плита из замшелых досок из башенной древесины",
+"block.tflostblocks.mossy_towerwood_stairs": "Ступеньки из замшелых досок из башенной древесины",
+
+"block.tflostblocks.underbrick_slab": "Плита из подземного кирпича",
+"block.tflostblocks.underbrick_stairs": "Ступеньки из подземного кирпича",
+"block.tflostblocks.underbrick_wall": "Ограда из подземного кирпича",
+
+"block.tflostblocks.cracked_underbrick_slab": "Плита из треснувшего подземного кирпича",
+"block.tflostblocks.cracked_underbrick_stairs": "Ступеньки из треснувшего подземного кирпича",
+"block.tflostblocks.cracked_underbrick_wall": "Ограда из треснувшего подземного кирпича",
+
+"block.tflostblocks.mossy_underbrick_slab": "Плита из замшелого подземного кирпича",
+"block.tflostblocks.mossy_underbrick_stairs": "Ступеньки из замшелого подземного кирпича",
+"block.tflostblocks.mossy_underbrick_wall": "Ограда из замшелого подземного кирпича",
+
+"block.tflostblocks.trollsteinn_slab": "Тролльстейновая плита",
+"block.tflostblocks.trollsteinn_stairs": "Тролльстейновая ступеньки",
+"block.tflostblocks.trollsteinn_wall": "Тролльстейновая ограда",
+
+"block.tflostblocks.polished_trollsteinn": "Полированный тролльстейн",
+"block.tflostblocks.polished_trollsteinn_slab": "Полированная тролльстейновая плита",
+"block.tflostblocks.polished_trollsteinn_stairs": "Полированные тролльстейновые ступеньки",
+"block.tflostblocks.polished_trollsteinn_wall": "Полированная тролльстейновая ограда",
+
+"block.tflostblocks.trollsteinn_bricks": "Тролльстейновые кирпичи",
+"block.tflostblocks.trollsteinn_brick_slab": "Плита из тролльстейнового кирпича",
+"block.tflostblocks.trollsteinn_brick_stairs": "Ступеньки из тролльстейнового кирпича",
+"block.tflostblocks.trollsteinn_brick_wall": "Ограда из тролльстейнового кирпича",
+
+"block.tflostblocks.chiseled_trollsteinn": "Резной тролльстейн",
+
+"item.tflostblocks.incomplete_thorncutter_axe": "Сломанный разрубатель шипов",
+"item.tflostblocks.thorncutter_axe": "Разрубатель шипов",
+
+"advancement.tflostblocks.find_thorncutter_axe": "Бич шипов... должен был быть?",
+"advancement.tflostblocks.find_thorncutter_axe.desc": "Найдите странный топор на вершине финального замка. Он выглядит незаконченным. Может быть, попробовать завершить его с помощью лампы пепла на кузнечном столе?",
+
+"advancement.tflostblocks.smith_thorncutter_axe": "Бич шипов",
+"advancement.tflostblocks.smith_thorncutter_axe.desc": "Используя своё кузнечное мастерство, завершите разрубатель шипов. Теперь вы сможете собирать шипы в терновых землях, используя этот особый топор."
+}

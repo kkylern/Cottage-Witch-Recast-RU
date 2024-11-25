@@ -1,0 +1,859 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "building__decorating"
+	group: "1E0017DE6773EF00"
+	icon: "minecraft:oak_planks"
+	id: "3E1D90FE6819501F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgbuilding.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdecorating.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Вы можете создать &bвитрину&r, чтобы, ну-у... выставить предмет (спасибо, Кэп)! "
+				""
+				"После установки витрины &6щёлкните по ней ПКМ&r, чтобы поместить предмет, и &6щёлкните ПКМ пустой рукой&r, чтобы удалить предмет."
+			]
+			id: "39C476A7C4682009"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C890C89C09D16DB"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Я знаю, что здесь пройдёт моя жизнь"
+			tasks: [{
+				id: "09758110C43355FD"
+				item: "ars_nouveau:item_detector"
+				type: "item"
+			}]
+			title: "Жизнь в стёклах витрин"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Модификация &lFantasy's Furniture&r добавляет большой выбор красивой и изысканной мебели."
+				"Система крафта в моде немного отличается от обычной. Каждый рецепт стоит только по одному &bкомку глины, булыжнику и доске&r, а мебель создаётся на &bстоле мебельщика&r, который, в свою очередь, &aсоздаётся на столе кузнеца &aсоединением &bверстака&r и &bкожи&r."
+			]
+			id: "7D4BC2C21F70DF65"
+			rewards: [
+				{
+					count: 10
+					id: "734E37DD4F74EC31"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1CBAE4470B33AB73"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "588C29E10CC7D2FB"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Всё, что выходит из под моей руки — заглядение"
+			tasks: [{
+				id: "0EBD3CF1F9CB7FCD"
+				item: "fantasyfurniture:furniture_station"
+				type: "item"
+			}]
+			title: "Мама, я дизайнер!"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: ["&bСтроительный гаджет&r — полезный инструмент для быстрого строительства больших структур. Он &aодновременно размещает множество блоков&a из вашего инвентаря. &6Крадучись щёлкните ПКМ по блоку в мире&r, чтобы установить его в качестве строительного блока. &bГаджет обмена&r — это инструмент, который &aзаменяет блоки в мире на определённый блок из вашего инвентаря&r. Как и с &bСГ&r, &6крадучись щёлкните ПКМ по заменяемому блоку, чтобы настроить гаджет на него&r."]
+			id: "1AFE0FBF887D22FD"
+			rewards: [{
+				id: "2D8DA9461014B308"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Даже в Китае так быстро не строят"
+			tasks: [
+				{
+					id: "4060C5FB1511ED4E"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_building"
+						tag: {
+							energy: 500000.0d
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "518D12073E1E0981"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_exchanging"
+						tag: {
+							energy: 500000.0d
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Гаджеты, ч.1"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AFE0FBF887D22FD"]
+			description: [
+				"&bГаджет копирования и вставки&r — это мощный и, следовательно, сложный инструмент. Он позволяет использовать &aсхематики, найденные в &mинтернете&r&r для автоматического строительства, а также позволяет, как вы могли догадаться, &aкопировать и вставлять построенные вами структуры&r. Для его использования вам понадобятся &bбумага&r и &bменеджер шаблонов&r. "
+				""
+				"&dЯ не могу поместить всю информацию в описание квеста&r. Подробной информацией делится именитый маг Direwolf20 из всемирной библиотеки знаний &mYouTube&r. Результаты его исследований можно найти в его видео-сообщении “Mod Spotlight Building Gadgets v2”, метка времени — 8:12."
+			]
+			id: "1184EA40A20DEB5D"
+			rewards: [
+				{
+					id: "31D2BCCAA5AF5BA4"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					id: "2BF661D75FC4715C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "CTRL+C, CTRL+V"
+			tasks: [
+				{
+					id: "329EA864CDCD816B"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_copy_paste"
+						tag: {
+							energy: 500000.0d
+							mode: 0b
+							template_id: [I;
+								-1971559654
+								1481982377
+								-1575195989
+								1840957655
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1136D19390575603"
+					item: "buildinggadgets:template_manager"
+					type: "item"
+				}
+			]
+			title: "Gadgets, Part 2"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1184EA40A20DEB5D"]
+			description: ["&bГаджет разрушения&r — это опасный инструмент, который &aбезвозвратно удаляет блоки&r. В основном, он используется для очистки большой площади для строительства."]
+			id: "7CB901D8FE793DF6"
+			rewards: [{
+				id: "47CF7C0058F220DE"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "CTRL+A, Del"
+			tasks: [{
+				id: "6E1F006DF7BBCF80"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_destruction"
+					tag: {
+						energy: 1000000.0d
+						fuzzy: 1b
+						overlay: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Гаджеты: Разрушение"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1184EA40A20DEB5D"]
+			description: [
+				"&bСтроительная паста&r имитирует вид блоков, которых у вас нет."
+				"Когда вы вставляете структуру, если вам не хватает блоков для постройки, но у вас есть &bпаста&r, она &aприобретёт вид этого блока&r. Однако при разрушении она вернётся как &bпаста&r, а не видимый блок. &bКонтейнер для пасты&r позволит вам хранить значительно больше пасты, чем вы могли бы перенести без."
+			]
+			id: "255D49A0CC045204"
+			rewards: [
+				{
+					id: "1B8EA75AD1A0ECED"
+					item: "buildinggadgets:construction_paste_container_t1"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "675238AF9ECEB04A"
+					item: "buildinggadgets:construction_paste"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Любая мысль обретает формы"
+			tasks: [{
+				id: "243D764629FA7983"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:construction_paste_container_t1"
+					tag: {
+						amount: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Гаджеты: Паста"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Эти &bcтеклянные рамки&r отображают предметы так же, как обычные, но границы рамки &aстановятся невидимыми&r, как только в них помещается предмет. &6Поместите внутрь флаг&r, чтобы отобразить его узор аналогично карте в рамке."]
+			id: "72409602FE85C718"
+			rewards: [
+				{
+					id: "315B56E523117519"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "07F04F937F02C951"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Нельзя загонять себя в рамки!"
+			tasks: [
+				{
+					id: "639DF06AF0A0073D"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "7BC1EC6C4A952ADA"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+			]
+			title: "Без границ"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: ["&bШпатель&r разместит случайный блок из вашей панели быстрого доступа, когда вы &6щёлкните ПКМ с ним в руке&r. Идеально подходит для &aсоздания случайной текстуры для вашей постройки&r."]
+			id: "0D02D4FAE63BABE6"
+			rewards: [{
+				id: "52E5AED76FE087F4"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Стен ваятель"
+			tasks: [{
+				id: "65E88FE1A733B2AB"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			title: "Шпатель"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Фонари можно весить на стену! Да, это всё :)"]
+			id: "567E7D29BF4EAEFA"
+			rewards: [
+				{
+					id: "1D88CB845EB3BADE"
+					item: "supplementaries:brass_lantern"
+					type: "item"
+				}
+				{
+					id: "7472D3C00F7BF112"
+					item: "chipped:wrought_iron_lantern"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Но теперь мы тут"
+			tasks: [{
+				id: "312129CECD99EE4F"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			title: "Место, где свет"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Кто не любит радующие яркие цвета и чарующий аромат &bcвежих цветов&r?"
+				""
+				"Есть много разных способов &aрасположить парочку (или с десяточку) прелестных зелёных компаньонов на вашей базе&r. Почему бы не попробовать каждый вариант и не решить, какой вам нравится больше всего?"
+			]
+			id: "4F9A1B244734638F"
+			rewards: [
+				{
+					id: "37DD6C1B9BAF08AB"
+					item: "minecraft:cornflower"
+					type: "item"
+				}
+				{
+					id: "2EE5C5DCDD914C95"
+					item: "minecraft:blue_orchid"
+					type: "item"
+				}
+				{
+					id: "57B54422C1204BA0"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40DF8276726B01E1"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A081EDAEC5ED6D3"
+					table_id: 6990203354287577879L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Пока весну не сохранишь на дне фиала"
+			tasks: [
+				{
+					id: "4B3D31B09C746903"
+					item: "supplementaries:flower_box"
+					type: "item"
+				}
+				{
+					id: "6F74146BBA8D9DB5"
+					item: "another_furniture:oak_planter_box"
+					type: "item"
+				}
+				{
+					id: "1C2DF644222DD253"
+					item: "sprout:flower_box"
+					type: "item"
+				}
+				{
+					id: "496CE65CDFD2E0ED"
+					item: "villagersplus:oak_horticulturist_table"
+					type: "item"
+				}
+			]
+			title: "Цветочная выставка"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: ["&bГлобус&r — это декоративный предмет, уникальный для каждого мира. При взаимодействии с ним или при подаче сигнала от красного камня он будет вращаться."]
+			id: "3E509A27A92746F4"
+			rewards: [
+				{
+					id: "4B4F32018B536A56"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					id: "2ACFC13D9A34245B"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Земной шар, как известно, крутят именно оптимисты!"
+			tasks: [{
+				id: "480C6E3F2F44680E"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			title: "Крутится, вертится шар голубой"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			description: ["Подобно &bвитрине&r, &bпьедестал&r является способом декоративного отображения одного предмета. Однако, если их поставить на друг друга, то они превратятся в колонну."]
+			id: "063AD4FD6E8FB943"
+			rewards: [{
+				count: 5
+				id: "326F7B47D23186AC"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Но кой предмет поставить — не грех"
+			tasks: [{
+				id: "73A92B9FA9D46C9C"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			title: "И кумир низведён с пьедестала"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: ["&bПодвесная табличка&r является разновидностью таблички, которую можно повесить под блоком или сбоку от него. Вы можете добавить текст на табличку, &aщёлкнув ПКМ пустой рукой&r, или использовать его как рамку для предметов, &aщёлкнув ПКМ с предметом&r."]
+			id: "7E936E10896FA3D5"
+			rewards: [{
+				id: "232541D9C3D4F184"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Это раскрыло мне глаза"
+			tasks: [{
+				id: "6CDC566DF6303032"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:hanging_signs"
+					}
+				}
+				title: "Любая подвесная табличка Supplementaries"
+				type: "item"
+			}]
+			title: "Поднимите голову"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: ["На любом заборе можно разместить до двух &bзнаков&r, чтобы создать указатели направления! &6Крадучись щёлкните ПКМ&r по установленному указателю, чтобы изменить его направление. Если &6щёлкнуть по знаку ПКМ с компасом&r, он будет указывать в направлении, на которое указывает компас. Полезно для точек возрождения и &dмагнетитов&r (это блок, к которому можно привязать компас)!"]
+			id: "0E28D4A9544EAF0E"
+			rewards: [{
+				id: "5355BCF70B7F29BE"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Знаки перед самым носом"
+			tasks: [{
+				id: "644B3E0D6B13C8D4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:sign_posts"
+					}
+				}
+				title: "Любой знак Supplementaries"
+				type: "item"
+			}]
+			title: "Покажи мне путь"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&bДоска&r позволит вам нарисовать черно-белое изображение размером 16x16 (да, это не просто квадрат). Идеально подходит для креативных вывесок!"
+				"Она сохраняет свое изображение, если её сломать&r, но доску можно очистить с помощью &bведра воды&r."
+			]
+			id: "1E53C205AD76513E"
+			rewards: [
+				{
+					count: 5
+					id: "1602701476E60AAC"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3AB73DA5D315181A"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Автор, случаем, не Казимир Северинович?"
+			tasks: [{
+				id: "3F88887F48083E3E"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			title: "Чёрный квадрат"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D82FBD000D41F84"]
+			description: ["Надоели скучные старые плоские кровати? Так сделайте себе &aнеобычную&r! Чтобы создать &bкровать&r, вам понадобятся доски, шерсть, &bпокрывало&r и &bподушка&r!"]
+			id: "226368447EC1C9A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19196EF8205FDBDC"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					count: 6
+					id: "2BE073EA184CEA40"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "4D кровать, 4 измерение — радость"
+			tasks: [{
+				id: "08B5B6F8E5C51649"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:fancy_beds"
+					}
+				}
+				title: "Любая кровать Handcrafted"
+				type: "item"
+			}]
+			title: "Создай свою кровать"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["226368447EC1C9A9"]
+			description: ["Ваша кровать может выглядеть немного простовато. Почему бы не сделать &bпростыню&r и &bподушку&r, чтобы положить сверху? Их можно &aокрасить в любые цвета, которые вам нравится&r."]
+			id: "15781BD4547097E9"
+			rewards: [{
+				id: "47EEDE998B2D4F94"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			subtitle: "Любые цвета?! Любые цвета."
+			tasks: [
+				{
+					id: "70062585A7E762AE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:cushions"
+						}
+					}
+					title: "Любая подушка Handcrafted"
+					type: "item"
+				}
+				{
+					id: "1F4D43CDA2388E85"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:sheets"
+						}
+					}
+					title: "Любое покрывало Handcrafted"
+					type: "item"
+				}
+			]
+			title: "Укрась свою кровать"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32DCF4F0C230C940"]
+			description: [
+				"Нравится стиль \"охотничей хижины\"? Хотите похвастаться своими достижениями? Хотите, чтобы все знали, что вы очень, очень ненавидите &eкоз&r?"
+				""
+				"Тогда &aпочему бы не украсить свой дом привлекательными трофеями&r?"
+				""
+				"(при создании этого квеста пострадали только козы)"
+			]
+			id: "30C8AAFCE9EB2BA6"
+			rewards: [
+				{
+					id: "7AF7A77B8BA198C8"
+					item: "handcrafted:goat_trophy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "284B6B3ACEE6CE5B"
+					table_id: 223398162038636868L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Прохождение на платину"
+			tasks: [{
+				id: "63B16A64CB3AE4F8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:trophies"
+					}
+				}
+				title: "Любой трофей Handcrafted"
+				type: "item"
+			}]
+			title: "Открыт новый трофей"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Чтобы начать создавать мебель модификации &lHandcrafted&r, вам точно понадобятся &bдеревянные доски&r. Их можно легко получить, &6бросив блоки досок на &bкамнерез&r. "
+				""
+				"Вы также можете &6щёлкать ПКМ &bмолотком&r на блоках &lHandcrafted&r, чтобы &aменять их внешний вид&r."
+			]
+			id: "7D82FBD000D41F84"
+			rewards: [{
+				id: "00EB12702C71E2E5"
+				item: "handcrafted:hammer"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Больше не надо делать стол из ступенек"
+			tasks: [{
+				id: "4B25C89C016B4716"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:boards"
+					}
+				}
+				title: "Любая доска Handcrafted"
+				type: "item"
+			}]
+			title: "Сделай дом сам"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15781BD4547097E9"]
+			description: ["Но кровати — не единственные вещи, которые могут &aпреобразиться от &bпростыней&r и &bподушек&r! Попробуйте &6щёлкнуть ПКМ &bпростынёй&r по &bстолу&r и вы увидите, что она превратилась в &aскатерть&r. Ещё вы можете &aприкрепить &bподушку&r к &bстулу&r! Почему бы вам не посмотреть, какие ещё предметы можно настроить…"]
+			id: "32DCF4F0C230C940"
+			rewards: [
+				{
+					count: 10
+					id: "54AA8997ECDD7961"
+					item: "minecraft:crimson_stem"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "069D6C11A0D4C3B6"
+					item: "minecraft:warped_stem"
+					type: "item"
+				}
+			]
+			subtitle: "Я получил власть, которая и не снилась моему отцу"
+			tasks: [
+				{
+					id: "1C4700C1B44DA255"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:tables"
+						}
+					}
+					title: "Любой стол Handrcrafted"
+					type: "item"
+				}
+				{
+					id: "37260AF156A4F444"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:chairs"
+						}
+					}
+					title: "Любой стул Handcrafted"
+					type: "item"
+				}
+			]
+			title: "Мебель, которую хочешь"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			hide: true
+			id: "3B14FB98F6CA73AA"
+			invisible: true
+			tasks: [{
+				id: "6DAECCC0C5171527"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AFE0FBF887D22FD"]
+			description: ["&bЗарядная станция&r будет &aсжигать топливо для зарядки ваших строительных гаджетов&r."]
+			id: "6D3D3329A2772A3F"
+			rewards: [{
+				count: 25
+				id: "4D5B508BB59CE983"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "О-о-и-я-и-ё батарейка"
+			tasks: [{
+				id: "5EE45AA279FC7F22"
+				item: {
+					Count: 1b
+					id: "charginggadgets:charging_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Гаджеты: Зарядка"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Что успокаивает душу больше, чем сад цветов?"
+				"Посадите &a50 очаровательных зелёных (или розовых, или синих, или красных, или чёрных, или фиолетовых, или жёлтых, или белых, или оранжевых, или ) друзей&r в ванильные &bцветочные горшки&r."
+			]
+			id: "5A1DD637C09F0D13"
+			rewards: [
+				{
+					id: "6C4BF4D734DD6872"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "27278A2A82B3986E"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+				{
+					id: "1AE844EDFE9EF08B"
+					item: "environmental:cartwheel"
+					type: "item"
+				}
+			]
+			subtitle: "Люблю глядеть на деревья, цветы и небо"
+			tasks: [{
+				icon: "minecraft:flower_pot"
+				id: "26A2431C7A0CBE9B"
+				stat: "minecraft:pot_flower"
+				type: "stat"
+				value: 50
+			}]
+			title: "Цветы — остатки рая на земле"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Мод &lChipped&r предлагает более 500 новых вариантов блоков для декорирования. Их можно получить из &aразличных станций&r, добавленных модом. На следующих страницах этого квеста вы сможете увидеть каждую станцию вместе со &aсписком блоков, которые они могут преобразовать&r. Ещё вы можете посмотреть рецепты в &lJEI&r."
+				"{@pagebreak}"
+				"&bАлхимический стол&r обрабатывает следующие блоки:"
+				""
+				"{image:cottagewitch:textures/alchemybench.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"&bБотанический верстак&r обрабатывает следующие блоки:"
+				""
+				"{image:cottagewitch:textures/botanistworkbench.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"&bСтеклодув&r обрабатывает следующие блоки:"
+				""
+				"{image:cottagewitch:textures/glassblower.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"&bСтол портного&r обрабатывает следующие блоки:"
+				""
+				"{image:cottagewitch:textures/loomtable.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"&bСтол каменщика&r обрабатывает следующие блоки:"
+				""
+				"{image:cottagewitch:textures/masontable.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"&bСтол жестянщика&r обрабатывает следующие блоки:"
+				""
+				"{image:cottagewitch:textures/tinkeringtable.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"&bСтол плотника&r обрабатывает следующие блоки:"
+				""
+				"{image:cottagewitch:textures/carpenterstable.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "1399EE01027F8D7B"
+			rewards: [{
+				id: "7B2CB068ED64A116"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Действительно ли вам надо столько?"
+			tasks: [{
+				id: "144258294987402E"
+				title: "Бесконечность не предел"
+				type: "checkmark"
+			}]
+			title: "Туча вещей"
+			x: 6.0d
+			y: 2.25d
+		}
+	]
+	title: "Строительство и декор"
+}

@@ -1,0 +1,15 @@
+{
+  "curios.identifier.tiab": "Время в бутылочке",
+  "key.categories.curiotiab": "Поддержка Curio — Time in a bottle (Время в бутылочке)",
+  "key.curiotiab.hide": "Включить наложение TIAB",
+  "key.curiotiab.use": "Использовать TIAB",
+  "msg.curiotiab.command.reload": "Настройки клиента перезагружены",
+  "msg.screen.config.curiotiab.reset": "Позиция наложения TIAB сброшена",
+  "msg.screen.config.curiotiab.saved": "Позиция наложения TIAB сохранена",
+  "screen.curiotiab.config": "Экран настроек TIAB",
+  "screen.curiotiab.config.close": "Нажмите ESC, чтобы выйти из экрана настроек",
+  "screen.curiotiab.config.closed": "Экран настроек TIAB закрыт",
+  "screen.curiotiab.config.drag": "Зажмите ЛКМ, чтобы переместить",
+  "screen.curiotiab.config.reset": "Shift + R, чтобы сбросить настройки наложения",
+  "screen.curiotiab.config.save": "Shift + S, чтобы сохранить настройки наложения"
+}

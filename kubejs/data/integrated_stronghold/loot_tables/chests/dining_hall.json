@@ -1,0 +1,522 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{
+                pages:[
+                    \"[
+                      \\\"\\\",
+                      {\\\"text\\\":\\\"Журнал §kЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"§l\nДень 202\n\n\\\"},
+                      {\\\"text\\\":\\\"В столовой только что установили невероятную дверь. \\\"},
+                      {\\\"text\\\":\\\"Она открывается при наступлении на плиту снаружи. \\\"},
+                      {\\\"text\\\":\\\"Я полагаю, она была разработана \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\".\\\"}
+                    ]\"
+                ],
+                title:Журнал,
+                author:Неизвестный,
+                display:{Lore:[\"Найдена в древней крепости\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Таинственный журнал #5",
+                "add": false
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{
+                pages:[
+                    \"[
+                      \\\"\\\",
+                      {\\\"text\\\":\\\"Журнал §kЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"§l\nДень 132\n\n\\\"},
+                      {\\\"text\\\":\\\"Я поймал маленького \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"снова крадущего пироги из кухни! \\\"},
+                      {\\\"text\\\":\\\"Дети есть дети, полагаю.\\\"}
+                    ]\"
+                ],
+                title:Журнал,
+                author:Неизвестный,
+                display:{Lore:[\"Найдена в древней крепости\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Таинственный журнал #6",
+                "add": false
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{
+                pages:[
+                    \"[
+                      \\\"\\\",
+                      {\\\"text\\\":\\\"Журнал §kЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"§l\nДень 164\n\n\\\"},
+                      {\\\"text\\\":\\\"Сегодня, обедая в столовой, я увидел \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО \\\"},
+                      {\\\"text\\\":\\\"сидящего в стороне комнаты наедине. \\\"},
+                      {\\\"text\\\":\\\"Я обернулся, чтобы сосредоточиться на своей еде, и в следующий миг их не стало!\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Я клянусь, что слышал, как дверь открылась с левой стороны комнаты...\\\"}
+                    ]\"
+                ],
+                title:Журнал,
+                author:Неизвестный,
+                display:{Lore:[\"Найдена в древней крепости\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Таинственный журнал #19",
+                "add": false
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{
+                pages:[
+                    \"[
+                      \\\"\\\",
+                      {\\\"text\\\":\\\"Журнал §kЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"§l\nДень 144\n\n\\\"},
+                      {\\\"text\\\":\\\"Кто-то украл все сладости из кухни! \\\"},
+                      {\\\"text\\\":\\\"Вчера они были, а сегодня ни одной не осталось.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Даже пирогов не осталось... это печальный день.\\\"}
+                    ]\"
+                ],
+                title:Журнал,
+                author:Неизвестный,
+                display:{Lore:[\"Найдена в древней крепости\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Таинственный журнал #20",
+                "add": false
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{
+                pages:[
+                    \"[
+                      \\\"\\\",
+                      {\\\"text\\\":\\\"§lЗапись собрания\nДень 63\n\n\\\"},
+                      {\\\"text\\\":\\\"§lСобрание вёл: \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+                      {\\\"text\\\":\\\"§lОбсуждаемая тема: Великая библиотека\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Сегодня обсуждалась тема вновь построенной Великой библиотеки. \\\"},
+                      {\\\"text\\\":\\\"Мы решили, что её использование будет состоять из исследований, хранения книг, и во второй комнате мы будем изучать \\\"},
+                      {\\\"text\\\":\\\"§kастероид и таинственные материалы внутри него\\\"}
+                    ]\"
+                ],
+                title:Запись,
+                author:Неизвестный,
+                display:{Lore:[\"Найдена в древней крепости\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Запись собрания #1",
+                "add": false
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{
+                pages:[
+                    \"[
+                      \\\"\\\",
+                      {\\\"text\\\":\\\"§lЗапись собрания\nДень 306\n\n\\\"},
+                      {\\\"text\\\":\\\"§lСобрание вёл: \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+                      {\\\"text\\\":\\\"§lОбсуждаемая тема: Экспедиция\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Во время этой очень важной встречи мы решили отправить \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО, ЗАШИФРОВАНО и ЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"через таинственное устройство, запертое глубоко в крепости \\\"},
+                      {\\\"text\\\":\\\"в надежде, что мы наконец найдем \\\"},
+                      {\\\"text\\\":\\\"§oТого, Кто Над Всем \\\"},
+                      {\\\"text\\\":\\\"ожидающего нас там. \\\"}
+                    ]\"
+                ],
+                title:Запись,
+                author:Неизвестный,
+                display:{Lore:[\"Найдена в древней крепости\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Запись собрания #2",
+                "add": false
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{
+                pages:[
+                    \"[
+                      \\\"\\\",
+                      {\\\"text\\\":\\\"§lЗапись собрания\nДень 309\n\n\\\"},
+                      {\\\"text\\\":\\\"§lСобрание вёл: \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+                      {\\\"text\\\":\\\"§lОбсуждаемая тема: Инфекция\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"После смертей \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО и ЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"мы решили помещать в карантин \\\"},
+                      {\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"},
+                      {\\\"text\\\":\\\"в тюрьму. \\\"},
+                      {\\\"text\\\":\\\"Мы надеемся, что это поможет спасти остальных от инфекции, которая поглотила других жертв.\\\"}
+                    ]\"
+                ],
+                title:Запись,
+                author:Неизвестный,
+                display:{Lore:[\"Найдена в древней крепости\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Запись собрания #3",
+                "add": false
+              }
+            ]
+          },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+			{
+			  "function":"set_nbt",
+			  "tag":"{
+				pages:[
+					\"[
+					  \\\"\\\",
+					  {\\\"text\\\":\\\"§lЗапись собрания\nДень 85\n\n\\\"},
+					  {\\\"text\\\":\\\"§lСобрание вёл: \\\"},
+					  {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+					  {\\\"text\\\":\\\"§lОбсуждаемая тема: Смерть \\\"},
+					  {\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"}
+					]\",
+					\"[
+					  {\\\"text\\\":\\\"После \\\"},
+					  {\\\"text\\\":\\\"§kЗАШИФРОВАНО \\\"},
+					  {\\\"text\\\":\\\"был сброшен в лаву во время поездки в измерение Незера, \\\"},
+					  {\\\"text\\\":\\\"мы думаем, что скорее всего \\\"},
+					  {\\\"text\\\":\\\"§kЗАШИФРОВАНО\\\"},
+					  {\\\"text\\\":\\\"был тем, кто толкнул его. \\\"},
+					  {\\\"text\\\":\\\"Они уже направляются в тюрьму, как мы говорим.\\\"}
+					]\"
+				],
+				title:Запись,
+				author:Неизвестный,
+				display:{Lore:[\"Найдена в древней крепости\"]}
+			  }"},
+			  {
+				"function": "minecraft:set_name",
+				"name": "Запись собрания #4",
+				"add": false
+		    }
+		  ]
+		}
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "quark:dirty_shard",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:flower_pot",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:honey_bottle"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:pumpkin_pie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:cake"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:milk_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:honey_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:honeyed_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:rabbit_stew"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:mushroom_stew"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:beetroot_soup"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:builders_tea"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "integrated_stronghold:music_disc_forlorn"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:wheat_flour",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:dough",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:moss_paste",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:baked_potato",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

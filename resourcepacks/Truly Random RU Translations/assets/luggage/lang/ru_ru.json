@@ -1,0 +1,14 @@
+{
+	"entity.luggage.luggage": "Багаж",
+	"entity.luggage.ender_luggage": "Эндер-багаж",
+	"entity.luggage.player_doesnt_own": "Это не ваш багаж!",
+	"item.luggage.luggage": "Багаж",
+	"item.luggage.ender_luggage": "Эндер-багаж",
+	"keybind.luggage.wait": "Дать команду багажу ждать",
+	"keybind.luggage.call": "Позвать багаж к себе",
+	"subtitles.luggage.entity.luggage.killed": "Багаж распадается",
+	"subtitles.luggage.entity.luggage.eat_food": "Багаж проглатывает еду",
+	"subtitles.luggage.entity.luggage.eat_item": "Багаж проглатывает предмет",
+	"subtitles.luggage.entity.player.whistle_call": "Игрок мягко свистит",
+	"subtitles.luggage.entity.player.whistle_wait": "Игрок резко свистит"
+}

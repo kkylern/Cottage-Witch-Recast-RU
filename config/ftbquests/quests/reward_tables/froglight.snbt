@@ -1,0 +1,11 @@
+{
+	id: "07FAC111A52D3EA1"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ item: "minecraft:ochre_froglight" }
+		{ item: "minecraft:verdant_froglight" }
+		{ item: "minecraft:pearlescent_froglight" }
+	]
+	title: "Froglight"
+}

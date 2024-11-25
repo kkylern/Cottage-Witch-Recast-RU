@@ -1,0 +1,35 @@
+{
+    "parent": "totw_reworked:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_cobblestone"
+        },
+        "title": {
+            "translate": "Путешествие в глубинку"
+        },
+        "description": {
+            "translate": "Найдите древнюю башню в лесу или в поле"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "derelict_grass": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "totw_reworked:derelict_grass"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "derelict_grass"
+        ]
+    ]
+}

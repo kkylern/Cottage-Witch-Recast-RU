@@ -1,0 +1,3064 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "miscellaneous"
+	group: "346046A71D537172"
+	icon: "minecraft:bookshelf"
+	id: "0F5FCDF7AD60349B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcommerce.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgautomation.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmiscteal.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Вы можете отправлять письма и посылки своим друзьям с помощью &bпочтовой раковины&r! После того, как вы поставили её, раковина становится ваша и вы можете открыть меню почты и выбрать название раковины, &6щёлкнув ПКМ&r по раковине и введя текст в поле имени."
+				""
+				"&dПожалуйста, перейдите на следующую страницу!&r "
+				"{@pagebreak}"
+				"Чтобы &aотправить посылку&r, вам нужна &bпочтовая марка&r и &bоткрытый почтовый конверт&r. Открытки можно повторно использовать — меньше отходов! &6Поместите конверт в верхний правый угол &bменю раковины&r. И затем, нажмите &6\"Открыть конверт&r.\""
+				""
+				"{image:cottagewitch:textures/snailmail1.png width:200 height:236 align:1}"
+				"{@pagebreak}"
+				"В меню конверта, вы можете класть всё что вы хотите! Можете отправить &bфотографии, разные предметы и многое другое&r! Чтобы добавить сообщение, используйте &bкнигу и перо&r. &aНе забудьте добавить марку&r! Введите никнейм получателя (To:), а имя отправителя можете оставить пустым или написать любое (From:). &6Нажмите ESC, если вы всё положили и хотите вернуться обратно&r!"
+				""
+				"{image:cottagewitch:textures/snailmail2.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"Как только вы нажали &dESC&r, вы можете &aвыбрать почтовую раковину получателя&r, и та-да! Всё готово!"
+				""
+				"{image:cottagewitch:textures/snailmail3.png width:531 height:111 align:1 fit:true}"
+				""
+				"{image:cottagewitch:textures/snailmail4.png width:512 height:176 align:1 fit:true}"
+			]
+			id: "476D80268DFAFC7A"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "0599A3D734B1522D"
+					item: "snailmail:stamp"
+					type: "item"
+				}
+				{
+					id: "792EE14262BC256A"
+					item: "snailmail:snail_box"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD1D64752FC1F78"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "В-о-о-...-у-у"
+			tasks: [{
+				id: "47B16BD50607E0B8"
+				item: "snailmail:stamp"
+				type: "item"
+			}]
+			title: "Улиточная почта"
+			x: -3.25d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&bПесочный замок&r можно поставить не только как декорацию, но и поверх &bчерепашьих яиц&r, чтобы защитить их от монстров (к примеру, зомби)."
+				""
+				"Однако, в модификации &lEcologics&r &dсейчас есть баг&r, который не даёт черепашьим яйцам вылупится в &bпесчанном замке&r."
+			]
+			id: "012D4FE416DC8BE7"
+			rewards: [
+				{
+					count: 6
+					id: "6FA462CBA8F1F1A0"
+					item: "minecraft:seagrass"
+					type: "item"
+				}
+				{
+					id: "67DB8C7385EA982C"
+					item: "plushies:turtle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "011BA0D1215C61A4"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Прямо как в детстве, только не ешьте песок"
+			tasks: [{
+				id: "33B1F2EE602D5EAB"
+				item: "ecologics:sandcastle"
+				type: "item"
+			}]
+			title: "Своё королевство"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			description: ["&bЖелезная решётка&r работает как забор с шерстянным ковром — животные внутри ограждения боятся его перепрыгнуть, но вы можете провести их через ограждение на &bповодке&r. &aПредметы падают сквозь решётку&r."]
+			id: "0D7B3090032B6F0E"
+			rewards: [{
+				count: 10
+				id: "33366B032997DB84"
+				item: "quark:grate"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Отсеивает предметы, животных и людей"
+			tasks: [{
+				count: 4L
+				id: "7B8D8FBF31255D24"
+				item: "quark:grate"
+				type: "item"
+			}]
+			title: "Полетят мотыльки над тайгой"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&bДревние тома&r — это книги, несущие в себе давно потерянные знания. Том может &aувеличить соответсвующие зачарования&r если соединить его с &bчародейской книгой&r на &bнаковальне&r."
+				""
+				"Можно найти в случайных сундуках."
+			]
+			id: "3765768BE87D28DE"
+			rewards: [{
+				id: "003A388D44155E77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Солнце светило ярче, небо было выше..."
+			tasks: [{
+				id: "74CD55EBA3A75ABB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tomes"
+					}
+				}
+				title: "Any Ancient Tome"
+				type: "item"
+			}]
+			title: "Мудрость древних"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Вы можете добыть &bоблако в бутылочке&r набрав воздух на &aвысоте облаков&r. Чтобы набрать, &6щёлкните ПКМ по воздуху с бутылочкой в руке&r."
+				""
+				"&aОблако можно выпустить&r &6щёлкнув ПКМ по пустому пространству&r. Облако быстро исчезает, но если оно было &6заменено другим блоком&r, то облако вернётся в бутылочку. Так вы сможете &aставить блоки в воздухе&r."
+			]
+			id: "24B3EE21C9B6292B"
+			rewards: [{
+				id: "6AEF085BA270D1C5"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Не даёт второй прыжок"
+			tasks: [{
+				id: "60F3F63E08A8D71B"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&bПепельная печь&r — это уникальны предмет, который &aработет только на спине &eпеплопанциря&r, живущего в &cНезерских пустошах&r."
+				""
+				"&aВы можете приручить и разводить пеплопанцирей&r &bнезерскими грибами&r — но будьте осторожны, за раз, они рождают ОЧЕНЬ много потомства."
+				""
+				"Если вы поставите &bпечь&r на &eпеплопанциря&r, то печь сможет работать только за счёт жара этого зверя и &aплавить без использования топлива&r!"
+			]
+			id: "7B40E7022A67BC86"
+			rewards: [{
+				id: "29CA99C54CEF6EDB"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Эксплуатация пеплопанцирей идёт полным ходом"
+			tasks: [{
+				id: "67131CB5294C5493"
+				item: "cnb:cinder_furnace"
+				type: "item"
+			}]
+			title: "Панцирная печь"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Вы знали, что теперь есть способ &aускорить время тиков для блоков&r?"
+				""
+				"Создав &bвремя в бутылочке&r, вам всего лишь надо держать её в инвентаре, чтобы она копила время. Накопив время, &6щёлкните ПКМ крадучись&r по блокам, которые &aиспользуют тики для работы&r (печи, грядки, саженцы и т.д.)"
+				""
+				"Первое ускорение &aтребует 30 секунд&r и &aв два раза больше времени на каждое последующее&r ускорение. "
+				"Так, &dтолько на пятое ускорение&r вам надо будет потратить 8 минут времени бутылочки. "
+				""
+				"&dЭффект длится 30 секунд.&r"
+			]
+			id: "00BDE15DD24045A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BD6346A90078E9B"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03E7C7EA0D3FA6C2"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "А есть с замедлением? Мне надо такую для переводов"
+			tasks: [{
+				id: "2B71420D0C290C59"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: {
+						storedTime: 3520
+					}
+				}
+				type: "item"
+			}]
+			title: "Время в бутылочке"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: ["&bКлетка&r — это предмет, которым можно ловить &6маленьких мобов&r для транспортировки. &6Щёлкните ПКМ по мобу, чтобы поймать&r, ПКМ ещё раз, чтобы отпустить. &bКлетку&r можно поставить, &6щёлкнув ПКМ крадучись&r, чтобы показать вашего нового друга всем на обозрение."]
+			id: "2AD60B373912C5A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A6CFBB3D1DD0E2C"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					id: "7BB2F04536C0D59E"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Сижу за решёткой в темнице сырой"
+			tasks: [{
+				id: "69932938B19DB961"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			title: "Клетка"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Да, с дорогущего &bзачарованного золотого яблока&r можно сточить чары."
+				""
+				"Было бы совершенно нелепо и абсурдно это сделать, и всё же..."
+			]
+			id: "7DD918D36463CF71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33D0F4658286711D"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					id: "0C1984AA729F6517"
+					item: "plushies:white_fox"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Ради достижения, конечно"
+			tasks: [{
+				advancement: "supplementaries:story/unenchanter"
+				criterion: ""
+				id: "0F62B197A427BB30"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&bГаечный ключ&r — это инструмент, который может &aповорачивать блоки&r. Просто &6щёлкните ПКМ по блоку&r с &bгаечным ключом в руке&r, и блок повернётся в зависимости от вашего положения."
+				""
+				"&dНе поворачивает&r блоки в невозможные позиции (нельзя повернуть печь вверх) и блоки с одинаковыми текстурами на всех сторонах (к примеру, доски)."
+			]
+			id: "1547891EBE53934F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "686A7979CF354907"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Распутать хочу"
+			tasks: [{
+				id: "7AFEDB990D121E9E"
+				item: {
+					Count: 1b
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Кручу-верчу"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			description: ["&bСпальник&r — это полезный предмет для путешествий. С его помощью, вы можете &aпропустить ночь, не меняя точку возрождения&r. Просто возьмите спальник в руки и поставьте его, &6щёлкнув ПКМ по земле&r."]
+			id: "34E82F6EBE6762A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "326FAD6DC787DFAD"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Главное, чтобы дождь не пошёл"
+			tasks: [{
+				id: "0531D8B2000AAB12"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "upgrade_aquatic:bedrolls"
+					}
+				}
+				title: "Любой спальник"
+				type: "item"
+			}]
+			title: "Под звёздами"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Вы когда-нибудь проникались любовью к цветовой палитре одного биома, но ваша база находилась совсем в другом месте? Не волнуйтесь! С помощью &bбиомных банок&r вы можете &dбыстро собрать цвета биома и перевезти их к себе&r."
+				""
+				"Поставьте банку на землю биома, который вы хотите собрать. &6Подождите достаточно долго&r, чтобы подумать — \"А она рабо-\""
+				""
+				"&l&dБАДЫЩЬ!&r Да, работает! После того, как сбор биома закончится, вы можете подобрать банку &6щёлкнув ПКМ&r."
+				""
+				"Затем, возьмите банку и &6щёлкните с ней ПКМ&r в области, в которую вы хотите перенести биом."
+			]
+			id: "642A47408175527E"
+			rewards: [{
+				id: "4D09F6B82F4DBEC7"
+				item: "biomesinjars:empty_biome_jar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Paint It, Green"
+			tasks: [{
+				id: "1AFEF35775412EB5"
+				item: "biomesinjars:empty_biome_jar"
+				type: "item"
+			}]
+			title: "Мир в бутылке"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Крестьяне, что &aстали зомби, но были исцелены&r, предлагают &aогромные скидки&r. Скидки за каждое исцеление складываются."
+				""
+				"Вам надо найти &eзомби-крестьянина&r, &6кинуть в него взрывное зелье слабости&r, и затем &6дать ему золотое яблоко&r. Через пару минут он будет исцелён!"
+				""
+				"Это неэтично, но можно заразить живого крестьянина и исцелить обратно. Они даже и не подозревают, что это вы их мучитель."
+			]
+			id: "16797E1EF5450E7E"
+			rewards: [{
+				id: "32B8F134BDB6C421"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "делай скидку или тебя опять покусают"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "7F78311C1F39DDCC"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&bИзумруды&r! Это хлеб и масло &eкрестьян&r, живущих в вашем мире. Вам понадобятся парочка этих зелёных самоцветов, чтобы достать такие редкие предметы, как новые &bочи эндера&r."
+				""
+				"Чтобы посмотреть &aпрофессии крестьян и их рабочие станции&r, наведитесь курсором на &bизумруд&r и &6нажмите U&r, затем &6нажмите на вкладку с лицом крестьянина&r."
+				"{image:cottagewitch:textures/villagers.png width:200 height:212 align:1}"
+			]
+			id: "70C4F17973F6492E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56FC01153B740D4A"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "193851DBE5D9BA6B"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Диктатура больших игроков"
+			tasks: [{
+				id: "58A355655550BE5E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Основа экономики"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["После того, как вы в первый раз обменялись с крестьянином, его &aпрофессия закрепляется, а ассортимент становится неизменным&r. Это хороший способ не дать &eбиблиотекарю&r с книгой &bпочинки&r вдруг убежать в цирк-шапито."]
+			id: "3705ABBD8EE1A369"
+			rewards: [{
+				count: 4
+				id: "5F9B1BB381A8AF4E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Откуда они берут свои товары?"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				icon: "minecraft:wheat"
+				id: "1AE5841864AEE2A1"
+				type: "advancement"
+			}]
+			title: "Обмен с крестьянами"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["&eГоблины-торговцы&r — дружелюбные ребята, которые всегда рады иметь дело с людьми! Правда, они не самые умные, &aпоэтому обычно предлагают довольно выгодные сделки&r."]
+			id: "160EE610C4B660D8"
+			rewards: [
+				{
+					id: "6401C8FA6FD927CB"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "085B97D1A7BA8CA9"
+					item: "plushies:llama"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "I thought you'd be taller."
+			tasks: [{
+				icon: "goblintraders:goblin_trader_spawn_egg"
+				id: "13D291470FC0A9F4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			title: "Полезный малый"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			description: ["Название говорит само за себя, &bредстоуновый рандомизатор&r случайно передаёт входящий сигнал &aналево или направо&r."]
+			id: "18D9BBE334549285"
+			rewards: [
+				{
+					id: "64ED604693BAC54A"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "27787B4FDAD4F84C"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "601665ACAFEC8462"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "355E971D34CF6BC3"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Орёл, решка"
+			tasks: [{
+				id: "75EF1DAD98E4D222"
+				item: "quark:redstone_randomizer"
+				type: "item"
+			}]
+			title: "Подбрось монетку"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&bБлок шестерней&r — это блок, который работает в точности, как &bредстоун&r. "
+				"Но шестерни нельзя смыть водой, и сигнал по ним может идти как горизонтально, так и вертикально."
+			]
+			id: "781003E78C236E0D"
+			rewards: [
+				{
+					count: 14
+					id: "14DB1AEE4A513217"
+					item: "supplementaries:cog_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32D22BEA8DC9AD62"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A17133D15FF264B"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Не смягчайте \"г\"!"
+			tasks: [{
+				id: "03A7ABED5015F645"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			title: "Блок когштерней"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&bФлюгер&r — это декорация, которая издаёт &aредстоун-сигналы&r силы, зависимой от погоды. "
+				""
+				"Когда &aидёт дождь&r, сила сигнала — 1. "
+				"Когда &aидёт гроза&r, сила сигнала — 2."
+			]
+			id: "6DBD018A4FB32DD8"
+			rewards: [
+				{
+					command: "/weather thunder"
+					id: "5B03626476475840"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41CD92015AD0CB9B"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B0C02AF2799DAEB"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Make it rain"
+			tasks: [{
+				id: "6BFD2D33AD5AA3DA"
+				item: "supplementaries:wind_vane"
+				type: "item"
+			}]
+			title: "Прогноз погоды"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&bМеха&r — это блок, который может &aразгонять печки&r, &aраздувать огонь (он не потухнет)&r, и даже &aсдувать существ&r."
+				""
+				"Мощность мехов определяется силой получаемого &aредстоун-сигнала&r."
+			]
+			id: "50E64308D7D56C48"
+			rewards: [
+				{
+					id: "75FE7DDAC7EE2B76"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "3AE665402813BA3B"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AF788C41142FA0A"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F73DB493D99D5CE"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Ха-ха-ха.. ХА-ХА-ХА-ХА-ХА"
+			tasks: [{
+				id: "274DAEA1048998F7"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Возможно, что это очевидно, но &bповоротный стол&r — это блок, которой поворачивает прилегающие блоки, если получает &aредстоун-сигнал&r."
+				""
+				"Если стол стоит боком, то он может перевернуть &bпесочные часы&r, чтобы сбросить их время."
+			]
+			id: "6C7EB11A659D7914"
+			rewards: [
+				{
+					id: "29D5CBCFAC40247B"
+					item: "minecraft:armor_stand"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EA7771EAF0FFD29"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4546B9ACFEDF91A1"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Что он нам несёт?"
+			tasks: [{
+				id: "46A8B4EA03512795"
+				item: "supplementaries:turn_table"
+				type: "item"
+			}]
+			title: "Вот, новый поворот"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&bРедстоуновый светильник&r — это источник света, который включён &aпри отсутствии редстоун-сигнала&r. &dЧем сильнее сигнал, тем слабее свет.&r"
+				""
+				"Чтобы &aточно настраивать уровень света&r, используйте &bповоротный рычаг&r вместо обычного &bрычага&r."
+			]
+			id: "1371F9B501187A91"
+			rewards: [
+				{
+					id: "0FF3EDC8632BBD2A"
+					item: "supplementaries:crank"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1989152A446D9F94"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F61C8A456DA1809"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Жаль нельзя менять цвета"
+			tasks: [{
+				id: "7696927D53015E8F"
+				item: "supplementaries:redstone_illuminator"
+				type: "item"
+			}]
+			title: "Точный контроль"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&bКран&r — это блок, который &aзабирает предметы &dсбоку&a из инвентаря, к которому присоединён&r (не только из сундуков, но ульев, банок и т.д.). По сути, это альтернатива воронки, которая забирает предметы не снизу, а сбоку блока."
+				""
+				"Также &bкран&r может &aбрать воду из котла&r, из &aзатопленного (waterlogged) блока (листья, ступеньки, плиты)&r, или &aнапрямую из блока воды&r. Краном можно заполнять ваши котлы для зельеварения или чайник из модификации &lFarmer's Respite&r."
+			]
+			id: "5A0A46815A9FE05D"
+			rewards: [
+				{
+					id: "25E6A85160A3B1D8"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3088ADDA4C6ABEA9"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Марио, не лезь, это не труба!"
+			tasks: [{
+				id: "5F118DB99C9B4861"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			title: "Сантехника"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			description: ["&bЭндер-смотритель&r издаёт редстоун-сигнал когда &aигрок смотрит на этот блок&r. Сила сигнала зависит от расстояния между смотрителем и игроком."]
+			id: "416C9C912FDB1ADC"
+			rewards: [
+				{
+					count: 4
+					id: "1AB780552E0B7B4B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE5BD0AD488B260"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					id: "6E2135354FEF676F"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									797961014
+									-232764807
+									-1952866225
+									341423790
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU2MWMwZDU0ZmFjY2I2YTE5MzdmNTZiYmYzZDU5YTViN2QxMjZlYzM4NTBiMDQ5N2ViZTc3ZjFmNTY3YTlmNSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Fancy Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3546809490B8ED0B"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Ты в моих стенах? O_o;"
+			tasks: [{
+				id: "642A27CACAE4C885"
+				item: "quark:ender_watcher"
+				type: "item"
+			}]
+			title: "Ты меня видишь"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&bЖелезный стержень&r — это не просто декорация, у него есть функционал. Если стержень сдвинет &bпоршень&r, то блок, в который врежется стержень, &aсломается&r."
+				""
+				"&bСтержень&r работает только на движимые блоки, так что &bобсидиан&r и другие блоки не будут подвержены никакому эффекту."
+			]
+			id: "593CA14F58A43AEB"
+			rewards: [
+				{
+					id: "5D5DF2A399B6DB65"
+					item: "quark:iron_rod"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E1B10BB37B9187C"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "780A04365934D2E1"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1802013EAD2A66D1"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Использовать только по назначению"
+			tasks: [{
+				id: "7BA7E1B4A0BEB6D1"
+				item: "quark:iron_rod"
+				type: "item"
+			}]
+			title: "Методы разработки"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			description: ["&bОбсидиановая нажимная плита&r может быть активирована &aтолько игроками&r. Не может быть взорвана и ломается немного дольше, чем другие плиты."]
+			id: "129EB9D48551AA2E"
+			rewards: [
+				{
+					count: 3
+					id: "2280B33DED08333F"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "1998BF7315195551"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D8595034E6705E7"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06CAAA927BA83E02"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Хоть кто-то меня чувствует"
+			tasks: [{
+				id: "38E9461ED962DF18"
+				item: "quark:obsidian_pressure_plate"
+				type: "item"
+			}]
+			title: "Нажимная плита только для игроков"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&bГравипесок&r — это уникальный блок, обладающий частицей силы Края. Этот песок &aпадает только при присутствии редстоун-сигнала&r. "
+				""
+				"Песок &aвзлетит, если есть редстоун-сигнал, но он не смог упасть&r."
+			]
+			id: "3C38D37B0E1FD22C"
+			rewards: [
+				{
+					id: "7FBE361C175F1C1F"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "23CC8413374A4380"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377B5D112F5594EC"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C1FE5DC55266402"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Чёрная магия! Колдун е—"
+			tasks: [{
+				count: 5L
+				id: "3C19581008C8851B"
+				item: "quark:gravisand"
+				type: "item"
+			}]
+			title: "Прыгать только по команде"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Эти кнопки работают точно так же, как и другие, за исключением времени испускания сигнала. "
+				"&bЖелезная кнопка&r испускает &aсигнал намного дольше&r обычного."
+				"&bЗолотая кнопка&r испускает &aсигнал намного короче&r обычного."
+			]
+			id: "03A72717715E8A5D"
+			rewards: [
+				{
+					id: "4FD8395B1851BF1C"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5494B393A733C493"
+					table_id: 3965165831041023950L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ACDE9B99BE0B8EA"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "*тык* —БУМ—"
+			tasks: [
+				{
+					id: "4F9668A0016EC26A"
+					item: "quark:iron_button"
+					type: "item"
+				}
+				{
+					id: "43768C0EFCAC5742"
+					item: "quark:gold_button"
+					type: "item"
+				}
+			]
+			title: "Кнопочки"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&bЖёлоб&r — это блок, который забирает предметы из инвентаря сверху и &aвыбрасывает их&r идеально в середину блока снизу."
+				""
+				"Его можно отключить &aредстоун-сигналом&r или заблокировать низ блоком."
+			]
+			id: "2E4C149DAE459F03"
+			rewards: [
+				{
+					id: "015BE885EFACED24"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "2AE340E126CFCBF8"
+					item: "quark:chute"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F6AC6587B1D20A4"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+				{
+					id: "2A676A7E9E19C257"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Меня не разжёлобить!"
+			tasks: [{
+				id: "46353D8C4E64C59C"
+				item: "quark:chute"
+				type: "item"
+			}]
+			title: "Воронка со своей изюминкой"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "2BE44A5A7C52C52D"
+			invisible: true
+			tasks: [{
+				id: "0FEED3BDD00222CD"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Вам больше не надо ломать станцию крестьянина, чтобы поменять предметы в продаже. Просто &aвежливо попросите&r (&6пинком по стрелке \"Поменять товары\" в окне бартера&r)."
+				""
+				"{image:cottagewitch:textures/tradecycle.png width:200 height:120 align:1 fit:true}"
+			]
+			id: "08F9BA2E3066C5FB"
+			rewards: [{
+				id: "681C157623F6DA33"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "А ведь всего лишь надо было поговорить"
+			tasks: [{
+				id: "6436F337BFCACE09"
+				title: "Можете поменять, пожалуйста?"
+				type: "checkmark"
+			}]
+			title: "Смена ассортимента"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			description: ["Играть в интересную игру — это само по себе награда, но от меня дополнительный бонус за проведённое вместе время! "]
+			id: "1DB7D51E15454923"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C0FB88D68341C28"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B66CA360413D9EC"
+					table_id: 5161092699925703455L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "И снова третье сентября"
+			tasks: [{
+				days: 999
+				id: "2BA9C25DFAEBBEE4"
+				title: "Достигните день 999"
+				type: "questsadditions:days"
+			}]
+			title: "Я календарь переверну"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Хотя не все русалки — ведьмы, &aвсе ещё есть несколько ярких примеров&r. Вы можете устроить жуткое обиталище под водой и жить там с помощью &bморского ожерелья&r, которое наделит вас &aсвоим хвостом!&r "
+				"Оно также &aдаёт повышенную скорость плавания&r и &aспособность дышать под водой без ограничений по времени&r."
+				"Чтобы изготовить его, вам понадобится &bморской кристалл&r, который вы сможете создать, если вам повезет с добычей из зарытого клада!"
+			]
+			id: "3E72CBC6D658F80E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CAC99596EA711E2"
+					table_id: 1279979498352596350L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26096232AA71A2BA"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Слушай песню морских волн"
+			tasks: [{
+				id: "03E158B19D645A2D"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Морская ведьма"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Если вы играете не в одиночную игру, то вы можете использовать &bстанции обмена&r из модификации &lShoppy&r, чтобы &aпродавать другим игрокам свои вещи&r даже пока вы не в игре!"
+				""
+				"Чтобы &aпоставить предмет на продажу&r, &6щёлкните ПКМ&r по верху станции с тем количеством предметов, сколько вы хотите продать за один раз. К примеру, если вы хотите продавать кожу по 16 штук, то вы должны нажать по верху станции держа в руке 16 кожи."
+				""
+				"Чтобы &aвосполнить инвентарь&r станции, &6щёлкните ПКМ&r с предметом в руке, который стоит на продаже, по верху станции. Не обязательно пополнять товар стаками, можно положить любое количество, которое у вас находится в руке."
+				""
+				"Чтобы &aпоставить цену&r, &6щёлкните ПКМ&r предметом, который бы вы хотели получить (в том количестве, которое вы бы хотели) &dпо низу&r станции."
+				""
+				"К примеру, вы хотите продавать 16 кожи за 1 золотой слиток: "
+				"- &6Щёлкните ПКМ по низу станции держа 1 слиток в руке&r. "
+				"&dЕсли в этот момент, в вашей руке 13 слитков, то вы будете продавать 16 кожи за 13 золотых слитков.&r"
+				""
+				"Если вы передумали продавать 16 кожи только за 1 слиток, то вы можете &aснова поменять цену&r: "
+				"- &6Щёлкните ПКМ по низу станции держа 1 золотой слиток&r — это повысит цену только на 1 слиток."
+				"- Или же, &6щёлкните ПКМ по низу станции держа 10 слитков&r — это сразу поставит цену на 10 золотых слитков."
+				""
+				"Чтобы &aсбросить настройку станции&r, &6с пустой рукой, щёлкните ПКМ&r &dпо верху&r станции."
+				""
+				"Чтобы &aзабрать заработанное&r, &6с пустой рукой, щёлкните ПКМ крадучись по станции&r. "
+				""
+				"Если вы просто &6щёлкните ЛКМ&r по станции, то вы увидите &aчто вы продаёте&r и &aсколько продано/осталось товара&r."
+				""
+				"{image:cottagewitch:textures/shoppy.png width:100 height:55 align:1 fit:true}"
+			]
+			id: "5C5768D4346FD3FE"
+			rewards: [{
+				id: "7C592B360B7E447C"
+				item: "shoppy:bartering_station"
+				type: "item"
+			}]
+			subtitle: "Оптимизация времени"
+			tasks: [{
+				id: "1DFF4A58C1D8EE8D"
+				item: "shoppy:bartering_station"
+				type: "item"
+			}]
+			title: "Рынок для игроков"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E72CBC6D658F80E"]
+			description: [
+				"Что же, у вас есть &bморской кристалл&r — теперь вы можете создать &bморское ожерелье&r. Ожерелье надевается в &aслот нагрудника&r или &aв слот &lCurious&r&r."
+				""
+				"С надетым ожерельем, &aвы превратитесь русалку, если попадёте в воду&r."
+				""
+				"Также, вы можете менять свою форму русалки &bс помощью улучшений&r."
+				""
+				"Вы можете покрасить хвост — всего лишь &6совместите &bожерелье&r с любым красителем (прямо как покраска кожаной брони)."
+				""
+				"Чтобы &dочистить красители и улучшения&r, вам нужно &6взять ожерелье&r в руку и &6щёлкнуть ПКМ&r."
+			]
+			id: "32235F4557C97245"
+			rewards: [
+				{
+					id: "0F690C1236A49A15"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "461207DF6A2508FE"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23BFAEDC1538A8A9"
+					table_id: 7737096167250795605L
+					type: "choice"
+				}
+			]
+			subtitle: "Море волнуется раз"
+			tasks: [{
+				id: "05B780BD03A97741"
+				item: "mermod:sea_crystal"
+				type: "item"
+			}]
+			title: "Эссенция моря"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Со &bсверкающим жемчугом&r, ваш &bрусалий лиф&r и хвост засверкают будто &aпод чарами&r!"]
+			id: "446D2A3C8B066099"
+			rewards: [
+				{
+					id: "4CF4355BEF3A17A7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3243A0BCFBBE9088"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Чтобы ВСЕ увидели вашу красоту"
+			tasks: [{
+				id: "1AC3BC2BA93D897A"
+				item: "mermod:glowing_pearl_modifier"
+				type: "item"
+			}]
+			title: "Золотой жемчуг"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Теперь вы выглядите будто вы из \"H2O: Просто добавь воды\"."]
+			id: "2ABFB8A3E57C7F1A"
+			rewards: [
+				{
+					id: "21B44FA4EEDD6CA4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "091048E071EEA686"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Выглядит как настоящий"
+			tasks: [{
+				id: "0E0F18FDDDB3CAF0"
+				item: "mermod:moon_rock_modifier"
+				type: "item"
+			}]
+			title: "Лунный камень из пещер"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Если вы покрасили свой хвост, то вы можете &aдобавить к нему градиент&r. Сложите &6этот предмет и &bкраситель&r и затем &6добавьте градиент к ожерелью&r."]
+			id: "082F39C7CD7A47D9"
+			rewards: [
+				{
+					id: "795FD36AE1F0BEEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C225D04F4170902"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Не забудьте покрасить"
+			tasks: [{
+				id: "608D1D285D7168E6"
+				item: "mermod:tail_gradient_modifier"
+				type: "item"
+			}]
+			title: "Градиент"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Хотите стать русалочкой? Это улучшение подарит вам &aвнешний вид Ариэль&r &m(рыжие волосы и человечность в комплект не входят)&r."]
+			id: "3C874A7A82622DA3"
+			rewards: [
+				{
+					id: "2E27FE9F048B7753"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B566F63959453C"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Стань любимым персонажем"
+			tasks: [{
+				id: "39623CFEA41CA5EA"
+				item: "mermod:ursula_shell_modifier"
+				type: "item"
+			}]
+			title: "Русалочка"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32235F4557C97245"]
+			description: ["Сложите ожерелье с этим аксессуаром, чтобы &aдобавить лиф к вашей русалочьей форме&r!"]
+			id: "7F994A9008E7F84D"
+			rewards: [
+				{
+					id: "3E4A0B59D9F7119E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7062C9F173E6EBA9"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Непромокаемый, снижает трение"
+			tasks: [{
+				id: "4F0676809027358D"
+				item: "mermod:mermaid_bra_modifier"
+				type: "item"
+			}]
+			title: "Для приличия"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Это достижение включает в себя одновременное получение &aвсех ванильных эффектов зелий&r, а также нескольки эффектов модификаций, таких как:"
+				""
+				"&aПрилив здоровья&r — &lEnvironmental&r "
+				"&aУстойчивость&r — &lQuark&r"
+				"&aКоррозионосность&r, &aАуроносность&r — &lUpgrade Aquatic&r"
+			]
+			id: "3B84722A9CD28821"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33B0D43C0A77E807"
+					table_id: 8891211325592123080L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B3C07A23A62C2D8"
+					table_id: 7265408724434505998L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Ох, что-то голова кружится"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "0E61460998F96BC2"
+				type: "advancement"
+			}]
+			title: "Бармен, налей мне ¿?"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"&bГигантские факелы&r — это отличный способ избавиться от надоедливых мобов на вашей базе навсегда."
+				""
+				"&bАлмазный гигантский факел&r предотвращает спавн &eвраждебных мобов&r."
+				""
+				"&bИзумрудный гигантский факел&r предотвращает спавн &eнейтральных и пассивных мобов&r."
+				""
+				"&bАметистовый гигантский факел&r предотвращает спавн &e&dВСЕХ &eмобов&r."
+				""
+				"Чтобы &aузнать радиус работы&r, &6зажмите SHIFT и наведитесь&r на факел."
+			]
+			id: "592DF5A6484F1988"
+			rewards: [{
+				id: "29F8DE93007B6851"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Вот бы такую от комаров"
+			tasks: [{
+				id: "03BCF6954B5954F4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:magnum_torches"
+					}
+				}
+				title: "Any Magnum Torch"
+				type: "item"
+			}]
+			title: "Гигантский факел"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: ["Защита от &aрейда&r может стать интересным испытанием. Даже интереснее, если после тучи рейдов, вы получите отличную награду!"]
+			id: "5B185B1B72278050"
+			rewards: [
+				{
+					id: "20AC21AA37AC578D"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "108FCFEFF3CFD90B"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19BF21C8EB91FC15"
+					table_id: 1510389528595555205L
+					type: "choice"
+				}
+			]
+			subtitle: "лфм сова/хпал 215+ в статик"
+			tasks: [{
+				id: "5826833749DA8FAE"
+				stat: "minecraft:raid_win"
+				type: "stat"
+				value: 10
+			}]
+			title: "Рейд-мастер"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			description: ["Хмм, &bволшебные бобы&r. Они кажутся нормальными — интересно, что они делают?"]
+			id: "6855271C74721F52"
+			rewards: [{
+				id: "0135D146C676F9EE"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Сначала были грибы, теперь бобы"
+			tasks: [{
+				id: "7AB04813FADD661F"
+				item: "neapolitan:magic_beans"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Нужны грибочки? Ты по адресу! &eГрибной торговец&r — это уникальный странствующий торговец, кто может обменяться с вами &aинтересными грибами и блоками&r на &bизумруды&r."
+				""
+				"{image:cottagewitch:textures/mushroomtrader.png width:150 height:228 align:1}"
+				""
+				"Но несмотря на его скверный вид, вы &aне можете подстричь его&r, это было бы довольно грубо."
+			]
+			id: "7264C3A1D00DF2D4"
+			rewards: [
+				{
+					id: "31C90F4B56471882"
+					item: "biomemakeover:glowshroom_stew"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "106D05E1953195AC"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			subtitle: "Какие ещё грибочки!?"
+			tasks: [{
+				icon: "minecraft:red_mushroom"
+				id: "72C16E75AC8D71FD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:mushroom_trader"
+				type: "observation"
+			}]
+			title: "Гроза грибов"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&bДревний глаз&r выпадает из &eдревнего стража&r. Не путайте с &bОком стража&r из мода &lEnd Remastered&r, который используется для открытия портала в &cКрай&r!"
+				""
+				"&bДревний глаз&r — это &aразмещаемый предмет&r, которой издаёт &aсильный редстоун-сигнал&r, когда обнаруживает существо поблизости."
+			]
+			id: "2B185A8ECBD7AD8F"
+			rewards: [{
+				id: "76AF237790552D43"
+				item: "upgrade_aquatic:elder_eye"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Я в твоих стенах"
+			tasks: [{
+				id: "4223E607CF42AD78"
+				item: "upgrade_aquatic:elder_eye"
+				type: "item"
+			}]
+			title: "Я тебя вижу"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["Ну, а что ты ожидал? &eНищему &aнечем торговать&r."]
+			id: "4F7C97B20944FDB5"
+			rewards: [
+				{
+					id: "339DAF2F0074CD0D"
+					item: "finsandtails:spindly_emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "230848B75E85B7EF"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:villager"
+				icon: "minecraft:barrier"
+				id: "2DEEF63C17E2447C"
+				nbt: {
+					VillagerData: {
+						level: 1
+						profession: "minecraft:none"
+					}
+				}
+				title: "Оставь нищего в покое"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "DENIED"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Издавна существовали суеверия о том, &aобладает ли фотография магической силой в нашем мире.&r Одни говорят, что фотографии крадут души, другие — что они даруют бессмертие."
+				""
+				"Как бы вы ни относились к силе фотографии, нельзя отрицать, что она &aпо крайней мере в некоторой степени магическая&r. Возможность запечатлеть свет в момент времени и взглянуть на него спустя долгое время после того, как он прошел? Это, несомненно, маленькое чудо."
+				""
+				"Вы тоже можете &aделать фотографии&r! &6Щёлкните ПКМ&r держа &bкамеру&r, чтобы войти в режим съёмки. В режиме съёмки, &6крутите колёсико мыши, чтобы увеличивать и уменьшать приближение&r. Чтобы сделать фотографию, &6снова щёлкните ПКМ&r. &dЭто потратит бумагу&r и вернёт вам готовую фотографию! &dИ перед тем, как можно будет сделать новую фотографию, придётся подождать&r."
+				""
+				"&dПродолжение на следующей странице.&r"
+				"{@pagebreak}"
+				"&bФотографии&r могут быть помещены в &bрамку&r, или в &bальбом&r."
+				""
+				"Чтобы открыть альбом, &6щёлкните ПКМ крадучись&r и вложите фотографии внутрь. &6ПКМ с альбомом в руке&r откроет его для просмотра. &6Прокрутите колёсико мыши, чтобы посмотреть следующую фотографию&r. Вы можете &aположить альбом на &bкафедру&r!"
+			]
+			id: "153DBE782905BF62"
+			rewards: [{
+				count: 10
+				id: "5B7A726DA7F78989"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Магия душ, остановки времени, бессмертия"
+			tasks: [
+				{
+					id: "03128A3B738BB1B8"
+					item: {
+						Count: 1b
+						id: "camera:camera"
+						tag: {
+							active: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "507468F7A2387394"
+					item: "camera:album"
+					type: "item"
+				}
+			]
+			title: "Тёмное колдовство"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Художник ли вы? Конечно, да! У каждого есть способность рисовать, наносить краску на бумагу. Простой акт творчества — одно из самых медитативных занятий."
+				""
+				"Для начала, вам нужен &bмольберт&r, и &bпалитр&r. Также вам будут нужны &bхолсты&r, чтобы было на чём рисовать."
+				""
+				"Не забудьте &aсначала наполнить свою палитру красителями!&r Просто &6сложите красители вместе с палитрой&r."
+				""
+				"{image:cottagewitch:textures/palette.png width:200 height:210 align:1}"
+				""
+				"&dПродолжение на следующей странице.&r"
+				"{@pagebreak}"
+				"Как вы добавили красители на &bпалитру&r, вы можете &6смешвать их&r на &aправой половине вашей палитры&r."
+				""
+				"Используйте &aводу&r с палитры, чтобы удалить смешанный цвет. Используйте &aнастройки смешивания&r справа от &bхолста&r, чтобы смешать цвета. Там же вы можете поменять &aразмер кисти&r!"
+				""
+				"{image:cottagewitch:textures/joyofpainting.png width:100 height:50 align:1 fit:true}"
+				""
+				"Вы можете включить всплывающие подсказки, нажав кнопку в &aправом верхнем углу&r (не показано на картинке)."
+				"{@pagebreak}"
+				"Вы можете снять холст с мольберта в любой момент, лишь надо &6крадучись щёлкнуть ПКМ&r по &bмольберту&r. Вы можете &6повесить свой рисунок щёлкнув ПКМ&r по стене. Рисунок можно забрать обратно и продолжить рисовать на нём, &aно только пока вы его не подписали&r."
+				""
+				"{image:cottagewitch:textures/joyofpaintingsign.png width:100 height:90 align:1 fit:true}"
+				""
+				"Как только рисунок подписан, его нельзя будет перерисовать, но у картины всегда будет показываться название, которое вы дали, и имя автора, то есть ваше! Замечательная работа!"
+				""
+				"{image:cottagewitch:textures/joyofpaintingdone.png width:100 height:90 align:1 fit:true}"
+			]
+			id: "076F2A55BD9D0BCA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CBBD375651C6F55"
+					table_id: 987967038148964353L
+					type: "loot"
+				}
+				{
+					id: "327EEBE907B5E132"
+					item: {
+						Count: 1b
+						id: "xercapaint:item_canvas"
+						tag: {
+							author: "Katubug"
+							generation: 1
+							name: "e5e2b89d-3884-4190-8b69-97863eb95bc6_1687209904"
+							pixels: [I;
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-12142633
+								-12142633
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12142633
+								-5907223
+								-393218
+								-2231048
+								-2953226
+								-2953226
+								-4594190
+								-6891806
+								-5907223
+								-12142633
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2953226
+								-4594190
+								-4594190
+								-4594190
+								-2953226
+								-2953226
+								-2953226
+								-4594190
+								-5907223
+								-5907223
+								-12142633
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2231048
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-2953226
+								-4594190
+								-2953226
+								-4594190
+								-5907223
+								-12017472
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2953226
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-12017472
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-5907223
+								-12017472
+								-393218
+								-393218
+								-12142633
+								-5907223
+								-393218
+								-12930086
+								-4594190
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-4594190
+								-393218
+								-12930086
+								-5907223
+								-12741189
+								-393218
+								-393218
+								-11552043
+								-5907223
+								-12930086
+								-12930086
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-12930086
+								-12930086
+								-6891806
+								-12741189
+								-393218
+								-393218
+								-12142633
+								-9648944
+								-4594190
+								-4594190
+								-4594190
+								-5907223
+								-6891806
+								-6891806
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-12741189
+								-393218
+								-393218
+								-12741189
+								-8146998
+								-5907223
+								-6891806
+								-8139303
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-8538933
+								-8146998
+								-13728075
+								-393218
+								-393218
+								-393218
+								-13728075
+								-7624248
+								-8146998
+								-8538933
+								-8538933
+								-8538933
+								-8538933
+								-8865588
+								-8538933
+								-8146998
+								-7624248
+								-12741189
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+							]
+							title: "Gloop"
+							v: 86
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1995D8E0DF2FFB97"
+					item: {
+						Count: 1b
+						id: "xercapaint:item_canvas_large"
+						tag: {
+							author: "Katubug"
+							generation: 1
+							name: "e5e2b89d-3884-4190-8b69-97863eb95bc6_1687460288"
+							pixels: [I;
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-6694676
+								-6694676
+								-6694676
+								-13586998
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-7548184
+								-9845278
+								-9845278
+								-12930086
+								-9845278
+								-9845278
+								-10305322
+								-7548184
+								-5776147
+								-4463376
+								-4463376
+								-2034439
+								-2034439
+								-1640454
+								-5185040
+								-6694676
+								-10305322
+								-9845278
+								-9845278
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-9845278
+								-5776147
+								-5776147
+								-7548184
+								-7548184
+								-5776147
+								-7548184
+								-4463376
+								-4660501
+								-1246726
+								-1837319
+								-1049605
+								-1049605
+								-1049605
+								-2821898
+								-5185040
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-2821898
+								-918532
+								-1837319
+								-2821898
+								-9845278
+								-9845278
+								-4660501
+								-3478797
+								-1509126
+								-3609611
+								-5185040
+								-5185040
+								-5185040
+								-6694676
+								-13586998
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-204436
+								-204436
+								-204436
+								-75715
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-2821898
+								-2821898
+								-9845278
+								-9845278
+								-9845278
+								-9845278
+								-4463376
+								-5776147
+								-7023132
+								-6694676
+								-6694676
+								-13586998
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-75715
+								-204436
+								-204436
+								-204436
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-9845278
+								-9845278
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12930086
+								-12930086
+								-9845278
+								-12930086
+								-12995879
+								-12930086
+								-12995879
+								-12930086
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-204436
+								-75715
+								-204436
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-13061928
+								-13061672
+								-13061928
+								-13061672
+								-12930086
+								-12930086
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-12930086
+								-12995879
+								-12995879
+								-12930086
+								-11289635
+								-11749157
+								-11749157
+								-12077350
+								-12077350
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-10698785
+								-9845278
+								-12930086
+								-9845278
+								-11289635
+								-11749157
+								-11289635
+								-9845278
+								-268400
+								-75715
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-10698785
+								-10698785
+								-9845278
+								-9845278
+								-10698785
+								-11289635
+								-10698785
+								-9845278
+								-204436
+								-75715
+								-14869215
+								-12829635
+								-393218
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-75715
+								-267363
+								-75715
+								-75715
+								-75715
+								-14869215
+								-12829635
+								-393218
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-75715
+								-10698785
+								-9845278
+								-10698785
+								-10698785
+								-10698785
+								-11289635
+								-11289635
+								-9845278
+								-75715
+								-75715
+								-14869215
+								-12829635
+								-12829635
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-267363
+								-425955
+								-267363
+								-75715
+								-75715
+								-14869215
+								-12829635
+								-12829635
+								-12829635
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-75715
+								-9845278
+								-10698785
+								-10698785
+								-10698785
+								-10698785
+								-11289635
+								-10698785
+								-9845278
+								-204436
+								-75715
+								-14869215
+								-14869215
+								-12829635
+								-14869215
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-4036834
+								-425955
+								-4036834
+								-75715
+								-75715
+								-14869215
+								-14869215
+								-12829635
+								-14869215
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-283603
+								-9845278
+								-10698785
+								-9845278
+								-9845278
+								-12208421
+								-10698785
+								-10698785
+								-9845278
+								-75715
+								-75715
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-75715
+								-75715
+								-1131724
+								-4036834
+								-1131724
+								-75715
+								-75715
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-283603
+								-10698785
+								-10698785
+								-8335641
+								-6694676
+								-8335641
+								-8335641
+								-6694676
+								-204436
+								-204436
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-1131724
+								-75715
+								-75715
+								-75715
+								-1131724
+								-14869215
+								-14869215
+								-14869215
+								-14869215
+								-1131724
+								-75715
+								-75715
+								-75715
+								-283603
+								-8335641
+								-9517341
+								-8335641
+								-9517341
+								-6694676
+								-6694676
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-8335641
+								-8335641
+								-6694676
+								-6694676
+								-6694676
+								-283603
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-283603
+								-75715
+								-75715
+								-283603
+								-6694676
+								-6694676
+								-8335641
+								-6694676
+								-283603
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-349140
+								-75715
+								-75715
+								-75715
+								-268400
+								-75715
+								-268400
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-209608
+								-75715
+								-75715
+								-283603
+								-8335641
+								-6694676
+								-6694676
+								-6694676
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-349140
+								-1131724
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-283603
+								-75715
+								-283603
+								-8335641
+								-6694676
+								-6694676
+								-6694676
+								-1131724
+								-283603
+								-283603
+								-283603
+								-283603
+								-1131724
+								-75715
+								-75715
+								-141252
+								-75715
+								-75715
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-283603
+								-6694676
+								-6694676
+								-9461478
+								-9461478
+								-9461478
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-9461478
+								-9461478
+								-10056168
+								-8932580
+								-9461478
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-75715
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-9461478
+								-10056168
+								-9461478
+								-10056168
+								-9461478
+								-209608
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-9461478
+								-9461478
+								-8932580
+								-9461478
+								-10056168
+								-283603
+								-209608
+								-75715
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-283603
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-10585066
+								-283603
+								-75715
+								-268400
+								-204436
+								-204436
+								-75715
+								-75715
+								-75715
+								-75715
+								-209608
+								-283603
+								-283603
+								-283603
+								-283603
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-10056168
+								-9461478
+								-9461478
+								-10056168
+								-10056168
+								-10585066
+								-283603
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-209608
+								-283603
+								-10585066
+								-10585066
+								-1131724
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-75715
+								-1131724
+								-1131724
+								-10585066
+								-10056168
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-10585066
+								-10585066
+								-209608
+								-283603
+								-209608
+								-209608
+								-283603
+								-209608
+								-283603
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-1131724
+								-1131724
+								-75715
+								-75715
+								-1131724
+								-75715
+								-1131724
+								-10585066
+								-10585066
+								-10585066
+								-10056168
+								-9461478
+								-9461478
+								-10056168
+								-9461478
+								-10056168
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10056168
+								-10056168
+								-10056168
+								-10056168
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10585066
+								-10056168
+								-10056168
+								-8932580
+								-10056168
+								-9461478
+								-9461478
+								-8932580
+								-9461478
+								-10056168
+								-10056168
+								-10056168
+								-9791719
+								-10056168
+								-10056168
+								-10056168
+								-10320617
+								-9791719
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-10056168
+								-10056168
+								-10056168
+								-9923816
+								-10056168
+								-10056168
+								-10056168
+								-10056168
+								-9791719
+								-10056168
+								-10056168
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-8932580
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+								-10056168
+								-9461478
+								-9461478
+								-9461478
+								-9461478
+							]
+							title: "chickem"
+							v: 348
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Удаляюсь в башню из слоновой кости"
+			tasks: [
+				{
+					id: "6459F163C1BE0CA0"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "69DB41702759EF2A"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+			]
+			title: "Дай волю воображению"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"В сетевой игре, &bмонеты&r — это важная валюта. Их можно найти несколькими путями: "
+				""
+				"- Редко вылавливаются на рыбалке во время дождя."
+				"- Редко выпадают из &eзомби-крестьян&r."
+				"- Добываются из сундуков в &cлесном особняке&r."
+				""
+				"Но в одинчоной игре они... не такие полезные. В таком случае, вы можете использовать этот квест, чтобы обменять монеты на кое-что более практичное."
+				""
+				"&dЭтот квест повторяется.&r"
+			]
+			id: "2063FF7B9C55E56F"
+			rewards: [{
+				id: "3569569879089E03"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				id: "7D95252A3CCFF662"
+				item: "kubejs:solar_coin"
+				type: "item"
+			}]
+			title: "Курс валюты"
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: "Разное"
+}

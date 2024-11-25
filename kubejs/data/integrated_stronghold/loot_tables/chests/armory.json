@@ -1,0 +1,437 @@
+{
+  "type": "minecraft:chest",
+  "pools": [    
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lРуды: Полное руководство\n\\\"},
+                {\\\"text\\\":\\\"§lза авторством \\\"},
+                {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+                {\\\"text\\\":\\\"Руды бывают двух основных видов: в камне и глубинном сланце. \\\"},
+                {\\\"text\\\":\\\"Руды в камне находятся выше под землёй, в то время как последние руды находятся глубоко под землёй. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Руды имеют множество разновидностей: угольные, железные, медные, изумрудные, редстоуновые, золотые, алмазные и цинковые. \\\"},
+                {\\\"text\\\":\\\"В этом руководстве мы рассмотрим каждый тип руды и где вы можете их найти.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Уголь встречается в больших жилах на высоте, особенно на вершинах гор.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Железо, цинк и медь встречаются везде, с наибольшими количествами на средних высотах.\\\"},
+                {\\\"text\\\":\\\"Железо также можно найти в очень больших жилах рядом с туфом, а медь — с гранитом.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Изумруд встречается почти исключительно в горных районах на средних высотах.\\\"},
+                {\\\"text\\\":\\\"Глубинносланцевая изумрудная руда – одна из самых редких руд, которые вы можете найти.\n\n\\\"},
+                {\\\"text\\\":\\\"Редстоуновая руда светится при прикосновении и находится глубоко под землёй.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Золотая руда встречается глубоко под землёй в большинстве биомов, \\\"},
+                {\\\"text\\\":\\\"но в пустошах её можно найти в больших количествах недалеко от поверхности.\n\n\\\"},
+                {\\\"text\\\":\\\"Алмазная – это самая ценная руда и встречаются в небольших количествах глубоко под землёй.\\\"}
+              ]\"
+            ],
+            title:Руды,
+            author:Неизвестный,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Руды: Полное руководство",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lИнструкция по использованию лавового вентилятора\n\\\"},
+                {\\\"text\\\":\\\"§lза авторством \\\"},
+                {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+                {\\\"text\\\":\\\"Чтобы привести в действие лавовый вентилятор, поместите предмет, который вы хотите выплавить, на депо и поверните рукоятка. \\\"},
+                {\\\"text\\\":\\\"Вентиляторы начнут выдувать жар лавы на материалы, переплавляя их в нужные материалы.\\\"}
+              ]\"
+            ],
+            title:Вентилятор,
+            author:Неизвестный,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Инструкция по использованию лавового вентилятора",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lИнструкция по использованию металлического пресса\n\\\"},
+                {\\\"text\\\":\\\"§lза авторством \\\"},
+                {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+                {\\\"text\\\":\\\"Управление металлическим прессом довольно простое. \\\"},
+                {\\\"text\\\":\\\"Вы помещаете слиток нужного материала на депо и поворачиваете рукоятку, чтобы сжать слиток.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Будьте осторожны, не раздавите нежелательные материалы или даже себя! Будет больно!\\\"}
+              ]\"
+            ],
+            title:Пресс,
+            author:Неизвестный,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Инструкция по использованию металлического пресса",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lКольчужная броня\n\\\"},
+                {\\\"text\\\":\\\"§lза авторством \\\"},
+                {\\\"text\\\":\\\"§kЗАШИФРОВАНО\n\n\\\"},
+                {\\\"text\\\":\\\"Кольчужная броня — это легкая и чуть более слабая альтернатива железным доспехам.\\\"},
+                {\\\"text\\\":\\\"Он изготавливается преимущественно из железа.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§kЧтобы изготовить кольчужную броню, возьмите \\\"},
+                {\\\"text\\\":\\\"§kжелезо и выдавите цепочки. §kЗатем сшейте их вместе вокруг манекена.\\\"}
+              ]\"
+            ],
+            title:Кольчуга,
+            author:Неизвестный,
+            display:{Lore:[\"Найдена в древней крепости\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Кольчужная броня",
+              "add": false
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:trowel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:builders_tea"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:raw_zinc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

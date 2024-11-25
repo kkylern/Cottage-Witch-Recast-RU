@@ -1,0 +1,115 @@
+{
+  "item.endrem.old_eye": "Запылённое око",
+  "item.endrem.old_eye.description": "§7§oЛегенды гласят, что это око когда-то принадлежало одному из великих песчаных червей",
+
+  "item.endrem.rogue_eye": "Око изгоя",
+  "item.endrem.rogue_eye.description": "§7§oСчитается, что это око дало нашим предкам знания о редстоуне",
+
+  "item.endrem.nether_eye": "Око Незера",
+  "item.endrem.nether_eye.description": "§7§oОно было потеряно демоном в битве между Незером и Эфиром",
+
+  "item.endrem.cold_eye": "Ледяное око",
+  "item.endrem.cold_eye.description": "§7§oОдин из последних артефактов, оставленных ледологами перед тем, как они внезапно исчезли из мира",
+
+  "item.endrem.magical_eye": "Магическое око",
+  "item.endrem.magical_eye.description": "§7§oБез этого ока у заклинателя нет силы",
+
+  "item.endrem.black_eye": "Чёрное око",
+  "item.endrem.black_eye.description": "§7§oПираты говорят, что это око дало возможность увидеть легендарную Чёрную жемчужину",
+
+  "item.endrem.lost_eye": "Потерянное око",
+  "item.endrem.lost_eye.description": "§7§oПоговаривают, что оно был выковано первыми кузнецами времени",
+
+  "item.endrem.wither_eye": "Око Иссушителя",
+  "item.endrem.wither_eye.description": "§7§oСтало свидетелем разрушения. Может быть, оно также стало свидетелем исчезновения ваших вещей",
+
+  "item.endrem.guardian_eye": "Око стража",
+  "item.endrem.guardian_eye.description": "§7§oОно видело, как многие воины утонули в морских глубинах",
+
+  "item.endrem.cursed_eye": "Проклятое око",
+  "item.endrem.cursed_eye.description": "§7§oМогущественный, но разрушительный артефакт. Пиглины поклялись защищать его ценой своей жизни",
+
+  "item.endrem.exotic_eye": "Экзотическое око",
+  "item.endrem.exotic_eye.description": "§7§oТех, кто последовал за этим оком, больше никто не видел. Ходят слухи, что они нашли великий город Атлантиду.. или, может быть, экспедиция сгинула в пути, пытаясь",
+
+  "item.endrem.evil_eye": "Зловещее око",
+  "item.endrem.evil_eye.description": "§7§oСвященный талисман, защищающий своего владельца от неудач",
+
+  "item.endrem.undead_eye": "Око нежити",
+  "item.endrem.undead_eye.description": "§7§oВоспоминание о всех прошлых жизнях тех, кто живёт в смерти",
+
+  "item.endrem.cryptic_eye": "Загадочное око",
+  "item.endrem.cryptic_eye.description": "§7§o§khttps://www.youtube.com/watch?v=dQw4w9WgXcQ",
+
+  "item.endrem.corrupted_eye": "Осквернённое око",
+  "item.endrem.corrupted_eye.description": "§7§oОко жадного короля, померкшее в одиночестве. Легенда гласит, что оно принесёт бесконечное богатство своему владельцу",
+
+  "item.endrem.witch_eye": "Око ведьмы",
+  "item.endrem.witch_eye.description": "§7§oСчитается, что это око видело древние рецепты зельеварения, затерянные во времени",
+  "item.endrem.witch_pupil": "Глаз ведьмы",
+
+  "item.endrem.undead_soul": "Душа нежити",
+
+  "block.endrem.ancient_portal_frame": "Рамка древнего портала",
+
+  "block.endrem.ender_eye.warning": "Это око не работает",
+  "block.endrem.custom_eye.place": "Такое око уже есть в рамке",
+  "block.endrem.custom_eye.frame_has_eye": "В этой рамке уже стоит око",
+
+
+  "itemGroup.endremTab": "End Remastered",
+
+  "block.portal_open_sound": "Открытие портала",
+  "block.portal_open_sound.sub": "Открытие портала",
+
+  "advancements.main.root.title": "End Remastered",
+  "advancements.main.root.description": "Найдите своё первое око",
+
+  "advancements.main.old_eye.title": "Искатель удачи",
+  "advancements.main.old_eye.description": "Заполучите запылённое Око",
+
+  "advancements.main.rogue_eye.title": "Добро пожаловать в джунгли",
+  "advancements.main.rogue_eye.description": "Заполучите око изгоя",
+
+  "advancements.main.nether_eye.title": "Взгляни в отчаяние",
+  "advancements.main.nether_eye.description": "Заполучите око Незера",
+
+  "advancements.main.cold_eye.title": "Улёдный вид",
+  "advancements.main.cold_eye.description": "Заполучите ледяное око",
+
+  "advancements.main.corrupted_eye.title": "Покрой меня изумрудами",
+  "advancements.main.corrupted_eye.description": "Заполучите осквернённое око",
+
+  "advancements.main.magical_eye.title": "Падший колдун",
+  "advancements.main.magical_eye.description": "Заполучите магическое око",
+
+  "advancements.main.black_eye.title": "Аргхх, ну и где же мой корабль?",
+  "advancements.main.black_eye.description": "Заполучите чёрное око",
+
+  "advancements.main.lost_eye.title": "Нужна карта?",
+  "advancements.main.lost_eye.description": "Заполучите потерянное око",
+
+  "advancements.main.wither_eye.title": "Поддавшись иссушению",
+  "advancements.main.wither_eye.description": "Заполучите око Иссушителя",
+
+  "advancements.main.witch_eye.title": "Сладость или гадость?",
+  "advancements.main.witch_eye.description": "Заполучите око ведьмы",
+
+  "advancements.main.guardian_eye.title": "Ну и кто теперь страж храма?",
+  "advancements.main.guardian_eye.description": "Заполучите око стража",
+
+  "advancements.main.cursed_eye.title": "Новый Защитник...",
+  "advancements.main.cursed_eye.description": "Заполучите проклятое око",
+
+  "advancements.main.evil_eye.title": "Настоящее Благословение",
+  "advancements.main.evil_eye.description": "Заполучите зловещее око",
+
+  "advancements.main.exotic_eye.title": "Где Атлантида?",
+  "advancements.main.exotic_eye.description": "Заполучите экзотическое око",
+
+  "advancements.main.undead_eye.title": "Зеркало души",
+  "advancements.main.undead_eye.description": "Заполучите око нежити",
+
+  "advancements.main.cryptic_eye.title": "Терпение — путь к мудрости",
+  "advancements.main.cryptic_eye.description": "Заполучите загадочное око"
+}

@@ -1,0 +1,748 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "scavenger_hunt"
+	group: "7A9435459855DCCD"
+	icon: "minecraft:spyglass"
+	id: "7401E53A08F6CC5E"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 20.0d
+		hover: [ ]
+		image: "cottagewitch:textures/bgscavengerhunt.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "10F079B6E31FCF17"
+			shape: "hexagon"
+			tasks: [{
+				id: "240DB763A6B7326F"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "Охота: Комок глины"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "4FDB48B5AE01AFB4"
+			shape: "hexagon"
+			tasks: [{
+				id: "5B1B295BEDB32573"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			title: "Охота: Мангровый отросток"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "52C4175797FFE14B"
+			shape: "hexagon"
+			tasks: [{
+				id: "0ED2BE6F9B9AD02C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Охота: Алмаз"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "4307E6EA2E01F82B"
+			shape: "hexagon"
+			tasks: [{
+				id: "25DA29E52479B9E1"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			title: "Охота: Фонарь душ"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "4A8A373C89D91E51"
+			rewards: [
+				{
+					count: 16
+					id: "651AF43B9EBE3638"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									937003803
+									-274183100
+									-1627581555
+									-262173272
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRlYzNmY2Q1NTcyNjlhMWEwYjliZmE4YTAyZGFlMWEzOWZhMGVlOGZmNDBlMGNiOGE5NjQ3OWJlMDRiNjYwOSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Berry Bush\",\"color\":\"yellow\",\"italic\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39D7BD7A3509DFCF"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1316043389
+									530336866
+									-1855796901
+									1671369710
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFiMTFhNjBjNjQzZjE0NDdmYTQ1ZDIyZDM4ZmQ0ZGE3NDYxN2E0NWI0MzUxZTU4NDcyYWJhY2YwZWI3Y2FiYiJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Glow Berry\",\"color\":\"yellow\",\"italic\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7F0455D7592C49F7"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "0BE1B66467CD95A7"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+			]
+			title: "Охота: Ягоды"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "5C44B803FBB46C7F"
+			shape: "hexagon"
+			tasks: [{
+				id: "430518A1F4ED0DAF"
+				item: "minecraft:flowering_azalea"
+				type: "item"
+			}]
+			title: "Охота: Цветущая азалия"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "795033CC78FE8CCE"
+			shape: "hexagon"
+			tasks: [{
+				id: "3D5C5782C7380CC8"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			title: "Охота: Ядовитый картофель"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "78A818CEEFA49F95"
+			shape: "hexagon"
+			tasks: [{
+				id: "6173F49AEA558E97"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "Охота: Плод хоруса"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "34D4613E61AF3AEF"
+			rewards: [{
+				id: "328CC1CAB52ADEE9"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14868FAA4FA2474E"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			title: "Охота: Иглобрюх"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "1E1E47B50314B64A"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2DFC59C847E039B6"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "2D15C868FFF21769"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "2DDF51389EDA2568"
+					item: "farmersdelight:honey_cookie"
+					type: "item"
+				}
+				{
+					id: "32DD7FF8676CA282"
+					item: "farmersrespite:green_tea_cookie"
+					type: "item"
+				}
+			]
+			title: "Охота: Печенье"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "628D5F4ACDE2C665"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DAFE046250A9B21"
+				item: "supplementaries:feather_block"
+				type: "item"
+			}]
+			title: "Охота: Блок перьев"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "223792FEBB2154CA"
+			shape: "hexagon"
+			tasks: [{
+				id: "054184BDBB9BE654"
+				item: "minecraft:turtle_egg"
+				type: "item"
+			}]
+			title: "Охота: Черепашье яйцо"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "75A98C846E56A570"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7F10DEF25EDB06FF"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+				{
+					id: "700A04309629F283"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			title: "Охота: Чернильные мешки"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "78FB1E1156B8A23C"
+			rewards: [{
+				id: "05CA7722F9BC19F5"
+				item: "plushies:magma_cube"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "463361D76A636956"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			title: "Охота: Сгусток магмы"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "36AC202292F23D2D"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DB5227198BC3EBD"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
+			title: "Охота: Грибосвет"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "5D7D1F5AEDE61466"
+			shape: "hexagon"
+			tasks: [{
+				id: "5E9BA533F516C40C"
+				item: "minecraft:oxidized_copper"
+				type: "item"
+			}]
+			title: "Охота: Окисленный медный блок"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "3EDAAAB87F7C1022"
+			shape: "hexagon"
+			subtitle: "Нет... Только не снова..."
+			tasks: [
+				{
+					id: "48A059F4B35A363F"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					id: "6B6CA39D612EBEAA"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+			]
+			title: "Охота: Незерские грибы"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "7AD80A3479D0B0A8"
+			shape: "hexagon"
+			tasks: [{
+				id: "26844384E2F80107"
+				item: "minecraft:dead_bush"
+				type: "item"
+			}]
+			title: "Охота: Мёртвый куст"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "4B1050C983FA2708"
+			rewards: [{
+				id: "29C36A44A774FC16"
+				item: "culturaldelights:pickle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "715C5130A014CE5E"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			title: "Охота: Морской огурец"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "443F18D755145E26"
+			shape: "hexagon"
+			tasks: [{
+				id: "70E83FBD43C5BA20"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Охота: Сердце моря"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "217230971261385C"
+			shape: "hexagon"
+			tasks: [{
+				id: "6AFCB0A09B3856AF"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "Охота: Плачущий обсидиан"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "0781A21B04D458DE"
+			rewards: [
+				{
+					id: "0054FCA7D56B6FB3"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-440773349
+									1100628596
+									-1491935286
+									-219858039
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU0OGJhNDEzNjQ2YzJjM2Y2YTIwN2I4ZTNhZWY5MzU4ZmU3NGY4MTExN2EzZTFmZDE1YjBlNjUxN2UyZjY1OCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Amethyst Geode\",\"color\":\"yellow\",\"italic\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79EE88BA92A0CDFD"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1453219795
+									541936411
+									-1152576767
+									-802847329
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmNDZjYjhjZDY0YWRjM2MwMzU1YzYyNjEyNmVkNTlmOTE0NjE1ZDcyZmJhNzkwNTQwMTZmZGE5MTlhYzVhYSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Bag of Amethyst\",\"color\":\"yellow\",\"italic\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "339DB9EB9FFA561F"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "37199A385D8971E1"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "5D9505D4BE93D674"
+					item: "minecraft:amethyst_cluster"
+					type: "item"
+				}
+			]
+			title: "Охота: Аметист"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "56DBC16948476CBE"
+			shape: "hexagon"
+			tasks: [{
+				id: "5D96F8ACF9209598"
+				item: "minecraft:end_rod"
+				type: "item"
+			}]
+			title: "Охота: Стержень Энда"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "74A5C07E1CC1BDCB"
+			shape: "hexagon"
+			tasks: [{
+				id: "0EFE98B67BC9DDF1"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			title: "Охота: Сноп сена"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "77F821E672D8FE6B"
+			shape: "hexagon"
+			tasks: [{
+				id: "75D8AD8E1737B2C2"
+				item: "minecraft:sea_lantern"
+				type: "item"
+			}]
+			title: "Охота: Морской фонарь"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "5D51C92D31F9974B"
+			shape: "hexagon"
+			tasks: [{
+				id: "13DDD192F62DEDA8"
+				item: "minecraft:horn_coral_block"
+				type: "item"
+			}]
+			title: "Охота: Блок рогового коралла"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "74403CDD36E19E5B"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5A5FFAC9D7C3B1F9"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "2EE21C99821330B6"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			title: "Охота: Мёд"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "60205D338359F03C"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2F85C19DE59C71CE"
+					item: "minecraft:raw_iron_block"
+					type: "item"
+				}
+				{
+					id: "578D4F0DB2D37B6B"
+					item: "minecraft:raw_copper_block"
+					type: "item"
+				}
+				{
+					id: "62D3EA9DCCE3D60D"
+					item: "minecraft:raw_gold_block"
+					type: "item"
+				}
+			]
+			title: "Охота: Рудные блоки"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "04CB1359F805B396"
+			rewards: [{
+				id: "1664732FB170E6A4"
+				item: "twilightdelight:glowstew"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Теперь квадро"
+			tasks: [
+				{
+					id: "0DC6D23B0885C6B5"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+				{
+					id: "3D6F3E0E16FD1134"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					id: "08F34ED39F9AD934"
+					item: "nethersdelight:strider_moss_stew"
+					type: "item"
+				}
+			]
+			title: "Охота: Тушённое трио"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "358EB6DB33F203FE"
+			shape: "hexagon"
+			tasks: [{
+				id: "1310A9BA89A52C7A"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
+			title: "Охота: Ведро с рыхлым снегом"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "178EB94C72B16D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23086CACD678D4ED"
+				table_id: 574984183972970145L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DE9D8D8227BBB9F"
+				item: "minecraft:tadpole_bucket"
+				type: "item"
+			}]
+			title: "Охота: Головастик в ведре"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "5F1A07D19C09FFE6"
+			shape: "hexagon"
+			tasks: [{
+				id: "2FA6F4AC7FE40E02"
+				item: "minecraft:bell"
+				type: "item"
+			}]
+			title: "Охота: Колокол"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "0B947B43262CD036"
+			shape: "hexagon"
+			tasks: [{
+				id: "307E0C118A08D100"
+				item: "minecraft:music_disc_5"
+				title: "Охота: Пластинка \"5\""
+				type: "item"
+			}]
+			title: "Охота: Пластинка \"5\""
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Не знаете чем заняться? Почему бы не устроить для себя &aохоту за \"сокровищами\"?&r. Соберите все эти разнообразные предметы, чтобы получить невероятную награду!"
+				"&6Нажмите галочку, чтобы начать квест&r. Можно начать в любой момент."
+			]
+			id: "505C0E55270CBFBC"
+			optional: true
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Время искать сокровища!"
+			tasks: [{
+				id: "7C613D3D7DD3EF30"
+				title: "Жмяк по кнопке"
+				type: "checkmark"
+			}]
+			title: "Начало охоты"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5F1A07D19C09FFE6"
+				"5D51C92D31F9974B"
+				"0B947B43262CD036"
+				"74A5C07E1CC1BDCB"
+				"7AD80A3479D0B0A8"
+				"4B1050C983FA2708"
+				"3EDAAAB87F7C1022"
+				"77F821E672D8FE6B"
+				"0781A21B04D458DE"
+				"34D4613E61AF3AEF"
+				"628D5F4ACDE2C665"
+				"56DBC16948476CBE"
+				"795033CC78FE8CCE"
+				"1E1E47B50314B64A"
+				"223792FEBB2154CA"
+				"4A8A373C89D91E51"
+				"4307E6EA2E01F82B"
+				"10F079B6E31FCF17"
+				"505C0E55270CBFBC"
+				"78A818CEEFA49F95"
+				"178EB94C72B16D88"
+				"5D7D1F5AEDE61466"
+				"5C44B803FBB46C7F"
+				"75A98C846E56A570"
+				"4FDB48B5AE01AFB4"
+				"78FB1E1156B8A23C"
+				"36AC202292F23D2D"
+				"60205D338359F03C"
+				"04CB1359F805B396"
+				"443F18D755145E26"
+				"52C4175797FFE14B"
+				"217230971261385C"
+				"358EB6DB33F203FE"
+				"74403CDD36E19E5B"
+			]
+			description: [
+				"&dПоздравляю&r с новообретённой коллекцией! Вот ваши сказочные награды (и чувство собственного удовлетворения, что и является главным сокровищем)."
+				"Галочка сверху разблокируется, когда &6все квесты охоты выполнены&r."
+			]
+			hide_dependency_lines: true
+			id: "3CEDCDDE9BCD7F5F"
+			rewards: [
+				{
+					id: "5D440F980372BD81"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "0D509C5733E1DD6B"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "47C7324EF5B04041"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "4E394BBF80A209A0"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Эмм, ну и куда это всё девать?"
+			tasks: [{
+				id: "7F57F37B68E139CC"
+				title: "Всё собрано!"
+				type: "checkmark"
+			}]
+			title: "Я всё!"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "5F7EBDA2EDC4F25B"
+			invisible: true
+			tasks: [{
+				id: "34E8363AB1E1DA09"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Охота за \"сокровищами\""
+}

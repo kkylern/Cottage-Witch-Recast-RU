@@ -1,0 +1,11 @@
+{
+    "title": {
+      "translate": "cottagewitch.tip.text",
+      "bold": true,
+      "underlined": true,
+      "color": "white"
+    },
+    "tip": {
+      "translate": "cottagewitch.tip.shulkies"
+    }
+  }

@@ -1,0 +1,1325 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "globetrotting"
+	group: "5FB460EFA0A2567E"
+	icon: "ars_nouveau:glyph_underfoot"
+	id: "5775D7E4FB7F551A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgexplorating.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdungeons.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgstructures.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgwaystones.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.5d
+			y: -5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Поздравляю, вы открыли 10 сундуков-ловушек! Невероятное достижение, достойное похвалы. А теперь лечитесь."]
+			id: "4470E2B09DB2B676"
+			rewards: [{
+				id: "6C4AA9B8014AE3F0"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Может, вы просто хотели награду?"
+			tasks: [{
+				id: "4C755CEFF3CB1B9D"
+				stat: "minecraft:trigger_trapped_chest"
+				type: "stat"
+				value: 10
+			}]
+			title: "Неудача или невежество?"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			description: ["Этот причудливый &cрыбацкий домик&r стоит на воде и является отличным местом для рыбалки."]
+			id: "653C7B872B33A477"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "601C47F6994D2062"
+					table_id: 1279979498352596350L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B8A59B88951FDFA"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Большая или маленькая"
+			tasks: [{
+				advancement: "idas:fishermans_lodge"
+				criterion: ""
+				id: "4B3E6C3A869F86EF"
+				type: "advancement"
+			}]
+			title: "Ловись рыбка"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			description: ["&cДревние шахты&r нужно увидеть, чтобы поверить в их существование. Огромная подземная расщелина, в которой когда-то поселились те, кто спустился слишком глубоко в поисках сокровищ. Остерегайтесь того, что живёт там сейчас."]
+			id: "7EB4DAB78F4A04F3"
+			rewards: [
+				{
+					id: "72BEDEF47C00FA46"
+					item: {
+						Count: 1b
+						id: "quark:forgotten_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D66A49E17DD294F"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									882494356
+									885344488
+									-1335155263
+									-2097871279
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUyOTcwZTEyNDE1M2FiZDI4YjVkNjQwMDNiOGZkODc5OTlkYmM3YTVjZGU4OTk5NjFlZTAxY2NkM2Q0YWI5OCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Treasure Chest (cyan)\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Все забыты, всё забыто"
+			tasks: [{
+				advancement: "idas:ancient_mines"
+				criterion: ""
+				id: "170552A21C159816"
+				type: "advancement"
+			}]
+			title: "Ослеплённый богатством"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"&cКрепость разбойников&r лучше всего покорять в компании товарищей. Однако особо способные или упорные ведьмы могут попробовать войти туда в одиночку."
+				"&6Не забудьте осмотреть крепость на наличие скрытых стен&r."
+			]
+			id: "64D0EFCC9BE460DE"
+			rewards: [
+				{
+					id: "7CC4711CF31784BE"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "02196B9D49A382F4"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									843234447
+									-1704705483
+									-1304221926
+									751006699
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFhZjQ4ZGNhNDQ5NGMzNDEzYjk5MTc1OThlOWFmNWRjZjc4ODAwYTIxOGI1ZTg4NTY5Njk1ZDAyMjQyMjNkOSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Cake\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Я не плачу, мне разбойник в глаз попал"
+			tasks: [{
+				advancement: "idas:pillager_fortress"
+				criterion: ""
+				id: "64377903CBF23570"
+				type: "advancement"
+			}]
+			title: "Потоп из зловредов"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Чтобы найти &cлабиринт змеи&r, вы должны купить карту у крестьянина."
+				""
+				"&dНо не спешите туда идти&r. Внутри скрывается множество опасностей. А в конце ждёт невероятно сильный и свирепый монстр, чтобы стереть надоедливых нарушителей с лица земли."
+			]
+			id: "4A83D94AEF11125B"
+			rewards: [
+				{
+					id: "75A24FC363FAB94F"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45490227971ECC82"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "biomemakeover:actidote_pot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Даже стены желают вам \"спокойной ночи\""
+			tasks: [{
+				advancement: "idas:labyrinth"
+				criterion: ""
+				id: "27A9ED0A2197FE82"
+				type: "advancement"
+			}]
+			title: "Лабиринт смерти"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"В этом мире есть множество различных структур, которые вам предстоит открыть! Некоторые из них таят смертельную опасность, другие несут лишь &aнебольшую угрозу&r."
+				"В большинстве таких мест лежит &aзаманчивое добро&r! Почему бы не попытаться отыскать все такие места?"
+			]
+			id: "4EE44DF5D0E5BD53"
+			optional: true
+			rewards: [{
+				id: "3B3D522C46A95BE8"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								659251375
+								-1690286570
+								-1318597454
+								-1078331517
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkN2ZkYjUwZjE0YzczMWM3MjdiMGUwZDE4OWI2YTg3NDMxOWZjMGQ3OWM4YTA5OWFjZmM3N2M3YjJkOTE5NiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Standard Quest Chest\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "08B6A44D9D1A4B9F"
+				title: "Get Out There"
+				type: "checkmark"
+			}]
+			title: "Выше риск — больше награда"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["Найдите &cобитель апотекария&r — большое строение, наполненное диковинными машинами и абсолютно забитое &eзловредами&r."]
+			id: "3577B78260820DA0"
+			rewards: [
+				{
+					id: "3576CF208CBFD37C"
+					item: {
+						Count: 1b
+						id: "twilightforest:knightmetal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44F3098ACF4285D6"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									119714823
+									-933541868
+									-2137710230
+									1971727296
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNkNTkxNTUzNzhiNGFjNGQyYjE0MmUyZjIzNWQwMzdmNjhhOWI4ZTI0YWU5ZWQ0ODU3MzE2YjI4ZGNlMDU2ZiJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Spring Chest\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Безумная опасность"
+			tasks: [{
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+				icon: "chipped:umbrella_crimson_fungus"
+				id: "39EFEB4A1B414E2C"
+				type: "advancement"
+			}]
+			title: "Обитель зла"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			description: ["Сможете ли вы сказать, что у вас полная жизнь, если вы не были у &cведьминого пня&r? Я думаю, что нет. К несчастью, шабаш, который там расположился, крайне враждебен. Но, расправившись с ними, вы сможете использовать их вещи в своих целях."]
+			id: "28AAD7D3C76F2FE2"
+			rewards: [{
+				id: "7CF06A724295ED1F"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-855401369
+								-1764405596
+								-1406284308
+								-1929382356
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE2ZTcwMGMyYzU3ZGUwYTI0OWQ0MGFjYzEzMzJhZWVmNTMyYzFlNDA5NmI4YzI2ODgzNjU5NjY2YmQzNjgwOSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Frog\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Не все ведьмы могут жить в мире"
+			tasks: [{
+				advancement: "idas:witches_treestump"
+				criterion: ""
+				id: "14B11A713AEFEC99"
+				type: "advancement"
+			}]
+			title: "Ведьмины пальцы"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			description: ["Поднимитесь по &cбашне волшебника&r и узнайте, что случилось с её владельцем. Остерегайтесь подвала."]
+			id: "12A79C72CA9EF466"
+			rewards: [{
+				id: "7348746A7D041328"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Проваленный эксперимент"
+			tasks: [{
+				advancement: "idas:wizardtower"
+				criterion: ""
+				id: "0ED9B835FE2F669E"
+				type: "advancement"
+			}]
+			title: "Башня магии"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			description: ["Лучшие ведьмы — это те, кто познаёт мир. &6Докажите своё превосходство, пройдя через все ванильные биомы&r!"]
+			id: "369DEAD83BD150DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "671D5BBAE0D14A63"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20EC227724BF2A88"
+					table_id: 223398162038636868L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Ведьмы за границей"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "3DE48330EDF240D6"
+				type: "advancement"
+			}]
+			title: "Мировой человек"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			description: ["Пройдитесь по всем биомам Незера!"]
+			id: "7EF7EE2181ECA4E9"
+			rewards: [
+				{
+					count: 5
+					id: "357254CEFE725F93"
+					item: "nethersdelight:propelpearl"
+					type: "item"
+				}
+				{
+					id: "2FE51B1FF80A35BD"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "721CB83DCAA08ED6"
+					item: "nethersdelight:rich_soul_soil"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Пол — это лава"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "2D416C15BC4F0576"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			description: ["Посетите &cбашню чарователя&r — небольшой, но уютный шпиль с волшебной изюминкой."]
+			id: "418199C728BB5312"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AF63EBB35503521"
+				table_id: 8891211325592123080L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "В приятной обстановке"
+			tasks: [{
+				advancement: "idas:enchantingtower"
+				criterion: ""
+				id: "752675751DB2B66B"
+				type: "advancement"
+			}]
+			title: "Время отдохнуть"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			description: ["&cЗамок&r — это дом &eкрестьян&r, находящихся под предводительством их правителя каменного престола."]
+			id: "2990F79A11CD8ED8"
+			rewards: [{
+				id: "172A391FB810A202"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Если вы не забудете закрыть ворота"
+			tasks: [{
+				advancement: "idas:castle"
+				criterion: ""
+				id: "7D7446AC694E63D0"
+				type: "advancement"
+			}]
+			title: "Неприступная крепость"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["&cКатакомбы&r просто &aкишат нежитью&r. Но туда есть причина спускаться — там могут быть спрятаны сокровища!"]
+			id: "3533886FEAAAE291"
+			rewards: [{
+				id: "474AE26E907CEE13"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								987093303
+								948129233
+								-2138981139
+								774123822
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkyZjA4YzEyOTQ4MjlkNDcxYThlMDEwOWEwNmZiNmFlNzE3ZTVmYWYzZTA4MDg0MDhhNjZkODg5MjI3ZGFjNyJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Skull Cup with Blood\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Проходы переполнены мертвечатиной"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "128CFDF2939D2CA6"
+				type: "advancement"
+			}]
+			title: "Катакомб де Пари"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Говорят, что в некоторых лесах деревья не только живые, но и умеют говорить!"
+				""
+				"А ещё, они слишком мудры, &dчтобы говорить на вашем языке&r."
+			]
+			id: "5D8A16DE54B55BEA"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "059A7C466D698995"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "heart"
+			subtitle: "иногда они рассказывают всякие глупости SillyTree"
+			tasks: [{
+				icon: "mysticaloaktree:wise_oak"
+				id: "2692CA3A9EB604F3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mysticaloaktree:wise_oak"
+				type: "observation"
+			}]
+			title: "Найдите мудрое дерево"
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			description: ["Странные статуи... Кто их сделал и для чего?"]
+			id: "38460BA08907533F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44CF601FF41AC953"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "heart"
+			subtitle: ":wine_glass: :moyai:"
+			tasks: [{
+				icon: "moyai:moyai"
+				id: "75641BA6E29894EE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "moyai:moyai"
+				type: "observation"
+			}]
+			title: "Найдите Моаи"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&bКомпас исследователя&r превосходит &bоко Эндера&r, как способ поиска &cКрепости Энда&r. но кроме крепости, компас может найти любую существующую структуру."
+				"Просто &6щёлкните ПКМ с компасом в руке&r, чтобы найти нужное строение."
+			]
+			id: "292B26978E644D9F"
+			rewards: [{
+				id: "3697431A62122609"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Ну честно, было бы трудно иначе"
+			tasks: [{
+				id: "628297917BCB66ED"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Компас исследователя"
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&bКомпас природы&r — это магический инструмент, альтернатива &bлозаходного прута&r. Компас может показывать направление в любой биом, который вы выберете."
+				"Просто &6щёлкните ПКМ держа компас&r, чтобы открыть меню поиска."
+			]
+			id: "1F4569590B7666F5"
+			rewards: [
+				{
+					id: "2E7C57E4CDF3A562"
+					table_id: 6990203354287577879L
+					type: "choice"
+				}
+				{
+					id: "46F1CF2EAD0F55EC"
+					table_id: 6990203354287577879L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "На грани жульничества"
+			tasks: [{
+				id: "0AA5D5B5891F4838"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Компас природы"
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "4E9CAB55113B5280"
+			invisible: true
+			tasks: [{
+				id: "1CF667DD46CE5F2C"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			description: [
+				"&bПлита перемещения&r используется в связке с &bнастроенным осколком&r. Плита перемещает вас к любой друго плите, помеченной осколком. "
+				"Как только плита будет поставлена и открыта, она создаст настроенный осколок, который будет привязан к этой плите. Осколок получает &aуникальный рунный индентификатор&r, который совпадает с тем, что показывается в верхнем правом углу меню плиты."
+				"Если вы &6поместите созданный осколок в другую плиту перемещения&r, то принившая плита переместит вас к плите, помеченной созданным осколком. Если надо, вы можете создать несколько осколков из &bкремня&r и &bпыли перемещения&r."
+			]
+			id: "06DC33669C98F5A4"
+			rewards: [
+				{
+					id: "59434BCB0FA7DE89"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1208FF044A4E5F34"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Туды-сюды"
+			tasks: [{
+				id: "59AC7FC2C8A63192"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			title: "Плита перемещения"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&bПутеводные обелиски&r — это способ быстрого перемещения по миру. После активации путеводного обелиска, на него можно телепортироваться с любого другого обелискат или любыми иными методами."
+				""
+				"&bПутеводные обелиски&r генерируются естественным образом в &cдеревнях&r или &cбашнях&r, но их также можно создать на верстаке."
+			]
+			id: "722C9A16509E524B"
+			rewards: [
+				{
+					id: "25205FA9313B665D"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+				{
+					id: "121261F713988EF7"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Пройду весь мир в один миг!"
+			tasks: [{
+				id: "6016BBE0CBC4141C"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Со скоростью света"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			description: [
+				"&bСвиток привязки&r — это одноразовый предмет, с помощью которого можно &aпереместиться к путеводному обелиску, к которому был привязан свиток&r. "
+				"Привязать свиток можно &6щёлкнув ПКМ крадучись по облеиску&r. "
+				"Каждый свиток привязывается по одному, но создав &bВозвратный свиток&r, вы можете привязать сразу же целый стак. У свитка нет перезарядки, и он сразу же тратится при использовании."
+				"Просто зажмите &6ПКМ с свитком в руке&r, чтобы начать активацию. Если вы получите урон или отпустите ПКМ, &dто перемещение отменится&r."
+			]
+			id: "133D48874069E59B"
+			rewards: [{
+				id: "42B9AB11D9E3ABCD"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Дом — это там где ждут"
+			tasks: [{
+				id: "1FC4B305579CDA7F"
+				item: "waystones:bound_scroll"
+				type: "item"
+			}]
+			title: "Свиток привязки"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			description: [
+				"&bСвиток перемещения&r — это одноразовый предмет, с помощью которого можно &aпереместиться к любому путеводному обелиску в мире&r. У свитка нет перезарядки, и он сразу же тратится при использовании."
+				"Просто зажмите &6ПКМ с свитком в руке&r, чтобы начать активацию. Если вы получите урон или отпустите ПКМ, &dто перемещение отменится&r."
+				"Не путайте с варп-свитком из &d&lArs Nouveau&r&r."
+			]
+			id: "7527E0A9EF5C3697"
+			rewards: [{
+				id: "2C983FA06FB6C836"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Куда угодно, откуда угодно"
+			tasks: [{
+				id: "05CBC59215AFFC0A"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			title: "Свиток перемещения"
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			description: [
+				"&bКамень перемещения&r — это предмет, который может &aпереместить вас к любому путеводному обелиску&r. У камня есть ограниченное количество зарядов и перезарядка после использования."
+				"Просто зажмите &6ПКМ с камнем в руке&r, чтобы начать активацию. Если вы получите урон или отпустите ПКМ, &dто перемещение отменится&r."
+			]
+			id: "2E1A6A93F48AAF58"
+			rewards: [{
+				id: "3178D82564BA7BD9"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Всё, пока-пока, я полетел"
+			tasks: [{
+				id: "27EF600DF7DC0004"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Камень перемещения"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			description: ["&bПортовый обелиск&r — это метод &aодностороннего доступа&r к сети путеводных обелисков. К самому облесиску нельзя переместиться."]
+			id: "7B4772B066474C41"
+			rewards: [{
+				id: "16E016B66087E8AC"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Нельзя рассекретить"
+			tasks: [{
+				id: "206F9F2340A72B5E"
+				item: "waystones:portstone"
+				type: "item"
+			}]
+			title: "Портовый обелиск"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["722C9A16509E524B"]
+			description: [
+				"&bСудьбоносный обелиск&r — это обелиск, которым можно создать локальную сеть путеводных обелисков. &aТолько окрашенные определённом цветом обелиски могут объединится в сеть&r. Из красного судьбоносного обелиска, вы можете переместиться только к другому красному обелиску, но не сможете к оранжевому. "
+				"К ним нельзя переместиться с помощью &bкамней перемещения&r или любых &bсвитков&r."
+			]
+			id: "2E07A04D5589B674"
+			rewards: [{
+				id: "102031CA994CF7D6"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Невидимая связь"
+			tasks: [{
+				id: "4E45F31FA018D542"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			title: "Судьбоносный обелиск"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			description: ["Устройтесь поудобнее со зверушками в этой чудесной берлоге в лесу! Это совершенно безопасно! Они безвредны! Наверное!"]
+			id: "40FFFF9DE0AA9305"
+			rewards: [
+				{
+					id: "6CB25745B99F35B1"
+					item: "cnb:heal_spell_book_1"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2F9CF17C836C0C86"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CFA2C6C77C9ED8D"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Ооо, как мило"
+			tasks: [{
+				id: "41631CEFB083DB62"
+				structure: "idas:animal_den/forest_den"
+				type: "structure"
+			}]
+			title: "Укрытие в лесу"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"На первый взгляд, &cмастерская ремесленника&r — вполне безобидное место. Возможно, когда-то здесь жил &eинженер&r. А может быть, кто-то не совсем... здравомыслящий."
+				"Кто бы там раньше не жил, сейчас это место заполонили &eразбойники&r, и если вы найдете лестницу вниз... ну, &dпродвигайтесь с осторожностью&r. Не забудьте захватить с собой метлу!"
+			]
+			id: "7ECEEEA9EB338ABC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450E2792F21195C0"
+				table_id: 1032206960599939459L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "Что это было?"
+			tasks: [{
+				advancement: "idas:tinkers_workshop"
+				criterion: ""
+				id: "3E1DE7ABA49C6E39"
+				type: "advancement"
+			}]
+			title: "Дом науки"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Если вам попадется &cочень большая повозка&r, обязательно поприветствуйте ее обитателей! Эти &eвеселые ребята&r — кочевой народ, разносящие подарки искателям приключений по всему миру."
+				""
+				"&mНо думаю, они не будут против, если вы обчистите их до нитки.&r"
+			]
+			id: "49665722F39B7A53"
+			rewards: [
+				{
+					id: "7A66844664FE5DC0"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "07D6CAA445E14F38"
+					item: "supplementaries:present_red"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Издание с новогодними корованами"
+			tasks: [{
+				advancement: "idas:winter_wagon"
+				criterion: ""
+				id: "46E10A7E9D1701CE"
+				type: "advancement"
+			}]
+			title: "Грабить корованы"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&aГлубоко под землей&r находится сооружение, известное как &cНексус&r. Это монструозное строение, высеченное в толще камня, скрывает разбитые порталы в другие миры, такие как &cНезер&r и &cСумеречный лес&r."
+				"Но эти порталы сломаны и нуждаются в починке. К сожалению, похоже, что другие порталы &aсломаны безвозвратно&r, и соответсвующие им миры невозможно посетить."
+			]
+			id: "5DD1FFEE7029315F"
+			rewards: [
+				{
+					id: "53CCA9A3E42F3241"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0FF2E27C4B49653D"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Ходы в другие миры"
+			tasks: [{
+				advancement: "idas:nexus"
+				criterion: ""
+				id: "50FFC388E982A772"
+				type: "advancement"
+			}]
+			title: "На дне мира"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Вы нашли &cлесной особняк&r! Вы сразу заметите, что он немного больше, чем вы помнили."
+				""
+				"Но кроме того, &aон намного более опасный&r. Убедитесь, что вы хорошо подготовили снаряжение и приготовили много еды, прежде чем войти! "
+			]
+			id: "699903BB676B2187"
+			rewards: [
+				{
+					id: "14FACD04B20A8751"
+					item: {
+						Count: 1b
+						id: "biomemakeover:cladded_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C7C1CFF066119F3"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			subtitle: "Отстоите ли вы вашу честь или же сбежите?"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4C28840851604116"
+				structure: "biomemakeover:mansion"
+				type: "structure"
+			}]
+			title: "Испытание прочности"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["699903BB676B2187"]
+			description: [
+				"&eСудья&r — босс, спящий &aглубоко под &cособняком&r. Он атакует издалека, используя магию, и быстро телепортируется в сторону, если его застают. Когда это происходит, стоит &6внимательно вслушаться&r, так как звуки его магии эндера выдают его позицию."
+				""
+				"Как только он будет повержен, с него выпадет &bзачарованный тотем бессмертия&r, который является более мощной версией того, что падает с его приспешников. При разрушении, тотем &aвосстанавливает почти всё здоровье и даёт мощные баффы&r. Однако тотем также является отличным трофеем, чтобы повесить его в рамку, поскольку встречается крайне редко."
+			]
+			id: "163BCA4880FDBB02"
+			rewards: [
+				{
+					id: "6D60C13FB54734C7"
+					item: "biomemakeover:adjudicator_tapestry"
+					type: "item"
+				}
+				{
+					id: "1DEABE15F52ED025"
+					item: "biomemakeover:enchanted_totem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "\"Отстранён\" от дел"
+			tasks: [{
+				entity: "biomemakeover:adjudicator"
+				id: "5C6F1F1034D37848"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Импичмент"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: ["Даже честным ведьмам надо иногда держать низкий профиль. Но вы... что же, вы &3чемпион&r скрытности среди скрытных."]
+			id: "38285B9280444C60"
+			rewards: [{
+				id: "38E09DED192D360D"
+				item: {
+					Count: 1b
+					id: "environmental:thief_hood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Путь пацифизма"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "191D3E228208A0CB"
+				stat: "minecraft:sneak_time"
+				type: "stat"
+				value: 99999
+			}]
+			title: "Скрытный подход"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&cИзмерение подземелий&r — это удивительное явление, которое &aпозволяет ведьмам погружаться в уникальные катакомбы&r. Здесь есть головоломки, богатства и иногда враги, которое всё это защищают. Измерение, в котором находятся эти подземелья, непостижимо для человеческого разума, даже для такого развитого, как разум ведьмы."
+				""
+				"Единственное, что известно об этих подземельях, так это то, что они созданы неким существом плана выше, возможно, для развлечения, а может для испытания людей. Не странно, если и для того и другого."
+				""
+				"Для того чтобы узнать больше о подземельях, вам следует сначала &aдостать определённую литературу&r на эту тему. Далее вам понадобится &bпустой ключ от портала&r. Чтобы использовать этот ключ, вы должны сначала откалибровать его &6щёлкнув ПКМ по &bрамке портала в Край&r."
+				""
+				"&dТолько боюсь, что книга о подземельях написана на каком-то другом языке&r. Если вы действительно хотите прочитать её, ни капепьки не зная языка, то вам надо обратиться к мощнейшему конструкту &mGoogle Translate&r. &6Предоставьте ему изображения страниц книги&r."
+			]
+			id: "28C61A43906C6883"
+			rewards: [{
+				id: "3DC9C11DFA1EFB75"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Ваше благо, что вы не можете там застрять"
+			tasks: [
+				{
+					id: "5F1F1A0B7F0DEAFA"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EA7E42B3FF92AD7"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+			]
+			title: "Бесконечные подземелья"
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["28C61A43906C6883"]
+			description: [
+				"Теперь, когда у вас есть откалиброванный ключ от портала, вам нужно &6построить рамку портала&r. Более подробная информация содержится &aв путеводителе&r, но в итоге портал должен выглядеть как-то так:"
+				""
+				""
+				"{image:cottagewitch:textures/dimdungeonframe.png width:100 height:55 align:1 fit:true}"
+			]
+			id: "11A45FA468D85461"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "147EF79FFF84B163"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "Если я пойду и долиною смертной тени, не убоюсь зла..."
+			tasks: [{
+				advancement: "dimdungeons:dungeons/activate_basic_key"
+				criterion: ""
+				id: "027095B7CE5B96B6"
+				type: "advancement"
+			}]
+			title: "Вход в подземелье"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["11A45FA468D85461"]
+			description: [
+				"Вы попали в свое первое &cизмерение подземелий&r! Здесь вы найдете &aголоволомки, которые нужно решить&r, и &aбесхозные сокровища, которые надо забрать&r. "
+				"Если вы застряли — ищите &bраздатчики&r, они выдают &aподсказки&r!"
+			]
+			id: "0D8473F43FB4CE74"
+			rewards: [{
+				count: 4
+				id: "16CA4936E71834CC"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "...потому что Ты со мной"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
+				criterion: ""
+				id: "66A6392EB99A34D8"
+				type: "advancement"
+			}]
+			title: "Всё темнее и темнее"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D8473F43FB4CE74"]
+			description: [
+				"&bНавершия портала&r используются для улучшения вашего &bпортала&r, благодаря чему вы можете спуститься глубже в определённые подземелья"
+				""
+				"В книге о подземельях сказано следующее: "
+				""
+				"\"Исследуя подземелья, вы можете найти &bпортальные замочные скважины&r. В них содержится &bпродвинутый ключ от портала&r, для использования которого нужен &aулучшенный портал&r."
+				"Чтобы улучшить свой портал, вы должны поставить 2 &bнавершия портала&r, которые могут быть найдены только в подземелье. Также, нужно поставить 2 &bфлага&r фиолетового или белого цвета.\""
+				""
+				""
+				"{image:cottagewitch:textures/upgradedportal.png width:100 height:55 align:1 fit:true}"
+			]
+			id: "49137236E5BAEFD3"
+			rewards: [{
+				count: 2
+				id: "42728DA53BA50D90"
+				item: "minecraft:white_banner"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Не бойся их; ибо Я с тобою, чтобы избавлять тебя"
+			tasks: [{
+				count: 2L
+				id: "32D0366E9B412181"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			title: "Темнейшее подземелье"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28C61A43906C6883"]
+			description: [
+				"Артефакт! Как волнующе!"
+				""
+				"В книге о подземельях сказано следующее: "
+				""
+				"\"Вы нашли редкий артефакт — &bколокольчик секретов&r! Обычно, он издаёт &a2-нотный звон&r. Однако если поблизости есть сундук с сокровищами, он заиграет длинный &a8-нотный перезвон&r, причём &dпоследние 4 ноты заиграют прямо над сундуком&r, выдавая его положение. Попробуйте позвонить колокольчиком в каждой комнате подземелья."
+				""
+				"Из-за его магической природы, он звенит только в измерении подземелья. Во всех остальных измерениях он, как ни странно, молчит\"."
+			]
+			id: "6C606FBC981D33CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D67701B1A42C291"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "По ком звонит колокол"
+			tasks: [{
+				id: "394C7BB52E3E1068"
+				item: "dimdungeons:item_secret_bell"
+				type: "item"
+			}]
+			title: "Потерянное сокровище"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28C61A43906C6883"]
+			description: [
+				"Артефакт! Как волнующе!"
+				""
+				"В книге о подземельях сказано следующее: "
+				""
+				"\"&bЖемчуг возвращения&r — это подручный инструмент, который &aтелепортирует вас к входу&r в подземелье. После использования она &dломается&r. Создание жемчуга — это хороший способ избавиться от ненужных ключей!\""
+			]
+			id: "2131763DC4BF4ACF"
+			rewards: [{
+				id: "2341040BA07E0EE5"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Оценить сообщение?"
+			tasks: [{
+				id: "4646939CB923D49E"
+				item: "dimdungeons:item_homeward_pearl"
+				type: "item"
+			}]
+			title: "Не сдавайся, скелет!"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&bПутеводные обелиски&r объединяются в огромную невидимую сеть порталов и позволяют быстро путешествовать по миру. Но вот вам небольшая сводка:"
+				""
+				"— Активация не бесплатна, вам нужен опыт и &bкамень перемещения&r или &bсвиток перемещения&r."
+				""
+				"— Перемещение &aот одного путеводного обелиска к другому&r не стоит опыта."
+				""
+				"— Вы можете нажать &aкнопку свитка около вашего аватара в вашем инвентаре&r, чтобы перенестись к ближайшему &bпутеводному обелиску&r."
+			]
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "647BD7A181C2E88D"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Путешествие сквозь пространство"
+			tasks: [{
+				icon: "waystones:sandy_waystone"
+				id: "0897C669F0BCBDB8"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			title: "Путеводные обелиски 101"
+			x: 9.5d
+			y: -7.0d
+		}
+	]
+	title: "Вокруг света"
+}

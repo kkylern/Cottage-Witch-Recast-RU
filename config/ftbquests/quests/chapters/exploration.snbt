@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "346046A71D537172"
+	icon: "minecraft:grass_block"
+	id: "1226CF9B32B2E083"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdeath.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgfreebies.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Поздравляю с первым входом в Верхний мир! Приятно увидеть новенькую ведьму. Вы можете &6использовать эти квесты&r как проводник по модам, с которыми вы можете быть не знакомы!"
+				""
+				"Награда за этот квест — &bтом Акаши&r, который содержит все гайд-книги этой сборки."
+				""
+				"Также вы получите &bмешок&r, который работает как дешёвая версия &bшалкера&r — но эй, это лучше, чем начать с пустыми руками!"
+				""
+				"&dЕсли вы потеряете том Акаши&r, то вы можете с лёгкостью &6создать новый&r используя &bкнигу&r и &bпалку&r."
+				""
+				"Ваш самый полезный инструмент — это мод &lJEI&r, он находится справа в вашем инвентаре. С его помощью, вы можете просмотреть все предметы в сборке, ну и рецепты этих предметов. &bОбязательно посмотрите горячие клавиши для этого мода&r!"
+			]
+			icon: "minecraft:grass_block"
+			id: "6C6635F6D9644BB7"
+			rewards: [
+				{
+					id: "3FC5AF6E67ED19A5"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say Привет, @p! Спасибо, что зашли! Пожалуйста, просмотрите квесты перед тем как начать с помощью горячей клавиши (обычно \"-\"), или открытием книги в инвентаре!"
+					id: "4B2B69209045245C"
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "3DCE8086519F0DBB"
+					item: {
+						Count: 1b
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								ars_nouveau: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+								camera: {
+									Count: 1b
+									id: "camera:album"
+								}
+								create_central_kitchen: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "create_central_kitchen:cooking_guide"
+								}
+								create_central_kitchen_0: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											NeedWater: 0b
+										}
+									}
+									id: "create_central_kitchen:brewing_guide"
+									tag: {
+										"akashictome:definedMod": "create_central_kitchen_0"
+									}
+								}
+								dimdungeons: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+								ftbquests: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+								hexerei: {
+									Count: 1b
+									id: "hexerei:book_of_shadows"
+									tag: {
+										bookmarks: { }
+										chapter: 0
+										opened: 0b
+										page: 0
+									}
+								}
+								lexicon: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "lexicon:lexicon"
+									}
+								}
+								malum: {
+									Count: 1b
+									id: "malum:encyclopedia_arcana"
+								}
+								mythicmounts: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mythicmounts:mythical_mounts"
+									}
+								}
+								twilightdelight: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "twilightdelight:twilight_guide"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Привет, чужеземец!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "732E6FD9F7F8662E"
+				type: "dimension"
+			}]
+			title: "Начало приключения"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Вы умерли. Это случается со всеми нами, рано или поздно! Не беспокойтесь, все ваши вещи в безопасности и ждут вас в вашей &aмогиле&r."
+				""
+				"Вы можете использовать &bметку могилы (Grave Finder)&r или &aмаркер на миникарте&r, чтобы дойти до места вашей смерти. Как дошли, &6щёлкните ПКМ по могиле&r, чтобы забрать ваши предметы."
+				""
+				"Но ваш &aопыт&r не перенесётся напрямую, а выпадает около могилы. Не забудьте собрать!"
+			]
+			id: "47643C0C8D4BCBD9"
+			rewards: [
+				{
+					id: "78AFDC62398091E8"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BB4C4A6EF50D42"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Умереть и встать"
+			tasks: [{
+				id: "412E4F0BC4FEF92B"
+				item: "enigmaticgraves:grave_finder"
+				type: "item"
+			}]
+			title: "Первый опыт в смерти"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Знаете, всем нам иногда хочется жить в красивом доме вот сразу же. Но в выживании, у нас иногда бывает недостаточно ресурсов и времени."
+				""
+				"Так что, если вам нужен &aпре-построенный дом&r, то &6подтвердите завершение этого квеста&r и &6заберите награду&r. Если вы не хотите подачек, то вы можете спокойно проигнорировать меня! Оба метода не наказуемы. :)"
+			]
+			id: "21AD64E594528F4D"
+			rewards: [{
+				id: "799218BAE959D719"
+				item: "prefab:item_house"
+				type: "item"
+			}]
+			subtitle: "Набор для миленького дома"
+			tasks: [{
+				id: "76B325FD29C28A89"
+				title: "А ну построй!"
+				type: "checkmark"
+			}]
+			title: "Построй-ка мне дом"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"У меня есть грибовая шляпка, надо? Ха-ха, отлично! Нажмите на галочку сверху. &mНажатие на кнопку передаёт местоположение вашего компьютера.&r"
+				""
+				"&aНе забудьте включить соответсвующий набор ресурсов (ресурспак)&r, чтобы шляпка отображалась."
+				""
+				"И острожно, если вы поставите шляпу на пол, &dто она превратится в тыкву&r. Времени не нужно будет даже доходить к полночи."
+			]
+			id: "3DFB7EF14F053582"
+			rewards: [{
+				command: "/give @p minecraft:carved_pumpkin{CustomModelData:1}"
+				icon: {
+					Count: 1b
+					id: "minecraft:carved_pumpkin"
+					tag: {
+						CustomModelData: 1
+					}
+				}
+				id: "34D0D294831901C4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D42AEB901AE8033"
+				title: "Наконец-то игра, где ты типо грибок"
+				type: "checkmark"
+			}]
+			title: "Грибовая шляпа"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Вы обманули саму смерть! Но только жалко ваш тотем."]
+			id: "76D5DB6E94816C80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A03B2AB64A80391"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "Не дождётесь!"
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "7E4BBEB34174442D"
+				type: "advancement"
+			}]
+			title: "Пост Мортем"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["50 Смертей... Поздравляю... Наверное? Не видела никого, кто бы &3так много умирал&r. За столь невероятные результаты, награждаю вас &6тотемом&r, мне кажется, он вам понадобится."]
+			id: "3FAE926346F1E576"
+			rewards: [{
+				id: "7338219FAAA9587F"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "YOU DIED"
+			tasks: [{
+				id: "08BCF1C0F17EF916"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			title: "Погибните 50 раз"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Ух ты, вы не умерли спустя столько времени! Отличная работа, дорогая коллега-ведьма. Так держать!"]
+			id: "2508051D98B7CB06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "528C9AFE009AD0F3"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			subtitle: "Умирать тяжело, а тяжело умирать ещё тяжелее"
+			tasks: [{
+				id: "7F4314516CA5C0D4"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 999999
+			}]
+			title: "Навыки выживания"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Куда-то торопитесь? Почему бы не &aзапустить&r себя в воздух? &bСлизневая рогатка&r, когда &6направлена на землю и натянута&r, выстрелит игроком в обратную сторону при освобождении. Вы полетите с такой скоростью, &aчто даже страшно&r! "
+				""
+				"И не забудьте &bслизневые сапоги&r. Ну чтобы вы... Вы знаете... &aне размазали себя об землю&r? Выигрышная комбинация!"
+			]
+			id: "7232C9D413054886"
+			rewards: [
+				{
+					id: "59138A1AE98F4A94"
+					item: "usefulslime:slime_boots"
+					type: "item"
+				}
+				{
+					id: "146D300604AF13CC"
+					item: "usefulslime:slime_sling"
+					type: "item"
+				}
+			]
+			subtitle: "склизкий транспорт"
+			tasks: [{
+				id: "474CE1AAC07815BD"
+				title: "Ви-у-у"
+				type: "checkmark"
+			}]
+			title: "Единственный способ \"полёта\""
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "457F26BFBE27EC1C"
+			invisible: true
+			tasks: [{
+				id: "3F3AF572E66CD0B4"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["хорошее место, чтобы начать"]
+	title: "Истоки"
+}
