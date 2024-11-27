@@ -515,7 +515,6 @@
   
   "block.dramaticdoors.short_andesite_door": "Низкая андезитовая дверь",
   "block.dramaticdoors.short_brass_door": "Низкая латунная дверь",
-  "block.dramaticdoors.short_copper_door": "Низкая медная дверь",
   "block.dramaticdoors.short_zinc_door": "Низкая цинковая дверь",
   "block.dramaticdoors.short_locked_andesite_door": "Низкая запертая андезитовая дверь",
   "block.dramaticdoors.short_locked_brass_door": "Низкая запертая латунная дверь",
@@ -523,7 +522,6 @@
   "block.dramaticdoors.short_locked_zinc_door": "Низкая запертая цинковая дверь",
   "block.dramaticdoors.tall_andesite_door": "Высокая андезитовая дверь",
   "block.dramaticdoors.tall_brass_door": "Высокая латунная дверь",
-  "block.dramaticdoors.tall_copper_door": "Высокая медная дверь",
   "block.dramaticdoors.tall_zinc_door": "Высокая цинковая дверь",
   "block.dramaticdoors.tall_locked_andesite_door": "Высокая запертая андезитовая дверь",
   "block.dramaticdoors.tall_locked_brass_door": "Высокая запертая латунная дверь",
@@ -584,11 +582,9 @@
   "block.dramaticdoors.tall_eco_walnut_door": "Высокая ореховая дверь",
 
   "block.dramaticdoors.short_mushroom_door": "Низкая Mushroom дверь",
-  "block.dramaticdoors.short_glowshroom_door": "Низкая Glowshroom дверь",
   "block.dramaticdoors.short_poisonous_mushroom_door": "Низкая Poisonous Mushroom дверь",
   "block.dramaticdoors.short_honey_fungus_door": "Низкая Honey Fungus дверь",
   "block.dramaticdoors.tall_mushroom_door": "Высокая Mushroom дверь",
-  "block.dramaticdoors.tall_glowshroom_door": "Высокая Glowshroom дверь",
   "block.dramaticdoors.tall_poisonous_mushroom_door": "Высокая Poisonous Mushroom дверь",
   "block.dramaticdoors.tall_honey_fungus_door": "Высокая Honey Fungus дверь",
 
